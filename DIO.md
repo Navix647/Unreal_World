@@ -9,10 +9,13 @@ Port在这里指的是由硬件分成的多个DIO Channel，由硬件决定。
 - DIO Channel Group
 DIO Channel Group可以看成是逻辑Port，由几个相邻的DIO Channel构成的Channel组，只不过Dio Channel Group必须是Port的子集。
 
+在AUTOSAR MCAL标准中
+Port驱动实现Port Pin的配置，DIO驱动实现在已配置的Port上进行输入输出的操作，因此它与Port驱动不冲突。用户必须保证Port 
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDgwMTA0MDQsLTExNzMzNDk3MjYsOD
-I5MTA5MTRdfQ==
+eyJoaXN0b3J5IjpbNDIyNzIwMTk0LC0xNDA4MDEwNDA0LC0xMT
+czMzQ5NzI2LDgyOTEwOTE0XX0=
 -->
