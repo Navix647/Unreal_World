@@ -7,7 +7,7 @@
 Optional:
 A-Life: Stalker 1&2
 
-HRL Hierarchical Reinforcement Learning
+**HRL** Hierarchical Reinforcement Learning
 
 
 
@@ -15,5 +15,5 @@ HRL Hierarchical Reinforcement Learning
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNTQxODQ4MiwtMTk4MDAzNjUzMl19
+eyJoaXN0b3J5IjpbMjk1MTc3OTcwLC0xOTgwMDM2NTMyXX0=
 -->
