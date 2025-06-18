@@ -7,8 +7,10 @@ flowchart
 	mdexport[Export obj from Marvelous Designer Correctly]
 	zbimport[Import the obj export from MD into Zbrush]
 	ed(finish)
-	st-->mdexport
-	thickness
+	
+	thicknesss[Thickness Processing]
+	bordersmooth[Garment bordersmoothing]
+	st-->mdexport-->zbimport-->thickness
 	
 
 
@@ -17,6 +19,6 @@ flowchart
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNzg4ODM0NiwtNjYwMDUzMjAwLDExNz
+eyJoaXN0b3J5IjpbLTM2Njk1MjE3OSwtNjYwMDUzMjAwLDExNz
 gzMjgyNjNdfQ==
 -->
