@@ -13,12 +13,16 @@ flowchart
 	st-->mdexport-->zbimport-->thickness-->bordersmooth
 	
 
-Repo
+
 ```
+
+Auto-Retopologize
+Border-keeping Soomthing 
+Re-Projection Method
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MzAyMDY0LC0xNzg4NDA2NjI2LDE3Nj
-k4MDI2OCwtNjYwMDUzMjAwLDExNzgzMjgyNjNdfQ==
+eyJoaXN0b3J5IjpbMTI1Njc3Nzg2OSwtMTc4ODQwNjYyNiwxNz
+Y5ODAyNjgsLTY2MDA1MzIwMCwxMTc4MzI4MjYzXX0=
 -->
