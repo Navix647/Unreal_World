@@ -5,8 +5,10 @@
 flowchart
 	st(start)
 	mdexport[Export obj from Marvelous Designer Correctly]
+	zbimport[Import the obj export from MD into Zbrush]
 	ed(finish)
 	st-->mdexport
+	thickness
 	
 
 
@@ -15,6 +17,6 @@ flowchart
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTQ2MTMyMTksLTY2MDA1MzIwMCwxMT
-c4MzI4MjYzXX0=
+eyJoaXN0b3J5IjpbLTYwNzg4ODM0NiwtNjYwMDUzMjAwLDExNz
+gzMjgyNjNdfQ==
 -->
