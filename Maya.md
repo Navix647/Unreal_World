@@ -52,8 +52,39 @@
 关节链平面指示器可显示关节链平面相对于参照平面的方向。关节链平面指示器出现在旋转圆盘中。
 
 
+
+
+
+# IK 控制柄概述
+在 IK 链中，IK 控制柄开始处的关节称为起始关节，IK 控制柄末端的关节称为末关节。起始关节和末关节之间的所有关节都受 IK 控制柄及其解算器驱动。在场景视图中，会将 IK 控制柄绘制为包含 IK 链的起始关节和末关节的一条线。
+
+IK 控制柄的末端（默认情况下它位于 IK 链的最后一个关节处）称为末端效应器。移动 IK 控制柄时，IK 解算器会在其计算中使用末端效应器的位置和方向，以相应地旋转 IK 链中的关节。末端效应器会始终尝试跟随 IK 控制柄的位置。但是，根据 IK 链的旋转限制和完全延伸长度，末端效应器可能无法接触到 IK 控制柄。
+
+若要将 IK 控制柄移动到末端效应器的位置，请使用“动画”(Animation)菜单集，然后选择“关键帧  >  IK/FK 关键帧  >  将 IK 移动到 FK”(Key > IN/FK Keys > Move IK to FK)。
+
+![](https://help.autodesk.com/cloudhelp/2024/CHS/Maya-CharacterAnimation/images/GUID-EF2CF139-88A3-4E6B-8719-2C06DF1FCAEA.png)
+
+注：  只能从“Hypergraph”查看 IK 控制柄的末端效应器。
+
+若要创建 IK 控制柄，请使用“IK 控制柄工具”(IK Handle Tool)或“IK 样条线控制柄工具”(IK Spline Handle Tool)。请参见  [IK 控制柄工具](https://help.autodesk.com/view/MAYAUL/2024/CHS/?guid=GUID-DF30CFD7-88EB-421F-9701-69318A1F3D16)和  [IK 样条线控制柄工具](https://help.autodesk.com/view/MAYAUL/2024/CHS/?guid=GUID-820CF89C-257C-4EA9-A474-6E0146C9099F)。
+
+## 常规 IK 控制柄组件
+
+若要显示所有当前 IK 控制柄的组件，请参见[查看所有 IK 控制柄组件](https://help.autodesk.com/view/MAYAUL/2024/CHS/?guid=GUID-E7374D31-30DA-4BA7-B651-32D76ECE3143)。
+
+### 控制柄线
+
+控制柄线是一条贯穿关节链中所有关节和骨骼的线，而关节链由 IK 控制柄控制。控制柄线开始于起始关节的局部轴，结束于末关节的局部轴。
+
+若要查看控制柄线的图像，请参见[旋转平面 IK 解算器](https://help.autodesk.com/view/MAYAUL/2024/CHS/?guid=GUID-9942FFB5-65C2-46E2-B5A3-297667A9FB5D)。
+
+### 控制柄向量
+
+控制柄向量是从 IK 链的起始关节绘制到 IK 控制柄的末关节（末端效应器）的线。这是旋转平面所使用的轴。
+
+若要查看控制柄向量的图像，请参见[旋转平面 IK 解算器](https://help.autodesk.com/view/MAYAUL/2024/CHS/?guid=GUID-9942FFB5-65C2-46E2-B5A3-297667A9FB5D)。
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkyMTc4OTQzLDQ0OTMxODQ2Miw3MzA5OT
-gxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE5Njk5ODI0NTEsODkyMTc4OTQzLDQ0OT
+MxODQ2Miw3MzA5OTgxMTZdfQ==
 -->
