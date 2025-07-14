@@ -1,5 +1,5 @@
 # Skinning Decomposition
-Skinning decomposition refers to the family of automated methods to convert any animated mesh sequences to skinning models and bone transformations. The power and usefulness of these methods in game production pipeline is any arbitrary, highly deformable models controlled by complex deformation rigs can be generated offline, and then converted to skinning model for real time replaying in game engines. This solution allows artists using all possible rigging tools without worrying about the performance penalty in the game play. Skinning decomposition can be used to compress animations of blendshapes, muscle simulation or cloth simulation. Independent components of the method can also be used to track bones animation or to solve skinning weights from range of motion (ROM) poses.
+Skinning decomposition refers to the family of automated methods to convert any animated mesh sequences to skinning models and bone transformations. The power and usefulness of these methods in game production pipeline is any arbitrary, highly deformable models controlled by complex deformation rigs can be generated offline, and then converted to skinning model for real time replaying in game engines. This solution allows artists using all possible rigging tools without worrying about the performance penalty in the game play. Skinning decomposition can be used to compress animations of blendshapes, muscle simulation or cloth simulation. Independent components of the method can also be used to track bones animation or to solve skinning weights from **Range Of Motion** (ROM) poses.
 
 The state-of-the-art skinning decomposition solution was introduced in the SIGGRAPH Asia 2012 technical paper “Smooth Skinning Decomposition with Rigid Bones” by Binh Le and Zhigang Deng. Since then, this method has been implemented in some animation tools for game production, including Hans Godard's [skinning converter](https://lesterbanks.com/2015/04/skinning-converter-for-maya/), Autodesk Maya’s  [bake deformer](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2018/ENU/Maya-CharacterAnimation/files/GUID-DD430C9B-95E7-4EBB-8D2B-A566018B4AC4-htm.html), or SideFX Houdini’s  [skinning converter](https://www.sidefx.com/tutorials/game-tools-skinning-converter/), to name a few. At EA, we also use this technique in our content pipeline quite successfully since 2015.
 
@@ -12,5 +12,5 @@ Dem Bones is released under the  [BSD 3-Clause license](https://github.com/elect
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMDI0OTQ2Nl19
+eyJoaXN0b3J5IjpbLTE0MDQ3NTc0NjYsLTkxMDI0OTQ2Nl19
 -->
