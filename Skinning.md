@@ -61,7 +61,7 @@ Second Layer：是一个更大的但代价更小的LBS模型
 ## Terminology
 ### Candy Wrapper Effect
 指的是joint旋转导致网格体在关节处变得像糖果包装一样体积完全消失的效果
-
+![](https://pic4.zhimg.com/v2-7f7194e1b27eccf03346c0d92daa7421_1440w.jpg)
 ### Bulge
 凸起;鼓起, 凸起；鼓起, 暂时的激增；突然上涨
 
@@ -76,5 +76,6 @@ Artifact这个单词表达的是一种非自然的东西。例如人造的东西
 ### polygon budgets
 一个计算机图形学的术语，指的是多边形数量上限
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDAyOTI1MzVdfQ==
+eyJoaXN0b3J5IjpbLTE1NDg0NDgzODQsLTEyNDAyOTI1MzVdfQ
+==
 -->
