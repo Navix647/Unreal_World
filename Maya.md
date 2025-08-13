@@ -84,7 +84,20 @@ IK 控制柄的末端（默认情况下它位于 IK 链的最后一个关节处�
 
 若要查看控制柄向量的图像，请参见[旋转平面 IK 解算器](https://help.autodesk.com/view/MAYAUL/2024/CHS/?guid=GUID-9942FFB5-65C2-46E2-B5A3-297667A9FB5D)。
 > Written with [StackEdit](https://stackedit.io/).
+
+
+# Parent constraints
+
+With a parent constraint, you can relate the position—translation and rotation—of one object to another, so that they behave as if part of a parent-child relationship that has multiple target parents. An object’s movement can also be constrained by the average position of multiple objects.
+
+When a parent constraint is applied to an object, the constrained object does not become part of the constraining object’s hierarchy or group, but remains independent and behaves as if it is the child of its targets. The constraining object is also known as the target object.
+
+An object with a parent constraint does not behave the same as an object with a point and orient constraint. When a Parent constraint is used, rotating the target object(s) affects the constrained object’s rotation along the world axis. When a Point and Orient constraint are used, rotating the target object(s) affects the constrained object’s rotation along its local axis. This is shown in the following figure.
+
+![](https://help.autodesk.com/cloudhelp/2022/ENU/Maya-CharacterAnimation/images/GUID-D96FC5DE-9D15-40A0-9B91-0D765FE1F811.png)
+
+## Related topics
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njk5ODI0NTEsODkyMTc4OTQzLDQ0OT
-MxODQ2Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTM0NzM5MjUyOCwtMTk2OTk4MjQ1MSw4OT
+IxNzg5NDMsNDQ5MzE4NDYyLDczMDk5ODExNl19
 -->
