@@ -16,10 +16,21 @@
 
 
 
-## 
+## parent
+
+
+## select
+
+## translate
+
+## rotate
+
+## scale
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MTA1MzQwNSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTQ5NDcxMzQyOCwyMDUxMDUzNDA1LDczMD
+k5ODExNl19
 -->
