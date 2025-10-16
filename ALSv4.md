@@ -54,7 +54,14 @@ CameraAnimBP --> EmbeddedCameraCurve
 CameraAnimBP --> BPI_Camera~Inteface~
 ```
 
+
+
+摄像机系统
+
+ALSPlayerController是最顶层的，它直接引用PlayerCameraManager，从PlayerController事件触发，事件控制时将
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU0MzM0MzMwLC0xMDQ2OTg4MDU0XX0=
+eyJoaXN0b3J5IjpbMTU2OTI1MTg5NCwtMTA0Njk4ODA1NF19
 -->
