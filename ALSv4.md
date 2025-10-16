@@ -59,6 +59,7 @@ CameraAnimBP --> BPI_Camera~Inteface~
 摄像机系统
 ALSPlayerController、ALSPlayerCameraManager、ALSCameraBP、CharacterBP之间要进行耦合。
 
+目标是要让CharacterBP能被Camera
 ALSPlayerCamera
 
 
@@ -67,5 +68,5 @@ ALSPlayerController是最顶层的，它直接引用PlayerCameraManager，从Pla
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NTI2ODQ5OCwtMTA0Njk4ODA1NF19
+eyJoaXN0b3J5IjpbOTU0Mjc4ODkyLC0xMDQ2OTg4MDU0XX0=
 -->
