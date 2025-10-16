@@ -24,7 +24,7 @@ class ALS_BaseCharacter
 
 class ALS_AnimManCharacter
 
-ALS_AnimManCharacter <|-- ALS_BaseCharacter
+ALS_AnimManCharacter --|> ALS_BaseCharacter
 ALSPlayerController --> PlayerCameraManager
 ALS_AnimManCharacter ..|> BPI_Camera~Inteface~
 ALS_BaseCharacter ..|> BPI_Camera~Inteface~
@@ -57,12 +57,15 @@ CameraAnimBP --> BPI_Camera~Inteface~
 
 
 摄像机系统
-ALSPlayerController、ALSPlayerCameraManager、ALSCameraBP、
+ALSPlayerController、ALSPlayerCameraManager、ALSCameraBP、CharacterBP之间要进行耦合。
+
+ALSPlayerCamera
+
 
 ALSPlayerController是最顶层的，它直接引用PlayerCameraManager，从PlayerController事件触发，事件控制时将
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYxNjg5MDg2LC0xMDQ2OTg4MDU0XX0=
+eyJoaXN0b3J5IjpbLTY0NTI2ODQ5OCwtMTA0Njk4ODA1NF19
 -->
