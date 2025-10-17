@@ -66,8 +66,29 @@ ALSPlayerController -> ALSPlayerCameraManager -> CameraBP
 ALSPlayerController是最顶层的，它直接引用PlayerCameraManager，从PlayerController事件触发，事件控制时将它所拥有的Character或者说Pawn传给PlayerCameraManager，然后PlayerCameraManager将其赋予给CameraAnimBP。最终目的是要在CameraBP上拿到Character引用，并调用其接口。
 
 
+
+重要事件的执行顺序流
+关卡加载
+   ↓
+Actor Constructor（C++ 构造函数或蓝图构造事件）
+   ↓
+Component Constructor
+   ↓
+所有 Component BeginPlay
+   ↓
+Actor BeginPlay
+   ↓
+GameMode / PlayerController BeginPlay（如果存在）
+   ↓
+PlayerController Possess Pawn（Pawn BeginPlay 已触发）
+   ↓
+每一帧：
+    PlayerController Tick
+    → Pawn Tick
+       → Component Tick
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE4MDQ3ODU4LDk1NDI3ODg5MiwtMTA0Nj
-k4ODA1NF19
+eyJoaXN0b3J5IjpbLTYyOTMyMjA2NCw4MTgwNDc4NTgsOTU0Mj
+c4ODkyLC0xMDQ2OTg4MDU0XX0=
 -->
