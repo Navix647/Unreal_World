@@ -87,8 +87,20 @@ PlayerController Possess Pawn（Pawn BeginPlay 已触发）
     → Pawn Tick
        → Component Tick
 
+
+BeginPlay (关卡开始)
+   ↓
+GameMode → 获取 PlayerController
+   ↓
+GameMode → 查找 PlayerStart
+   ↓
+GameMode → Spawn DefaultPawn at PlayerStart
+   ↓
+PlayerController → Possess(DefaultPawn)
+   ↓
+PlayerCameraManager → ViewTarget = DefaultPawn
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyOTMyMjA2NCw4MTgwNDc4NTgsOTU0Mj
-c4ODkyLC0xMDQ2OTg4MDU0XX0=
+eyJoaXN0b3J5IjpbLTE4MzU4MzgxMzcsLTYyOTMyMjA2NCw4MT
+gwNDc4NTgsOTU0Mjc4ODkyLC0xMDQ2OTg4MDU0XX0=
 -->
