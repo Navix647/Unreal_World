@@ -111,9 +111,9 @@ PlayerCameraManager → ViewTarget = DefaultPawn
 
 ## 蓝图节点积累
 ### 旋转向量
-
-unrotate vector
-rotate vector
+首先要明白一点，UE5是左手坐标系，前方是x轴，右侧是Y轴，上方是z轴。如此一来顺时针旋转就是正旋转。
+unrotate vector 意思是反旋转，你说要正旋转90°，它实际效果是反旋转90°
+rotate vector这个则是正常的旋转，正是正，反是反。
 
 
 ### 插值
@@ -124,7 +124,7 @@ rotate vector
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1ODM3NDg1NiwxODEzODQ0OTg2LC0xOD
-M1ODM4MTM3LC02MjkzMjIwNjQsODE4MDQ3ODU4LDk1NDI3ODg5
-MiwtMTA0Njk4ODA1NF19
+eyJoaXN0b3J5IjpbLTE5NjU1MDQxOTEsMTM1ODM3NDg1NiwxOD
+EzODQ0OTg2LC0xODM1ODM4MTM3LC02MjkzMjIwNjQsODE4MDQ3
+ODU4LDk1NDI3ODg5MiwtMTA0Njk4ODA1NF19
 -->
