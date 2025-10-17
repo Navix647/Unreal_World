@@ -66,6 +66,9 @@ ALSPlayerController -> ALSPlayerCameraManager -> CameraBP
 ALSPlayerController是最顶层的，它直接引用PlayerCameraManager，从PlayerController事件触发，事件控制时将它所拥有的Character或者说Pawn传给PlayerCameraManager，然后PlayerCameraManager将其赋予给CameraAnimBP。最终目的是要在CameraBP上拿到Character引用，并调用其接口。
 
 
+# Event Basic
+
+## Event callflow
 
 重要事件的执行顺序流
 关卡加载
@@ -107,7 +110,8 @@ PlayerCameraManager → ViewTarget = DefaultPawn
 这部分请参考xxx
 
 ## 蓝图节点积累
-Unrotate Vector
+unrotate vector
+rotate vector
 
 
 
@@ -116,7 +120,7 @@ Unrotate Vector
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NzU4MDAwNywtMTgzNTgzODEzNywtNj
+eyJoaXN0b3J5IjpbMTgxMzg0NDk4NiwtMTgzNTgzODEzNywtNj
 I5MzIyMDY0LDgxODA0Nzg1OCw5NTQyNzg4OTIsLTEwNDY5ODgw
 NTRdfQ==
 -->
