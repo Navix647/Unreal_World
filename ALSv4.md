@@ -154,15 +154,24 @@ ALS_MovementState
 - Mantling
 - Ragdoll
 
-ALS_OverlayState  叠加态
+ALS_OverlayState 
+- aim
+- ...
+
+ALS_RotationMode
+- VelocityDirection
+- LookingDirection
+- AimDirection
+
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MjUwMjgwNSw2NjM5ODM4MzAsLTE4Mj
-MxMDI3NjcsMTg4NDAxNTE3MCwtMTIzMjU2NjkzLC0xOTY1NTA0
-MTkxLDEzNTgzNzQ4NTYsMTgxMzg0NDk4NiwtMTgzNTgzODEzNy
-wtNjI5MzIyMDY0LDgxODA0Nzg1OCw5NTQyNzg4OTIsLTEwNDY5
-ODgwNTRdfQ==
+eyJoaXN0b3J5IjpbLTk3ODQyMTQ4MCwtNDcyNTAyODA1LDY2Mz
+k4MzgzMCwtMTgyMzEwMjc2NywxODg0MDE1MTcwLC0xMjMyNTY2
+OTMsLTE5NjU1MDQxOTEsMTM1ODM3NDg1NiwxODEzODQ0OTg2LC
+0xODM1ODM4MTM3LC02MjkzMjIwNjQsODE4MDQ3ODU4LDk1NDI3
+ODg5MiwtMTA0Njk4ODA1NF19
 -->
