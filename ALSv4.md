@@ -132,6 +132,8 @@ rotate vector这个则是正常的旋转，正是正，反是反。
 每帧速度以及加速度的设置，获取速度的旋转角度/加速度的旋转角度。
 以及判断角色是否正在移动。
 
+1.枚举类创建 状态栏
+Walking/Running/Sprinting
 下一步是六向移动状态机 步态 以及混合设置
 
 
@@ -143,8 +145,8 @@ rotate vector这个则是正常的旋转，正是正，反是反。
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjMxMDI3NjcsMTg4NDAxNTE3MCwtMT
-IzMjU2NjkzLC0xOTY1NTA0MTkxLDEzNTgzNzQ4NTYsMTgxMzg0
-NDk4NiwtMTgzNTgzODEzNywtNjI5MzIyMDY0LDgxODA0Nzg1OC
-w5NTQyNzg4OTIsLTEwNDY5ODgwNTRdfQ==
+eyJoaXN0b3J5IjpbNjYzOTgzODMwLC0xODIzMTAyNzY3LDE4OD
+QwMTUxNzAsLTEyMzI1NjY5MywtMTk2NTUwNDE5MSwxMzU4Mzc0
+ODU2LDE4MTM4NDQ5ODYsLTE4MzU4MzgxMzcsLTYyOTMyMjA2NC
+w4MTgwNDc4NTgsOTU0Mjc4ODkyLC0xMDQ2OTg4MDU0XX0=
 -->
