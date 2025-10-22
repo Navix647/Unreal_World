@@ -142,8 +142,8 @@ ALS_Gait
 
 ALS_MovementAction
  - None
- - LowMantle 低攀爬
- - HighMantle 
+ - LowMantle
+ - HighMantle
  - Rolling
  - Getting up 
 
@@ -167,11 +167,14 @@ ALS_Stance
 - Standing
 - Crouching
 
+ALS_ViewMode
+- FirstPerson
+- ThirdPerson
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDM2ODY2MDgsLTQ3MjUwMjgwNSw2Nj
+eyJoaXN0b3J5IjpbLTE0NzY5NTM5NTIsLTQ3MjUwMjgwNSw2Nj
 M5ODM4MzAsLTE4MjMxMDI3NjcsMTg4NDAxNTE3MCwtMTIzMjU2
 NjkzLC0xOTY1NTA0MTkxLDEzNTgzNzQ4NTYsMTgxMzg0NDk4Ni
 wtMTgzNTgzODEzNywtNjI5MzIyMDY0LDgxODA0Nzg1OCw5NTQy
