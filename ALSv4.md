@@ -148,13 +148,19 @@ ALS_MovementAction
  - Getting up 起身
 
 ALS_MovementState
-- 
+- None
+- Grounded
+- in Air
+- Mantling
+- Ragdoll
+
+ALS_OverlayState  叠加态
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MjQyNTcyNiw2NjM5ODM4MzAsLTE4Mj
+eyJoaXN0b3J5IjpbLTQ3MjUwMjgwNSw2NjM5ODM4MzAsLTE4Mj
 MxMDI3NjcsMTg4NDAxNTE3MCwtMTIzMjU2NjkzLC0xOTY1NTA0
 MTkxLDEzNTgzNzQ4NTYsMTgxMzg0NDk4NiwtMTgzNTgzODEzNy
 wtNjI5MzIyMDY0LDgxODA0Nzg1OCw5NTQyNzg4OTIsLTEwNDY5
