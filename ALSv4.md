@@ -127,15 +127,15 @@ rotate vector这个则是正常的旋转，正是正，反是反。
 
 ## 运动学
 
-控制器控制移动方向、反馈力度控制大小
+控制器控制移动方向、力度控制速度大小
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc3OTE1MCwtMTIzMjU2NjkzLC0xOTY1NT
-A0MTkxLDEzNTgzNzQ4NTYsMTgxMzg0NDk4NiwtMTgzNTgzODEz
-NywtNjI5MzIyMDY0LDgxODA0Nzg1OCw5NTQyNzg4OTIsLTEwND
-Y5ODgwNTRdfQ==
+eyJoaXN0b3J5IjpbMTg4NDAxNTE3MCwtMTIzMjU2NjkzLC0xOT
+Y1NTA0MTkxLDEzNTgzNzQ4NTYsMTgxMzg0NDk4NiwtMTgzNTgz
+ODEzNywtNjI5MzIyMDY0LDgxODA0Nzg1OCw5NTQyNzg4OTIsLT
+EwNDY5ODgwNTRdfQ==
 -->
