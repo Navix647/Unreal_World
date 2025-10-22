@@ -132,11 +132,13 @@ rotate vector这个则是正常的旋转，正是正，反是反。
 每帧速度以及加速度的设置，获取速度的旋转角度/加速度的旋转角度。
 以及判断角色是否正在移动。
 
+第一步是创建枚举类或者说状态类，这些状态之间是有层次的。需要非常了解
 1.枚举类创建 状态栏
+ALS_Gait 步态
 Walking/Running/Sprinting
-下一步是六向移动状态机 步态 以及混合设置
 
-
+ALS_MovementAction
+None
 
 
 
@@ -145,8 +147,9 @@ Walking/Running/Sprinting
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYzOTgzODMwLC0xODIzMTAyNzY3LDE4OD
-QwMTUxNzAsLTEyMzI1NjY5MywtMTk2NTUwNDE5MSwxMzU4Mzc0
-ODU2LDE4MTM4NDQ5ODYsLTE4MzU4MzgxMzcsLTYyOTMyMjA2NC
-w4MTgwNDc4NTgsOTU0Mjc4ODkyLC0xMDQ2OTg4MDU0XX0=
+eyJoaXN0b3J5IjpbMTIxOTczNzEwNyw2NjM5ODM4MzAsLTE4Mj
+MxMDI3NjcsMTg4NDAxNTE3MCwtMTIzMjU2NjkzLC0xOTY1NTA0
+MTkxLDEzNTgzNzQ4NTYsMTgxMzg0NDk4NiwtMTgzNTgzODEzNy
+wtNjI5MzIyMDY0LDgxODA0Nzg1OCw5NTQyNzg4OTIsLTEwNDY5
+ODgwNTRdfQ==
 -->
