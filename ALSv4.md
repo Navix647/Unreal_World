@@ -134,7 +134,8 @@ rotate vector这个则是正常的旋转，正是正，反是反。
 
 第一步是创建枚举类或者说状态类，这些状态之间是有层次的。需要非常了解
 1.枚举类创建 状态栏
-- ALS_Gait 步态
+
+ALS_Gait 步态
 - Walking
 - Running
 - Sprinting
@@ -146,15 +147,16 @@ ALS_MovementAction
  - Rolling 翻滚
  - Getting up 起身
 
-
+ALS_MovementState
+- 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgzMjI0OTQ3LDY2Mzk4MzgzMCwtMTgyMz
-EwMjc2NywxODg0MDE1MTcwLC0xMjMyNTY2OTMsLTE5NjU1MDQx
-OTEsMTM1ODM3NDg1NiwxODEzODQ0OTg2LC0xODM1ODM4MTM3LC
-02MjkzMjIwNjQsODE4MDQ3ODU4LDk1NDI3ODg5MiwtMTA0Njk4
-ODA1NF19
+eyJoaXN0b3J5IjpbMjA1MjQyNTcyNiw2NjM5ODM4MzAsLTE4Mj
+MxMDI3NjcsMTg4NDAxNTE3MCwtMTIzMjU2NjkzLC0xOTY1NTA0
+MTkxLDEzNTgzNzQ4NTYsMTgxMzg0NDk4NiwtMTgzNTgzODEzNy
+wtNjI5MzIyMDY0LDgxODA0Nzg1OCw5NTQyNzg4OTIsLTEwNDY5
+ODgwNTRdfQ==
 -->
