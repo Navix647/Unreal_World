@@ -130,6 +130,9 @@ rotate vector这个则是正常的旋转，正是正，反是反。
 控制器控制移动方向、力度控制速度大小
 
 每帧速度以及加速度的设置，获取速度的旋转角度/加速度的旋转角度。
+以及判断角色是否正在移动。
+
+
 
 
 
@@ -138,8 +141,8 @@ rotate vector这个则是正常的旋转，正是正，反是反。
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjY0MDIzNjcsMTg4NDAxNTE3MCwtMT
-IzMjU2NjkzLC0xOTY1NTA0MTkxLDEzNTgzNzQ4NTYsMTgxMzg0
-NDk4NiwtMTgzNTgzODEzNywtNjI5MzIyMDY0LDgxODA0Nzg1OC
-w5NTQyNzg4OTIsLTEwNDY5ODgwNTRdfQ==
+eyJoaXN0b3J5IjpbNjczMTI0OTgyLDE4ODQwMTUxNzAsLTEyMz
+I1NjY5MywtMTk2NTUwNDE5MSwxMzU4Mzc0ODU2LDE4MTM4NDQ5
+ODYsLTE4MzU4MzgxMzcsLTYyOTMyMjA2NCw4MTgwNDc4NTgsOT
+U0Mjc4ODkyLC0xMDQ2OTg4MDU0XX0=
 -->
