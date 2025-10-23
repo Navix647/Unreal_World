@@ -187,12 +187,17 @@ Output：
 Velocity：Vector
 Acceleration：Vector
 MovementState：Vector
+IsMoving：Boolean
+HasMovingInput：Boolean
+Speed：Vector
+
+Speed是一个标量
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MzUxMDk3NiwtMTQ3Njk1Mzk1MiwtND
-cyNTAyODA1LDY2Mzk4MzgzMCwtMTgyMzEwMjc2NywxODg0MDE1
-MTcwLC0xMjMyNTY2OTMsLTE5NjU1MDQxOTEsMTM1ODM3NDg1Ni
-wxODEzODQ0OTg2LC0xODM1ODM4MTM3LC02MjkzMjIwNjQsODE4
-MDQ3ODU4LDk1NDI3ODg5MiwtMTA0Njk4ODA1NF19
+eyJoaXN0b3J5IjpbLTEyODM3MjY0OTYsLTE0NzY5NTM5NTIsLT
+Q3MjUwMjgwNSw2NjM5ODM4MzAsLTE4MjMxMDI3NjcsMTg4NDAx
+NTE3MCwtMTIzMjU2NjkzLC0xOTY1NTA0MTkxLDEzNTgzNzQ4NT
+YsMTgxMzg0NDk4NiwtMTgzNTgzODEzNywtNjI5MzIyMDY0LDgx
+ODA0Nzg1OCw5NTQyNzg4OTIsLTEwNDY5ODgwNTRdfQ==
 -->
