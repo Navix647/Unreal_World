@@ -216,8 +216,11 @@ ALSv4里AimmingRotation和控制器旋转其实是一回事
 摄像机系统：
 
 人物动作系统架构：
-Character BluePrint  jian
-Character AnimBP
+Character BluePrint  简称ChBP吧
+Character AnimBP 简称ChAnimBP
+
+ChBP基于MovementComponent以及MovementInput得到Speed、AimRotation、MovementInput、Acceleration等参数并将其通过接口输出。
+动画蓝图通过jie
 
 
 
@@ -227,10 +230,10 @@ Character AnimBP
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5OTQyMTA1LDU0Mjk1ODMzOSwtMTkzMT
-UzNzQ5MywtMjUwNzA0NDkwLC0xNDc2OTUzOTUyLC00NzI1MDI4
-MDUsNjYzOTgzODMwLC0xODIzMTAyNzY3LDE4ODQwMTUxNzAsLT
-EyMzI1NjY5MywtMTk2NTUwNDE5MSwxMzU4Mzc0ODU2LDE4MTM4
-NDQ5ODYsLTE4MzU4MzgxMzcsLTYyOTMyMjA2NCw4MTgwNDc4NT
-gsOTU0Mjc4ODkyLC0xMDQ2OTg4MDU0XX0=
+eyJoaXN0b3J5IjpbLTEwMTIyMzU1MTEsNTQyOTU4MzM5LC0xOT
+MxNTM3NDkzLC0yNTA3MDQ0OTAsLTE0NzY5NTM5NTIsLTQ3MjUw
+MjgwNSw2NjM5ODM4MzAsLTE4MjMxMDI3NjcsMTg4NDAxNTE3MC
+wtMTIzMjU2NjkzLC0xOTY1NTA0MTkxLDEzNTgzNzQ4NTYsMTgx
+Mzg0NDk4NiwtMTgzNTgzODEzNywtNjI5MzIyMDY0LDgxODA0Nz
+g1OCw5NTQyNzg4OTIsLTEwNDY5ODgwNTRdfQ==
 -->
