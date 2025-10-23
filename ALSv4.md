@@ -210,12 +210,16 @@ Speed是一个标量，Velocity是矢量
 Speed一般用于判断是否移动
 ALSv4里AimmingRotation和控制器旋转其实是一回事
 
+通过Character蓝图获取Player输入的信息得到一系列参数如Speed、AimRotation等等用于给动画蓝图输出动画做参考。
+动画蓝图需要与角色蓝图通信，角色蓝图实现上面两个接口提供给动画蓝图获取信息。
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQyOTU4MzM5LC0xOTMxNTM3NDkzLC0yNT
-A3MDQ0OTAsLTE0NzY5NTM5NTIsLTQ3MjUwMjgwNSw2NjM5ODM4
-MzAsLTE4MjMxMDI3NjcsMTg4NDAxNTE3MCwtMTIzMjU2NjkzLC
-0xOTY1NTA0MTkxLDEzNTgzNzQ4NTYsMTgxMzg0NDk4NiwtMTgz
-NTgzODEzNywtNjI5MzIyMDY0LDgxODA0Nzg1OCw5NTQyNzg4OT
-IsLTEwNDY5ODgwNTRdfQ==
+eyJoaXN0b3J5IjpbLTE2NTQ2ODc3ODEsNTQyOTU4MzM5LC0xOT
+MxNTM3NDkzLC0yNTA3MDQ0OTAsLTE0NzY5NTM5NTIsLTQ3MjUw
+MjgwNSw2NjM5ODM4MzAsLTE4MjMxMDI3NjcsMTg4NDAxNTE3MC
+wtMTIzMjU2NjkzLC0xOTY1NTA0MTkxLDEzNTgzNzQ4NTYsMTgx
+Mzg0NDk4NiwtMTgzNTgzODEzNywtNjI5MzIyMDY0LDgxODA0Nz
+g1OCw5NTQyNzg4OTIsLTEwNDY5ODgwNTRdfQ==
 -->
