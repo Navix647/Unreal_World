@@ -177,10 +177,15 @@ Character_BPI
 BPI_GetCurrentState
 
 BPI_GetEssentialValues
+Input：
+Output：
+velocity：vector
+Acceleration：vector
+MovementState
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTY4MzYyNzgsLTE0NzY5NTM5NTIsLT
+eyJoaXN0b3J5IjpbLTE2NjQ4MzM5ODgsLTE0NzY5NTM5NTIsLT
 Q3MjUwMjgwNSw2NjM5ODM4MzAsLTE4MjMxMDI3NjcsMTg4NDAx
 NTE3MCwtMTIzMjU2NjkzLC0xOTY1NTA0MTkxLDEzNTgzNzQ4NT
 YsMTgxMzg0NDk4NiwtMTgzNTgzODEzNywtNjI5MzIyMDY0LDgx
