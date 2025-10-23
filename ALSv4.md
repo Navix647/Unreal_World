@@ -174,13 +174,14 @@ ALS_ViewMode
 
 
 2.写接口
-Character_BPI
-BPI_GetCurrentState
+###  CharacterInfo
+
+#### BPI_GetCurrentState
 Input
 Output：
 
 
-BPI_GetEssentialValues
+#### BPI_GetEssentialValues
 Input：
 None
 Output：
@@ -201,9 +202,10 @@ ALSv4里AimmingRotation和控制器旋转其实是一回事
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MDcwNDQ5MCwtMTQ3Njk1Mzk1MiwtND
-cyNTAyODA1LDY2Mzk4MzgzMCwtMTgyMzEwMjc2NywxODg0MDE1
-MTcwLC0xMjMyNTY2OTMsLTE5NjU1MDQxOTEsMTM1ODM3NDg1Ni
-wxODEzODQ0OTg2LC0xODM1ODM4MTM3LC02MjkzMjIwNjQsODE4
-MDQ3ODU4LDk1NDI3ODg5MiwtMTA0Njk4ODA1NF19
+eyJoaXN0b3J5IjpbLTE5MzE1Mzc0OTMsLTI1MDcwNDQ5MCwtMT
+Q3Njk1Mzk1MiwtNDcyNTAyODA1LDY2Mzk4MzgzMCwtMTgyMzEw
+Mjc2NywxODg0MDE1MTcwLC0xMjMyNTY2OTMsLTE5NjU1MDQxOT
+EsMTM1ODM3NDg1NiwxODEzODQ0OTg2LC0xODM1ODM4MTM3LC02
+MjkzMjIwNjQsODE4MDQ3ODU4LDk1NDI3ODg5MiwtMTA0Njk4OD
+A1NF19
 -->
