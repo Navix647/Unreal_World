@@ -191,16 +191,19 @@ IsMoving：Boolean
 HasMovingInput：Boolean
 Speed：Float
 MovementInputAmount：Float
-A
+AimingRotation：Rotator
+
+以上接口有Character蓝图实现，因为Character中带有MovementComponent。
 
 Speed是一个标量，Velocity是矢量
 Speed一般用于判断是否移动
+ALSv4里AimmingRotation和控制器旋转其实是一回事
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTU3ODYxNzAsLTE0NzY5NTM5NTIsLT
-Q3MjUwMjgwNSw2NjM5ODM4MzAsLTE4MjMxMDI3NjcsMTg4NDAx
-NTE3MCwtMTIzMjU2NjkzLC0xOTY1NTA0MTkxLDEzNTgzNzQ4NT
-YsMTgxMzg0NDk4NiwtMTgzNTgzODEzNywtNjI5MzIyMDY0LDgx
-ODA0Nzg1OCw5NTQyNzg4OTIsLTEwNDY5ODgwNTRdfQ==
+eyJoaXN0b3J5IjpbLTI1MDcwNDQ5MCwtMTQ3Njk1Mzk1MiwtND
+cyNTAyODA1LDY2Mzk4MzgzMCwtMTgyMzEwMjc2NywxODg0MDE1
+MTcwLC0xMjMyNTY2OTMsLTE5NjU1MDQxOTEsMTM1ODM3NDg1Ni
+wxODEzODQ0OTg2LC0xODM1ODM4MTM3LC02MjkzMjIwNjQsODE4
+MDQ3ODU4LDk1NDI3ODg5MiwtMTA0Njk4ODA1NF19
 -->
