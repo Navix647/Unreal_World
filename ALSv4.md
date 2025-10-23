@@ -189,13 +189,16 @@ Acceleration：Vector
 MovementState：Vector
 IsMoving：Boolean
 HasMovingInput：Boolean
-Speed：Vector
+Speed：Float
+MovementInputAmount：Float
+A
 
-Speed是一个标量
+Speed是一个标量，Velocity是矢量
+Speed一般用于判断是否移动
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODM3MjY0OTYsLTE0NzY5NTM5NTIsLT
+eyJoaXN0b3J5IjpbLTExMTU3ODYxNzAsLTE0NzY5NTM5NTIsLT
 Q3MjUwMjgwNSw2NjM5ODM4MzAsLTE4MjMxMDI3NjcsMTg4NDAx
 NTE3MCwtMTIzMjU2NjkzLC0xOTY1NTA0MTkxLDEzNTgzNzQ4NT
 YsMTgxMzg0NDk4NiwtMTgzNTgzODEzNywtNjI5MzIyMDY0LDgx
