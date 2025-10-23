@@ -191,8 +191,13 @@ MovementState：Vector
 IsMoving：Boolean
 HasMovingInput：Boolean
 Speed：Float
+速度
 MovementInputAmount：Float
+移动输入强度
 AimingRotation：Rotator
+控制旋转角度
+AimYawRate：Float
+
 
 以上接口有Character蓝图实现，因为Character中带有MovementComponent。
 
@@ -202,10 +207,10 @@ ALSv4里AimmingRotation和控制器旋转其实是一回事
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzE1Mzc0OTMsLTI1MDcwNDQ5MCwtMT
-Q3Njk1Mzk1MiwtNDcyNTAyODA1LDY2Mzk4MzgzMCwtMTgyMzEw
-Mjc2NywxODg0MDE1MTcwLC0xMjMyNTY2OTMsLTE5NjU1MDQxOT
-EsMTM1ODM3NDg1NiwxODEzODQ0OTg2LC0xODM1ODM4MTM3LC02
-MjkzMjIwNjQsODE4MDQ3ODU4LDk1NDI3ODg5MiwtMTA0Njk4OD
-A1NF19
+eyJoaXN0b3J5IjpbMTc5NzI5OTU3MywtMTkzMTUzNzQ5MywtMj
+UwNzA0NDkwLC0xNDc2OTUzOTUyLC00NzI1MDI4MDUsNjYzOTgz
+ODMwLC0xODIzMTAyNzY3LDE4ODQwMTUxNzAsLTEyMzI1NjY5My
+wtMTk2NTUwNDE5MSwxMzU4Mzc0ODU2LDE4MTM4NDQ5ODYsLTE4
+MzU4MzgxMzcsLTYyOTMyMjA2NCw4MTgwNDc4NTgsOTU0Mjc4OD
+kyLC0xMDQ2OTg4MDU0XX0=
 -->
