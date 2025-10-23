@@ -220,7 +220,10 @@ Character BluePrint  简称ChBP吧
 Character AnimBP 简称ChAnimBP
 
 ChBP基于MovementComponent以及MovementInput得到Speed、AimRotation、MovementInput、Acceleration等参数并将其通过接口输出。
-动画蓝图通过jie
+动画蓝图通过调用接口得到这些信息做进一步的动画处理。
+
+从而让动画蓝图接收到Input信息来处理动画的逻辑展示动画出来。
+
 
 
 
@@ -230,10 +233,10 @@ ChBP基于MovementComponent以及MovementInput得到Speed、AimRotation、Moveme
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTIyMzU1MTEsNTQyOTU4MzM5LC0xOT
-MxNTM3NDkzLC0yNTA3MDQ0OTAsLTE0NzY5NTM5NTIsLTQ3MjUw
-MjgwNSw2NjM5ODM4MzAsLTE4MjMxMDI3NjcsMTg4NDAxNTE3MC
-wtMTIzMjU2NjkzLC0xOTY1NTA0MTkxLDEzNTgzNzQ4NTYsMTgx
-Mzg0NDk4NiwtMTgzNTgzODEzNywtNjI5MzIyMDY0LDgxODA0Nz
-g1OCw5NTQyNzg4OTIsLTEwNDY5ODgwNTRdfQ==
+eyJoaXN0b3J5IjpbMTE5NDU2NDA0MSw1NDI5NTgzMzksLTE5Mz
+E1Mzc0OTMsLTI1MDcwNDQ5MCwtMTQ3Njk1Mzk1MiwtNDcyNTAy
+ODA1LDY2Mzk4MzgzMCwtMTgyMzEwMjc2NywxODg0MDE1MTcwLC
+0xMjMyNTY2OTMsLTE5NjU1MDQxOTEsMTM1ODM3NDg1NiwxODEz
+ODQ0OTg2LC0xODM1ODM4MTM3LC02MjkzMjIwNjQsODE4MDQ3OD
+U4LDk1NDI3ODg5MiwtMTA0Njk4ODA1NF19
 -->
