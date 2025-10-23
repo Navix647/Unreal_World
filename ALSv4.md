@@ -186,12 +186,17 @@ Input：
 None
 Output：
 Velocity：Vector
+速度矢量
 Acceleration：Vector
+加速度
 MovementState：Vector
+移动状态
 IsMoving：Boolean
+是否移动
 HasMovingInput：Boolean
+是否有移动输入
 Speed：Float
-速度
+速度标量
 MovementInputAmount：Float
 移动输入强度
 AimingRotation：Rotator
@@ -207,10 +212,10 @@ ALSv4里AimmingRotation和控制器旋转其实是一回事
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NzI5OTU3MywtMTkzMTUzNzQ5MywtMj
-UwNzA0NDkwLC0xNDc2OTUzOTUyLC00NzI1MDI4MDUsNjYzOTgz
-ODMwLC0xODIzMTAyNzY3LDE4ODQwMTUxNzAsLTEyMzI1NjY5My
-wtMTk2NTUwNDE5MSwxMzU4Mzc0ODU2LDE4MTM4NDQ5ODYsLTE4
-MzU4MzgxMzcsLTYyOTMyMjA2NCw4MTgwNDc4NTgsOTU0Mjc4OD
-kyLC0xMDQ2OTg4MDU0XX0=
+eyJoaXN0b3J5IjpbNTQyOTU4MzM5LC0xOTMxNTM3NDkzLC0yNT
+A3MDQ0OTAsLTE0NzY5NTM5NTIsLTQ3MjUwMjgwNSw2NjM5ODM4
+MzAsLTE4MjMxMDI3NjcsMTg4NDAxNTE3MCwtMTIzMjU2NjkzLC
+0xOTY1NTA0MTkxLDEzNTgzNzQ4NTYsMTgxMzg0NDk4NiwtMTgz
+NTgzODEzNywtNjI5MzIyMDY0LDgxODA0Nzg1OCw5NTQyNzg4OT
+IsLTEwNDY5ODgwNTRdfQ==
 -->
