@@ -157,6 +157,7 @@ ALS_MovementState
 ALS_OverlayState 
 - aim
 - ...
+以上可以做一些个性化的改变，在原有行为上叠加。
 
 ALS_RotationMode
 - VelocityDirection
@@ -175,19 +176,23 @@ ALS_ViewMode
 2.写接口
 Character_BPI
 BPI_GetCurrentState
+Input
+Output：
+
 
 BPI_GetEssentialValues
 Input：
+None
 Output：
-velocity：vector
-Acceleration：vector
-MovementState
+Velocity：Vector
+Acceleration：Vector
+MovementState：Vector
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjQ4MzM5ODgsLTE0NzY5NTM5NTIsLT
-Q3MjUwMjgwNSw2NjM5ODM4MzAsLTE4MjMxMDI3NjcsMTg4NDAx
-NTE3MCwtMTIzMjU2NjkzLC0xOTY1NTA0MTkxLDEzNTgzNzQ4NT
-YsMTgxMzg0NDk4NiwtMTgzNTgzODEzNywtNjI5MzIyMDY0LDgx
-ODA0Nzg1OCw5NTQyNzg4OTIsLTEwNDY5ODgwNTRdfQ==
+eyJoaXN0b3J5IjpbLTU0MzUxMDk3NiwtMTQ3Njk1Mzk1MiwtND
+cyNTAyODA1LDY2Mzk4MzgzMCwtMTgyMzEwMjc2NywxODg0MDE1
+MTcwLC0xMjMyNTY2OTMsLTE5NjU1MDQxOTEsMTM1ODM3NDg1Ni
+wxODEzODQ0OTg2LC0xODM1ODM4MTM3LC02MjkzMjIwNjQsODE4
+MDQ3ODU4LDk1NDI3ODg5MiwtMTA0Njk4ODA1NF19
 -->
