@@ -223,7 +223,7 @@ ChBP基于MovementComponent以及MovementInput得到Speed、AimRotation、Moveme
 动画蓝图通过调用接口得到这些信息做进一步的动画处理。
 
 从而让动画蓝图接收到Input信息来处理动画的逻辑展示动画出来。
-
+各个枚举值只是为了来层层嵌套
 
 
 
@@ -233,10 +233,11 @@ ChBP基于MovementComponent以及MovementInput得到Speed、AimRotation、Moveme
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NDU2NDA0MSw1NDI5NTgzMzksLTE5Mz
-E1Mzc0OTMsLTI1MDcwNDQ5MCwtMTQ3Njk1Mzk1MiwtNDcyNTAy
-ODA1LDY2Mzk4MzgzMCwtMTgyMzEwMjc2NywxODg0MDE1MTcwLC
-0xMjMyNTY2OTMsLTE5NjU1MDQxOTEsMTM1ODM3NDg1NiwxODEz
-ODQ0OTg2LC0xODM1ODM4MTM3LC02MjkzMjIwNjQsODE4MDQ3OD
-U4LDk1NDI3ODg5MiwtMTA0Njk4ODA1NF19
+eyJoaXN0b3J5IjpbMTk1OTM2NDYzNiwxMTk0NTY0MDQxLDU0Mj
+k1ODMzOSwtMTkzMTUzNzQ5MywtMjUwNzA0NDkwLC0xNDc2OTUz
+OTUyLC00NzI1MDI4MDUsNjYzOTgzODMwLC0xODIzMTAyNzY3LD
+E4ODQwMTUxNzAsLTEyMzI1NjY5MywtMTk2NTUwNDE5MSwxMzU4
+Mzc0ODU2LDE4MTM4NDQ5ODYsLTE4MzU4MzgxMzcsLTYyOTMyMj
+A2NCw4MTgwNDc4NTgsOTU0Mjc4ODkyLC0xMDQ2OTg4MDU0XX0=
+
 -->
