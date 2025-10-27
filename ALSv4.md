@@ -232,8 +232,9 @@ ChBP基于MovementComponent以及MovementInput得到Speed、AimRotation、Moveme
 
 配置各个结构体，然后配置数据表，数据表类似结构体数组。里面每一行其实就是一个结构体实例。
 
-配置各种东西完成动画蓝图获取基本信息
-
+配置各种东西完成动画蓝图获取基本信息，为六向状态机铺垫。
+1.包括步态的速度等处理Movemnet的逻辑
+2.
 
 
 
@@ -242,7 +243,7 @@ ChBP基于MovementComponent以及MovementInput得到Speed、AimRotation、Moveme
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjE2NDEwMzAsMjEyODE0ODE5OSwtMT
+eyJoaXN0b3J5IjpbLTE0NzA5Nzk0NDksMjEyODE0ODE5OSwtMT
 g3NDE1Njg5NywxOTU5MzY0NjM2LDExOTQ1NjQwNDEsNTQyOTU4
 MzM5LC0xOTMxNTM3NDkzLC0yNTA3MDQ0OTAsLTE0NzY5NTM5NT
 IsLTQ3MjUwMjgwNSw2NjM5ODM4MzAsLTE4MjMxMDI3NjcsMTg4
