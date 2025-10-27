@@ -228,6 +228,11 @@ ChBP基于MovementComponent以及MovementInput得到Speed、AimRotation、Moveme
 
 
 通过宏函数和Set事件来统一处理各种枚举的设置。
+方便后续调用。
+
+配置各个结构体，然后配置数据表，数据表类似结构体数组。里面每一行其实就是一个结构体实例。
+
+配置各种东西完成动画蓝图获取基本信息
 
 
 
@@ -237,11 +242,11 @@ ChBP基于MovementComponent以及MovementInput得到Speed、AimRotation、Moveme
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyODE0ODE5OSwtMTg3NDE1Njg5NywxOT
-U5MzY0NjM2LDExOTQ1NjQwNDEsNTQyOTU4MzM5LC0xOTMxNTM3
-NDkzLC0yNTA3MDQ0OTAsLTE0NzY5NTM5NTIsLTQ3MjUwMjgwNS
-w2NjM5ODM4MzAsLTE4MjMxMDI3NjcsMTg4NDAxNTE3MCwtMTIz
-MjU2NjkzLC0xOTY1NTA0MTkxLDEzNTgzNzQ4NTYsMTgxMzg0ND
-k4NiwtMTgzNTgzODEzNywtNjI5MzIyMDY0LDgxODA0Nzg1OCw5
-NTQyNzg4OTJdfQ==
+eyJoaXN0b3J5IjpbLTExMjE2NDEwMzAsMjEyODE0ODE5OSwtMT
+g3NDE1Njg5NywxOTU5MzY0NjM2LDExOTQ1NjQwNDEsNTQyOTU4
+MzM5LC0xOTMxNTM3NDkzLC0yNTA3MDQ0OTAsLTE0NzY5NTM5NT
+IsLTQ3MjUwMjgwNSw2NjM5ODM4MzAsLTE4MjMxMDI3NjcsMTg4
+NDAxNTE3MCwtMTIzMjU2NjkzLC0xOTY1NTA0MTkxLDEzNTgzNz
+Q4NTYsMTgxMzg0NDk4NiwtMTgzNTgzODEzNywtNjI5MzIyMDY0
+LDgxODA0Nzg1OF19
 -->
