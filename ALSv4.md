@@ -239,17 +239,21 @@ ChBP基于MovementComponent以及MovementInput得到Speed、AimRotation、Moveme
 
 
 
-x
+1.学习Animation Layer的应用
+2.搞懂曲线是怎么渗透应用到系统里去调节动画的。
+3.搞懂Stride、PlayRate、Speed这三者之间的关系。
+4.搞懂Rotation的使用，角色如何旋转。
+5.搞懂六向状态机的yuan
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQzMjkzNjA1LC0xNDcwOTc5NDQ5LDIxMj
-gxNDgxOTksLTE4NzQxNTY4OTcsMTk1OTM2NDYzNiwxMTk0NTY0
-MDQxLDU0Mjk1ODMzOSwtMTkzMTUzNzQ5MywtMjUwNzA0NDkwLC
-0xNDc2OTUzOTUyLC00NzI1MDI4MDUsNjYzOTgzODMwLC0xODIz
-MTAyNzY3LDE4ODQwMTUxNzAsLTEyMzI1NjY5MywtMTk2NTUwND
-E5MSwxMzU4Mzc0ODU2LDE4MTM4NDQ5ODYsLTE4MzU4MzgxMzcs
-LTYyOTMyMjA2NF19
+eyJoaXN0b3J5IjpbNjc3OTM1NDEsLTE0NzA5Nzk0NDksMjEyOD
+E0ODE5OSwtMTg3NDE1Njg5NywxOTU5MzY0NjM2LDExOTQ1NjQw
+NDEsNTQyOTU4MzM5LC0xOTMxNTM3NDkzLC0yNTA3MDQ0OTAsLT
+E0NzY5NTM5NTIsLTQ3MjUwMjgwNSw2NjM5ODM4MzAsLTE4MjMx
+MDI3NjcsMTg4NDAxNTE3MCwtMTIzMjU2NjkzLC0xOTY1NTA0MT
+kxLDEzNTgzNzQ4NTYsMTgxMzg0NDk4NiwtMTgzNTgzODEzNywt
+NjI5MzIyMDY0XX0=
 -->
