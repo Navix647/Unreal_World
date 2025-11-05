@@ -250,9 +250,7 @@ ChBP基于MovementComponent以及MovementInput得到Speed、AimRotation、Moveme
 
 
 $$
-
-\frac{Speed}{AnimatedWalkSpeed}
-
+FinalPlayRate = \frac{Lerp(\frac{||v}{AnimatedWalkSpeed},\frac{Speed}{AnimatedRunSpeed}, w_{Gait})}{StrideBlend}
 $$
 
 
@@ -264,11 +262,11 @@ $$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIxNDE0MjA3LC03NDEyMDA3NDMsLTE0Nz
-A5Nzk0NDksMjEyODE0ODE5OSwtMTg3NDE1Njg5NywxOTU5MzY0
-NjM2LDExOTQ1NjQwNDEsNTQyOTU4MzM5LC0xOTMxNTM3NDkzLC
-0yNTA3MDQ0OTAsLTE0NzY5NTM5NTIsLTQ3MjUwMjgwNSw2NjM5
-ODM4MzAsLTE4MjMxMDI3NjcsMTg4NDAxNTE3MCwtMTIzMjU2Nj
-kzLC0xOTY1NTA0MTkxLDEzNTgzNzQ4NTYsMTgxMzg0NDk4Niwt
-MTgzNTgzODEzN119
+eyJoaXN0b3J5IjpbMjAyMzc3OTQ0OCwtNzQxMjAwNzQzLC0xND
+cwOTc5NDQ5LDIxMjgxNDgxOTksLTE4NzQxNTY4OTcsMTk1OTM2
+NDYzNiwxMTk0NTY0MDQxLDU0Mjk1ODMzOSwtMTkzMTUzNzQ5My
+wtMjUwNzA0NDkwLC0xNDc2OTUzOTUyLC00NzI1MDI4MDUsNjYz
+OTgzODMwLC0xODIzMTAyNzY3LDE4ODQwMTUxNzAsLTEyMzI1Nj
+Y5MywtMTk2NTUwNDE5MSwxMzU4Mzc0ODU2LDE4MTM4NDQ5ODYs
+LTE4MzU4MzgxMzddfQ==
 -->
