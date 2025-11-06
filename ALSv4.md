@@ -274,7 +274,14 @@ v_{walk}：行走动画的固有速率\\
 v_{blend}: 混合空间在某点播放的混合动画的固有速率\\
 s:步幅\\
 v: 移动部件此时的速度\\
-freq: 此时的匹配d动画播放速率
+freq: 此时的匹配动画播放速率
+$$
+因为混合空间起始点是行走动画的开始姿势因此固有速率为0，而终点是行走动画本身
+因此
+
+
+$$
+freq = \frac{v}{}
 $$
 
 
@@ -282,7 +289,7 @@ $$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MDUxNzM2OSwtOTUxMTkxNTQsMTI1Nz
+eyJoaXN0b3J5IjpbLTIzOTE0ODAxOCwtOTUxMTkxNTQsMTI1Nz
 g4OTkxOSwtNzQxMjAwNzQzLC0xNDcwOTc5NDQ5LDIxMjgxNDgx
 OTksLTE4NzQxNTY4OTcsMTk1OTM2NDYzNiwxMTk0NTY0MDQxLD
 U0Mjk1ODMzOSwtMTkzMTUzNzQ5MywtMjUwNzA0NDkwLC0xNDc2
