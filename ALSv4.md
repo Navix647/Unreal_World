@@ -277,19 +277,20 @@ v: 移动部件此时的速度\\
 freq: 此时的匹配动画播放速率
 $$
 因为混合空间起始点是行走动画的开始姿势因此固有速率为0，而终点是行走动画本身
-因此
-
+因此如果不考虑走跑混合，行走的随s变化混合速率是$s*v_{walk}$
+因此此时匹配的播放速率如下公式所示
 
 $$
-freq = \frac{v}{}
+freq = \frac{v}{s*v_{walk}}
 $$
 
+表现为速度除以行走动画速度之后再除以步幅归一化参数。
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzOTE0ODAxOCwtOTUxMTkxNTQsMTI1Nz
+eyJoaXN0b3J5IjpbMTczOTg0MTYxMSwtOTUxMTkxNTQsMTI1Nz
 g4OTkxOSwtNzQxMjAwNzQzLC0xNDcwOTc5NDQ5LDIxMjgxNDgx
 OTksLTE4NzQxNTY4OTcsMTk1OTM2NDYzNiwxMTk0NTY0MDQxLD
 U0Mjk1ODMzOSwtMTkzMTUzNzQ5MywtMjUwNzA0NDkwLC0xNDc2
