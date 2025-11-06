@@ -263,19 +263,27 @@ $$
 1、如何防止滑步？
 为何会出现滑步现象？
 每个动画都会有一个动画所展示出来的固有速度，比如行走，那么它这个行走动画就会因步幅和步频而得到一个速度。速度大致是关于步幅和步频的一个函数。 步幅就是步幅，而步频可以根据动画播放速率来表征。
-因为我们使用的不是一个单一的动画而是一个混合空间，所以我们需要的是混合空间在某点上的固有速率以及对其匹配的播放速率。当播放速率和当前混合空间所表征的固有速率不一致时就会出现滑步现象。
+因为我们使用的不是一个单一的动画而是一个混合空间，所以我们需要的是混合空间在某点上的固有速率以及对其匹配的播放速率。当播放速率和当前混合空间所表征的固有速率匹配不了当前速度时就会出现滑步现象。
+混合空间横坐标代表步幅，按照ALSv4的方式混合，确实可以调节步幅
 
+
+可以写一个关系出来。
+我们假设
+$$ 
+v_{walk}：行走动画的固有速率\\
+v_{ble}
+$$
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MTE5MTU0LDEyNTc4ODk5MTksLTc0MT
-IwMDc0MywtMTQ3MDk3OTQ0OSwyMTI4MTQ4MTk5LC0xODc0MTU2
-ODk3LDE5NTkzNjQ2MzYsMTE5NDU2NDA0MSw1NDI5NTgzMzksLT
-E5MzE1Mzc0OTMsLTI1MDcwNDQ5MCwtMTQ3Njk1Mzk1MiwtNDcy
-NTAyODA1LDY2Mzk4MzgzMCwtMTgyMzEwMjc2NywxODg0MDE1MT
-cwLC0xMjMyNTY2OTMsLTE5NjU1MDQxOTEsMTM1ODM3NDg1Niwx
-ODEzODQ0OTg2XX0=
+eyJoaXN0b3J5IjpbMTA2MzQyOTUyMCwtOTUxMTkxNTQsMTI1Nz
+g4OTkxOSwtNzQxMjAwNzQzLC0xNDcwOTc5NDQ5LDIxMjgxNDgx
+OTksLTE4NzQxNTY4OTcsMTk1OTM2NDYzNiwxMTk0NTY0MDQxLD
+U0Mjk1ODMzOSwtMTkzMTUzNzQ5MywtMjUwNzA0NDkwLC0xNDc2
+OTUzOTUyLC00NzI1MDI4MDUsNjYzOTgzODMwLC0xODIzMTAyNz
+Y3LDE4ODQwMTUxNzAsLTEyMzI1NjY5MywtMTk2NTUwNDE5MSwx
+MzU4Mzc0ODU2XX0=
 -->
