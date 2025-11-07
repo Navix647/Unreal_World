@@ -291,14 +291,19 @@ $$
 设 BlendSpace 的采样点权重按双线性插值（bilinear）分配，参数为 x∈[0,1]x\in[0,1]x∈[0,1]（stride 轴），y∈[0,1]y\in[0,1]y∈[0,1]（walk↔run 轴）。四个角的权重为：
 
 $$
-w00=(1−x)(1−y),w_{00}=(1-x)(1-y)w_{00}​=(1−x)(1−y) — 
+w{00}=(1−x)(1−y),WalkPose（单帧，固有速率 0）
 $$
-WalkPose（单帧，固有速率 0）
--   w10=x(1−y)w_{10}=x(1-y)w10​=x(1−y) — Walk（固有速率 vwalkv_{walk}vwalk​）
+$$
+w{10}=x(1−y), Walk（固有速率 v_{walk}​）
+$$
+$$
+w{01}=(1−x)y, — RunPose（单帧，固有速率 0）
+$$    
+$$
+w11=xy
+$$
     
--   w01=(1−x)yw_{01}=(1-x)yw01​=(1−x)y — RunPose（单帧，固有速率 000）
-    
--   w11=xyw_{11}=xyw11​=xy — Run（固有速率 vrunv_{run}vrun​）
+-   w_{11}=xyw11​=xy — Run（固有速率 vrunv_{run}vrun​）
     
 
 因此**混合后的固有速率**（动画本身在该点的“自然播放速率”）为这四个采样速率的加权和：
@@ -311,11 +316,11 @@ vblend=x⋅((1−y) vwalk+y vrun)=x⋅lerp(vwalk, vrun, y).v_{\text{blen
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDc1MTIxMjMsLTE3MDA5Njg2MzUsMT
-E4MzUzODcxNiwtOTUxMTkxNTQsMTI1Nzg4OTkxOSwtNzQxMjAw
-NzQzLC0xNDcwOTc5NDQ5LDIxMjgxNDgxOTksLTE4NzQxNTY4OT
-csMTk1OTM2NDYzNiwxMTk0NTY0MDQxLDU0Mjk1ODMzOSwtMTkz
-MTUzNzQ5MywtMjUwNzA0NDkwLC0xNDc2OTUzOTUyLC00NzI1MD
-I4MDUsNjYzOTgzODMwLC0xODIzMTAyNzY3LDE4ODQwMTUxNzAs
-LTEyMzI1NjY5M119
+eyJoaXN0b3J5IjpbLTExNTI3MTU0MiwtMTcwMDk2ODYzNSwxMT
+gzNTM4NzE2LC05NTExOTE1NCwxMjU3ODg5OTE5LC03NDEyMDA3
+NDMsLTE0NzA5Nzk0NDksMjEyODE0ODE5OSwtMTg3NDE1Njg5Ny
+wxOTU5MzY0NjM2LDExOTQ1NjQwNDEsNTQyOTU4MzM5LC0xOTMx
+NTM3NDkzLC0yNTA3MDQ0OTAsLTE0NzY5NTM5NTIsLTQ3MjUwMj
+gwNSw2NjM5ODM4MzAsLTE4MjMxMDI3NjcsMTg4NDAxNTE3MCwt
+MTIzMjU2NjkzXX0=
 -->
