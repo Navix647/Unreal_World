@@ -288,15 +288,34 @@ $$
 
 说实话这一段程序解读依然是很有挑战的，不是那么容易。尤其是计算混合状态，过渡插值
 
+设 BlendSpace 的采样点权重按双线性插值（bilinear）分配，参数为 x∈[0,1]x\in[0,1]x∈[0,1]（stride 轴），y∈[0,1]y\in[0,1]y∈[0,1]（walk↔run 轴）。四个角的权重为：
 
+$$
+w00=(1−x)(1−y),w_{00}=(1-x)(1-y)w_{00}​=(1−x)(1−y) — 
+$$
+WalkPose（单帧，固有速率 0）
+-   w10=x(1−y)w_{10}=x(1-y)w10​=x(1−y) — Walk（固有速率 vwalkv_{walk}vwalk​）
+    
+-   w01=(1−x)yw_{01}=(1-x)yw01​=(1−x)y — RunPose（单帧，固有速率 000）
+    
+-   w11=xyw_{11}=xyw11​=xy — Run（固有速率 vrunv_{run}vrun​）
+    
+
+因此**混合后的固有速率**（动画本身在该点的“自然播放速率”）为这四个采样速率的加权和：
+
+vblend=w00⋅0+w10⋅vwalk+w01⋅0+w11⋅vrun=x(1−y) vwalk+xy vrun.v_{\text{blend}} = w_{00}\cdot 0 + w_{10}\cdot v_{walk} + w_{01}\cdot 0 + w_{11}\cdot v_{run} = x(1-y)\,v_{walk} + x y \, v_{run}.vblend​=w00​⋅0+w10​⋅vwalk​+w01​⋅0+w11​⋅vrun​=x(1−y)vwalk​+xyvrun​.
+
+可以进一步写成更直观的形式：
+
+vblend=x⋅((1−y) vwalk+y vrun)=x⋅lerp(vwalk, vrun, y).v_{\text{blend}} = x \cdot \big( (1-y)\,v_{walk} + y\,v_{run} \big) = x \cdot \mathrm{lerp}(v_{walk},\,v_{run},\,y).vblend​=x⋅((1−y)vwalk​+yvrun​)=x⋅lerp(vwalk​,vrun​,y).
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDA5Njg2MzUsMTE4MzUzODcxNiwtOT
-UxMTkxNTQsMTI1Nzg4OTkxOSwtNzQxMjAwNzQzLC0xNDcwOTc5
-NDQ5LDIxMjgxNDgxOTksLTE4NzQxNTY4OTcsMTk1OTM2NDYzNi
-wxMTk0NTY0MDQxLDU0Mjk1ODMzOSwtMTkzMTUzNzQ5MywtMjUw
-NzA0NDkwLC0xNDc2OTUzOTUyLC00NzI1MDI4MDUsNjYzOTgzOD
-MwLC0xODIzMTAyNzY3LDE4ODQwMTUxNzAsLTEyMzI1NjY5Mywt
-MTk2NTUwNDE5MV19
+eyJoaXN0b3J5IjpbLTE5MDc1MTIxMjMsLTE3MDA5Njg2MzUsMT
+E4MzUzODcxNiwtOTUxMTkxNTQsMTI1Nzg4OTkxOSwtNzQxMjAw
+NzQzLC0xNDcwOTc5NDQ5LDIxMjgxNDgxOTksLTE4NzQxNTY4OT
+csMTk1OTM2NDYzNiwxMTk0NTY0MDQxLDU0Mjk1ODMzOSwtMTkz
+MTUzNzQ5MywtMjUwNzA0NDkwLC0xNDc2OTUzOTUyLC00NzI1MD
+I4MDUsNjYzOTgzODMwLC0xODIzMTAyNzY3LDE4ODQwMTUxNzAs
+LTEyMzI1NjY5M119
 -->
