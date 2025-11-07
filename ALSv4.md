@@ -314,13 +314,14 @@ $$
 $$
 vblend=x⋅((1−y) vwalk+y vrun)=x⋅lerp(vwalk, vrun, y).v_{\text{blend}} = x \cdot \big( (1-y)\,v_{walk} + y\,v_{run} \big) = x \cdot \mathrm{lerp}(v_{walk},\,v_{run},\,y).vblend​=x⋅((1−y)vwalk​+yvrun​)=x⋅lerp(vwalk​,vrun​,y).
 $$
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NDA3NTE5MiwtMTcwMDk2ODYzNSwxMT
-gzNTM4NzE2LC05NTExOTE1NCwxMjU3ODg5OTE5LC03NDEyMDA3
-NDMsLTE0NzA5Nzk0NDksMjEyODE0ODE5OSwtMTg3NDE1Njg5Ny
-wxOTU5MzY0NjM2LDExOTQ1NjQwNDEsNTQyOTU4MzM5LC0xOTMx
-NTM3NDkzLC0yNTA3MDQ0OTAsLTE0NzY5NTM5NTIsLTQ3MjUwMj
-gwNSw2NjM5ODM4MzAsLTE4MjMxMDI3NjcsMTg4NDAxNTE3MCwt
-MTIzMjU2NjkzXX0=
+eyJoaXN0b3J5IjpbLTE4MTY1NzA2NTAsLTE3MDA5Njg2MzUsMT
+E4MzUzODcxNiwtOTUxMTkxNTQsMTI1Nzg4OTkxOSwtNzQxMjAw
+NzQzLC0xNDcwOTc5NDQ5LDIxMjgxNDgxOTksLTE4NzQxNTY4OT
+csMTk1OTM2NDYzNiwxMTk0NTY0MDQxLDU0Mjk1ODMzOSwtMTkz
+MTUzNzQ5MywtMjUwNzA0NDkwLC0xNDc2OTUzOTUyLC00NzI1MD
+I4MDUsNjYzOTgzODMwLC0xODIzMTAyNzY3LDE4ODQwMTUxNzAs
+LTEyMzI1NjY5M119
 -->
