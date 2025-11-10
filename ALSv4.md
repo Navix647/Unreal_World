@@ -332,17 +332,20 @@ Anim Montage没有播放的原因
 这种设计理念来自于： 最了解动画的是动画本身。因此只要我们通过动画标出一些关键的信息，并通过曲线或者事件通知的方式给出的话，就可以做出非常精细的动画了。
 
 
-下一步是攀爬系统。如果攀爬系统解决了的话，
+下一步是攀爬系统。如果攀爬系统解决了的话，还有IK、脚步锁定。
+话说Feet Crossing这种细微的东西都考虑到的ALSv4确实不俗。但是原版ALSv4为什么无法用于多人网络呢？
+
+起跑动画，它是通过Detail状态机来完成。
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM3MjU4NTc1LDExNzY2OTg0MTMsLTE4MT
-Y1NzA2NTAsLTE3MDA5Njg2MzUsMTE4MzUzODcxNiwtOTUxMTkx
-NTQsMTI1Nzg4OTkxOSwtNzQxMjAwNzQzLC0xNDcwOTc5NDQ5LD
-IxMjgxNDgxOTksLTE4NzQxNTY4OTcsMTk1OTM2NDYzNiwxMTk0
-NTY0MDQxLDU0Mjk1ODMzOSwtMTkzMTUzNzQ5MywtMjUwNzA0ND
-kwLC0xNDc2OTUzOTUyLC00NzI1MDI4MDUsNjYzOTgzODMwLC0x
-ODIzMTAyNzY3XX0=
+eyJoaXN0b3J5IjpbLTE4ODQ3NDI5OTYsMTE3NjY5ODQxMywtMT
+gxNjU3MDY1MCwtMTcwMDk2ODYzNSwxMTgzNTM4NzE2LC05NTEx
+OTE1NCwxMjU3ODg5OTE5LC03NDEyMDA3NDMsLTE0NzA5Nzk0ND
+ksMjEyODE0ODE5OSwtMTg3NDE1Njg5NywxOTU5MzY0NjM2LDEx
+OTQ1NjQwNDEsNTQyOTU4MzM5LC0xOTMxNTM3NDkzLC0yNTA3MD
+Q0OTAsLTE0NzY5NTM5NTIsLTQ3MjUwMjgwNSw2NjM5ODM4MzAs
+LTE4MjMxMDI3NjddfQ==
 -->
