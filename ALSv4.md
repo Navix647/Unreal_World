@@ -330,7 +330,7 @@ Anim Montage没有播放的原因
 
 Locomotion搞完，下一步可以尝试一下AI系统。让AI无缝衔接到这套ALS上面，这样就达到目的了。我希望能够做到玩家和AI共用一套表现层逻辑
 
-输入层
+输入层(玩家输入，AI决策输出)->逻辑层(转换成Movement Component的行动)->
 
 
 
@@ -351,7 +351,7 @@ Locomotion搞完，下一步可以尝试一下AI系统。让AI无缝衔接到这
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjY3NzE3NCwxMTc2Njk4NDEzLC0xOD
+eyJoaXN0b3J5IjpbLTE5NjIyMjEzMywxMTc2Njk4NDEzLC0xOD
 E2NTcwNjUwLC0xNzAwOTY4NjM1LDExODM1Mzg3MTYsLTk1MTE5
 MTU0LDEyNTc4ODk5MTksLTc0MTIwMDc0MywtMTQ3MDk3OTQ0OS
 wyMTI4MTQ4MTk5LC0xODc0MTU2ODk3LDE5NTkzNjQ2MzYsMTE5
