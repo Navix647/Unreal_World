@@ -291,16 +291,16 @@ $$
 设 BlendSpace 的采样点权重按双线性插值（bilinear）分配，参数为 x∈[0,1]x\in[0,1]x∈[0,1]（stride 轴），y∈[0,1]y\in[0,1]y∈[0,1]（walk↔run 轴）。四个角的权重为：
 
 $$
-w{00}=(1−x)(1−y),WalkPose（单帧，固有速率 0）
+w_{00}=(1−x)(1−y),WalkPose（单帧，固有速率 0）
 $$
 $$
-w{10}=x(1−y), Walk（固有速率 v_{walk}​）
+w_{10}=x(1−y), Walk（固有速率 v_{walk}​）
 $$
 $$
-w{01}=(1−x)y, — RunPose（单帧，固有速率 0）
+w_{01}=(1−x)y, — RunPose（单帧，固有速率 0）
 $$    
 $$
-w{11}=xy, — Run（固有速率 v_{run}​）
+w_{11}=xy, — Run（固有速率 v_{run}​）
 $$
     
 
@@ -345,17 +345,24 @@ Locomotion搞完，下一步可以尝试一下AI系统。让AI无缝衔接到这
 多学习一下这种分层式的动画设计，这样Idle动作以及脸部动画都是可以分开完成了。
 尤其是Idle动画，Hip以下和Hip以上完全可以分开了。通过一套状态机来完成一个较为复杂的Idle，然后Idle过程如果出现状态变换即从Not Moving变换到Moving就要设计一套转移Transition机制，让其看起来不那么僵硬。
 既然脚部落地和离开可以用曲线提供信息，并根据这个信息完成不同动画，那其他部位也完全可以。
-现在
+现在# 六向状态机
+其实六向状态机并没有太大的难度，主要是要根据VelocityBlend来获取各个方向的一个比例。这个可以参考这个数据计算的函数。主要使用L1范数来强制各个分量之和为1。
+
+然后是转移条件，这里可以学到很多**共享组**的使用方法。
+
+
+
+## 人物偏移Lean的使用和计算
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjIyMjEzMywxMTc2Njk4NDEzLC0xOD
-E2NTcwNjUwLC0xNzAwOTY4NjM1LDExODM1Mzg3MTYsLTk1MTE5
-MTU0LDEyNTc4ODk5MTksLTc0MTIwMDc0MywtMTQ3MDk3OTQ0OS
-wyMTI4MTQ4MTk5LC0xODc0MTU2ODk3LDE5NTkzNjQ2MzYsMTE5
-NDU2NDA0MSw1NDI5NTgzMzksLTE5MzE1Mzc0OTMsLTI1MDcwND
-Q5MCwtMTQ3Njk1Mzk1MiwtNDcyNTAyODA1LDY2Mzk4MzgzMCwt
-MTgyMzEwMjc2N119
+eyJoaXN0b3J5IjpbMTY1NTkxMjQ1OSwtMTk2MjIyMTMzLDExNz
+Y2OTg0MTMsLTE4MTY1NzA2NTAsLTE3MDA5Njg2MzUsMTE4MzUz
+ODcxNiwtOTUxMTkxNTQsMTI1Nzg4OTkxOSwtNzQxMjAwNzQzLC
+0xNDcwOTc5NDQ5LDIxMjgxNDgxOTksLTE4NzQxNTY4OTcsMTk1
+OTM2NDYzNiwxMTk0NTY0MDQxLDU0Mjk1ODMzOSwtMTkzMTUzNz
+Q5MywtMjUwNzA0NDkwLC0xNDc2OTUzOTUyLC00NzI1MDI4MDUs
+NjYzOTgzODMwXX0=
 -->
