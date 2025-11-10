@@ -329,17 +329,20 @@ Anim Montage没有播放的原因
 
 
 最精妙的莫过于通过Feet_Position曲线来确定具体使用哪一个跳跃动画，左脚和右脚起跳？这个设计确实让人眼前一亮。
-这种设计理念来自于
+这种设计理念来自于： 最了解动画的是动画本身。因此只要我们通过动画标出一些关键的信息，并通过曲线或者事件通知的方式给出的话，就可以做出非常精细的动画了。
+
+
+下一步是攀爬系统。如果攀爬系统解决了的话，
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MTU2MTU4NCwxMTc2Njk4NDEzLC0xOD
-E2NTcwNjUwLC0xNzAwOTY4NjM1LDExODM1Mzg3MTYsLTk1MTE5
-MTU0LDEyNTc4ODk5MTksLTc0MTIwMDc0MywtMTQ3MDk3OTQ0OS
-wyMTI4MTQ4MTk5LC0xODc0MTU2ODk3LDE5NTkzNjQ2MzYsMTE5
-NDU2NDA0MSw1NDI5NTgzMzksLTE5MzE1Mzc0OTMsLTI1MDcwND
-Q5MCwtMTQ3Njk1Mzk1MiwtNDcyNTAyODA1LDY2Mzk4MzgzMCwt
-MTgyMzEwMjc2N119
+eyJoaXN0b3J5IjpbNzM3MjU4NTc1LDExNzY2OTg0MTMsLTE4MT
+Y1NzA2NTAsLTE3MDA5Njg2MzUsMTE4MzUzODcxNiwtOTUxMTkx
+NTQsMTI1Nzg4OTkxOSwtNzQxMjAwNzQzLC0xNDcwOTc5NDQ5LD
+IxMjgxNDgxOTksLTE4NzQxNTY4OTcsMTk1OTM2NDYzNiwxMTk0
+NTY0MDQxLDU0Mjk1ODMzOSwtMTkzMTUzNzQ5MywtMjUwNzA0ND
+kwLC0xNDc2OTUzOTUyLC00NzI1MDI4MDUsNjYzOTgzODMwLC0x
+ODIzMTAyNzY3XX0=
 -->
