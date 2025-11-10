@@ -335,13 +335,15 @@ Anim Montage没有播放的原因
 下一步是攀爬系统。如果攀爬系统解决了的话，还有IK、脚步锁定。
 话说Feet Crossing这种细微的东西都考虑到的ALSv4确实不俗。但是原版ALSv4为什么无法用于多人网络呢？
 
-起跑动画，它是通过Detail状态机来完成。
+起跑，包括人物倾斜动画，它是通过Detail状态机来完成。配合Additive完成的。
+多学习一下这种分层式的动画设计，这样Idle动作以及脸部动画都是可以分开完成了。
+现在
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODQ3NDI5OTYsMTE3NjY5ODQxMywtMT
+eyJoaXN0b3J5IjpbLTE1NTc4NDM3MDksMTE3NjY5ODQxMywtMT
 gxNjU3MDY1MCwtMTcwMDk2ODYzNSwxMTgzNTM4NzE2LC05NTEx
 OTE1NCwxMjU3ODg5OTE5LC03NDEyMDA3NDMsLTE0NzA5Nzk0ND
 ksMjEyODE0ODE5OSwtMTg3NDE1Njg5NywxOTU5MzY0NjM2LDEx
