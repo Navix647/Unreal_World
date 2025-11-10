@@ -326,7 +326,7 @@ Anim Montage没有播放的原因
 5.然后旋转过程需要记录得到动画实际的旋转角度。
 
 
-精妙设计包括：六向状态机、停止和开始移动的转移承接、原地旋转设计。每一个都让人惊叹！！！后面还有IK锁定脚部，让启停更加牛，可以再看看。关键是控制性扩展性超级强，Motion Matching达不到。而且GASP的作者设计了一种系统，仅用1/3左右Motion Matching的动画就达到了接近Motion Matching的流畅度，这也是值得考虑尝试的。后面自己再在理解ALSv4的基础上再次重构一下。理解虚拟骨骼的基础上，直接集成一套
+精妙设计包括：六向状态机、停止和开始移动的转移承接、原地旋转设计。每一个都让人惊叹！！！后面还有IK锁定脚部，让启停更加牛，攀爬系统，Overlay系统，可扩展的系统。关键是控制性扩展性超级强，Motion Matching达不到，只能说幸好认真学习了ALSv4，虽然过程l。而且GASP的作者设计了一种系统，仅用1/3左右Motion Matching的动画就达到了接近Motion Matching的流畅度，这也是值得考虑尝试的。后面自己再在理解ALSv4的基础上再次重构一下。理解虚拟骨骼的基础上，直接做一套Genesis 9骨骼为基础的ALS，不需要重定向，来提升一下性能。
 
 
 最精妙的莫过于通过Feet_Position曲线来确定具体使用哪一个跳跃动画，左脚和右脚起跳？这个设计确实让人眼前一亮。
@@ -346,11 +346,11 @@ Anim Montage没有播放的原因
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDQ0MDQwMDUsMTE3NjY5ODQxMywtMT
-gxNjU3MDY1MCwtMTcwMDk2ODYzNSwxMTgzNTM4NzE2LC05NTEx
-OTE1NCwxMjU3ODg5OTE5LC03NDEyMDA3NDMsLTE0NzA5Nzk0ND
-ksMjEyODE0ODE5OSwtMTg3NDE1Njg5NywxOTU5MzY0NjM2LDEx
-OTQ1NjQwNDEsNTQyOTU4MzM5LC0xOTMxNTM3NDkzLC0yNTA3MD
-Q0OTAsLTE0NzY5NTM5NTIsLTQ3MjUwMjgwNSw2NjM5ODM4MzAs
-LTE4MjMxMDI3NjddfQ==
+eyJoaXN0b3J5IjpbMTY3NjQ3MTY5NywxMTc2Njk4NDEzLC0xOD
+E2NTcwNjUwLC0xNzAwOTY4NjM1LDExODM1Mzg3MTYsLTk1MTE5
+MTU0LDEyNTc4ODk5MTksLTc0MTIwMDc0MywtMTQ3MDk3OTQ0OS
+wyMTI4MTQ4MTk5LC0xODc0MTU2ODk3LDE5NTkzNjQ2MzYsMTE5
+NDU2NDA0MSw1NDI5NTgzMzksLTE5MzE1Mzc0OTMsLTI1MDcwND
+Q5MCwtMTQ3Njk1Mzk1MiwtNDcyNTAyODA1LDY2Mzk4MzgzMCwt
+MTgyMzEwMjc2N119
 -->
