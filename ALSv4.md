@@ -326,7 +326,12 @@ Anim Montage没有播放的原因
 5.然后旋转过程需要记录得到动画实际的旋转角度。
 
 
-精妙设计包括：六向状态机、停止和开始移动的转移承接、原地旋转设计。每一个都让人惊叹！！！后面还有IK锁定脚部，让启停更加牛，攀爬系统，Overlay系统，可扩展的系统。关键是控制性扩展性超级强，Motion Matching达不到，只能说幸好认真学习了ALSv4，虽然过程l。而且GASP的作者设计了一种系统，仅用1/3左右Motion Matching的动画就达到了接近Motion Matching的流畅度，这也是值得考虑尝试的。后面自己再在理解ALSv4的基础上再次重构一下。理解虚拟骨骼的基础上，直接做一套Genesis 9骨骼为基础的ALS，不需要重定向，来提升一下性能。
+精妙设计包括：六向状态机、停止和开始移动的转移承接、原地旋转设计。每一个都让人惊叹！！！后面还有IK锁定脚部，让启停更加牛，攀爬系统，Overlay系统，可扩展的系统。关键是控制性扩展性超级强，Motion Matching达不到，只能说幸好认真学习了ALSv4，虽然过程略显枯燥，但真的回味无穷。而且GASP的作者设计了一种系统，仅用1/3左右Motion Matching的动画就达到了接近Motion Matching的流畅度，这也是值得考虑尝试的。后面自己再在理解ALSv4的基础上再次重构一下。理解虚拟骨骼的基础上，直接做一套Genesis 9骨骼为基础的ALS，不需要重定向，来提升一下性能。
+
+Locomotion搞完，下一步可以尝试一下AI系统。让AI无缝衔接到这套ALS上面，这样就达到目的了。我希望能够做到玩家和AI共用一套表现层逻辑
+
+输入层
+
 
 
 最精妙的莫过于通过Feet_Position曲线来确定具体使用哪一个跳跃动画，左脚和右脚起跳？这个设计确实让人眼前一亮。
@@ -346,7 +351,7 @@ Anim Montage没有播放的原因
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NjQ3MTY5NywxMTc2Njk4NDEzLC0xOD
+eyJoaXN0b3J5IjpbLTE0NjY3NzE3NCwxMTc2Njk4NDEzLC0xOD
 E2NTcwNjUwLC0xNzAwOTY4NjM1LDExODM1Mzg3MTYsLTk1MTE5
 MTU0LDEyNTc4ODk5MTksLTc0MTIwMDc0MywtMTQ3MDk3OTQ0OS
 wyMTI4MTQ4MTk5LC0xODc0MTU2ODk3LDE5NTkzNjQ2MzYsMTE5
