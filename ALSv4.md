@@ -315,13 +315,22 @@ $$
 vblend=x⋅((1−y) vwalk+y vrun)=x⋅lerp(vwalk, vrun, y).v_{\text{blend}} = x \cdot \big( (1-y)\,v_{walk} + y\,v_{run} \big) = x \cdot \mathrm{lerp}(v_{walk},\,v_{run},\,y).vblend​=x⋅((1−y)vwalk​+yvrun​)=x⋅lerp(vwalk​,vrun​,y).
 $$
 
+
+
+
+Anim Montage没有播放的原因
+1.Slot名称要对应上
+2.要有播放Slot
+3.PlaySlotAnimationAsDynamicMontage
+4.似乎是有一个参数忘记初始化，导致无法播放，PlayRate这个参数
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTY1NzA2NTAsLTE3MDA5Njg2MzUsMT
-E4MzUzODcxNiwtOTUxMTkxNTQsMTI1Nzg4OTkxOSwtNzQxMjAw
-NzQzLC0xNDcwOTc5NDQ5LDIxMjgxNDgxOTksLTE4NzQxNTY4OT
-csMTk1OTM2NDYzNiwxMTk0NTY0MDQxLDU0Mjk1ODMzOSwtMTkz
-MTUzNzQ5MywtMjUwNzA0NDkwLC0xNDc2OTUzOTUyLC00NzI1MD
-I4MDUsNjYzOTgzODMwLC0xODIzMTAyNzY3LDE4ODQwMTUxNzAs
-LTEyMzI1NjY5M119
+eyJoaXN0b3J5IjpbODM1MzAyNDc5LC0xODE2NTcwNjUwLC0xNz
+AwOTY4NjM1LDExODM1Mzg3MTYsLTk1MTE5MTU0LDEyNTc4ODk5
+MTksLTc0MTIwMDc0MywtMTQ3MDk3OTQ0OSwyMTI4MTQ4MTk5LC
+0xODc0MTU2ODk3LDE5NTkzNjQ2MzYsMTE5NDU2NDA0MSw1NDI5
+NTgzMzksLTE5MzE1Mzc0OTMsLTI1MDcwNDQ5MCwtMTQ3Njk1Mz
+k1MiwtNDcyNTAyODA1LDY2Mzk4MzgzMCwtMTgyMzEwMjc2Nywx
+ODg0MDE1MTcwXX0=
 -->
