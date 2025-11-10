@@ -337,6 +337,7 @@ Anim Montage没有播放的原因
 
 起跑，包括人物倾斜动画，它是通过Detail状态机来完成。配合Additive完成的。
 多学习一下这种分层式的动画设计，这样Idle动作以及脸部动画都是可以分开完成了。
+尤其是Idle动画，Hip以下和Hip以上完全可以分开了。通过一套状态机来完成一个较为复杂的Idle，然后Idle过程如果出现状态变换即从Not Moving变换到Moving就可以
 既然脚部落地和离开可以用曲线提供信息，并根据这个信息完成不同动画，那其他部位也完全可以。
 现在
 
@@ -344,7 +345,7 @@ Anim Montage没有播放的原因
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNjI4MDcyNCwxMTc2Njk4NDEzLC0xOD
+eyJoaXN0b3J5IjpbMjA1MjU2ODU1MywxMTc2Njk4NDEzLC0xOD
 E2NTcwNjUwLC0xNzAwOTY4NjM1LDExODM1Mzg3MTYsLTk1MTE5
 MTU0LDEyNTc4ODk5MTksLTc0MTIwMDc0MywtMTQ3MDk3OTQ0OS
 wyMTI4MTQ4MTk5LC0xODc0MTU2ODk3LDE5NTkzNjQ2MzYsMTE5
