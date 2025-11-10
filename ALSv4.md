@@ -326,7 +326,7 @@ Anim Montage没有播放的原因
 5.然后旋转过程需要记录得到动画实际的旋转角度。
 
 
-
+精妙设计包括：六向状态机。
 
 最精妙的莫过于通过Feet_Position曲线来确定具体使用哪一个跳跃动画，左脚和右脚起跳？这个设计确实让人眼前一亮。
 这种设计理念来自于： 最了解动画的是动画本身。因此只要我们通过动画标出一些关键的信息，并通过曲线或者事件通知的方式给出的话，就可以做出非常精细的动画了。
@@ -337,7 +337,7 @@ Anim Montage没有播放的原因
 
 起跑，包括人物倾斜动画，它是通过Detail状态机来完成。配合Additive完成的。
 多学习一下这种分层式的动画设计，这样Idle动作以及脸部动画都是可以分开完成了。
-尤其是Idle动画，Hip以下和Hip以上完全可以分开了。通过一套状态机来完成一个较为复杂的Idle，然后Idle过程如果出现状态变换即从Not Moving变换到Moving就可以
+尤其是Idle动画，Hip以下和Hip以上完全可以分开了。通过一套状态机来完成一个较为复杂的Idle，然后Idle过程如果出现状态变换即从Not Moving变换到Moving就要设计一套转移Transition机制，让其看起来不那么僵硬。
 既然脚部落地和离开可以用曲线提供信息，并根据这个信息完成不同动画，那其他部位也完全可以。
 现在
 
@@ -345,7 +345,7 @@ Anim Montage没有播放的原因
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MjU2ODU1MywxMTc2Njk4NDEzLC0xOD
+eyJoaXN0b3J5IjpbLTk5ODMwNDc4NywxMTc2Njk4NDEzLC0xOD
 E2NTcwNjUwLC0xNzAwOTY4NjM1LDExODM1Mzg3MTYsLTk1MTE5
 MTU0LDEyNTc4ODk5MTksLTc0MTIwMDc0MywtMTQ3MDk3OTQ0OS
 wyMTI4MTQ4MTk5LC0xODc0MTU2ODk3LDE5NTkzNjQ2MzYsMTE5
