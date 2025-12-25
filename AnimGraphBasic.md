@@ -1,7 +1,7 @@
 
 ## Sequence Player vs Sequence Evaluator
 
-
+https://www.gfxcamp.com/numerion-carbon-v3/
 |特性 | Sequence Player (序列播放器) | Sequence Evaluator (序列评估器) |
 |特性   | Sequence Player (序列播放器)  | Sequence Evaluator (序列评估器) |
 |--|--|--|
@@ -21,5 +21,5 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ1MDE5MTEyXX0=
+eyJoaXN0b3J5IjpbLTk5MzkyNTk5Niw0NDUwMTkxMTJdfQ==
 -->
