@@ -106,8 +106,5 @@ $$CurrentTime = CurveLookup( CurrentDistance + DistanceTraveled )$$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NDU3Mjc5NSwxMzE1NTgxNzEzLC04MD
-g3NjMxNDAsMTM2MjA0MDYyNiwxMTI1NjIzMDY0LDEyNzU4NjI3
-MTQsMTc2MjI5ODM3MiwtODUwNjYyNTk4LDE5Mzc1ODc2MjYsMT
-Y0MDczNzM4XX0=
+eyJoaXN0b3J5IjpbLTM4NDU3Mjc5NV19
 -->
