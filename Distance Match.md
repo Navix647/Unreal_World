@@ -21,7 +21,7 @@ $$CurrentTime = CurveLookup( CurrentDistance + DistanceTraveled )$$
 系统不再问“过了 0.03 秒，动画该播到哪？”，而是问“角色在这一帧移动了 5 厘米，动画曲线上累积移动 5 厘米对应的位置是哪里？”。
 -   **功能**：根据本帧角色移动的距离，计算出动画应该前进多少时间。
     
--   **#### 输入参数详解**：
+-   **输入参数详解**：
     |参数名称|数据类型|描述|
     |-|-|-|
     |**Update Context**|Struct|动画更新上下文（AnimUpdateContext），通常由 Update 节点的引脚提供。|
@@ -38,7 +38,14 @@ $$CurrentTime = CurveLookup( CurrentDistance + DistanceTraveled )$$
 ### Distance Match to Target
 
 主要用于**非循环动作**（如下落着地、停止跑动、跳跃起跳）。
+#### 节点逻辑
+-   Stop 动画的距离曲线通常是从负值（例如 -200cm）逐渐增加到 0（停止点）。
 
+-   如果  `Predict Ground Movement Stop Location`  计算出的  `DistanceToTarget`  为 100cm。
+    
+-   该节点会在动画曲线上查找值为 -100cm 的时间点（假设动画结束时距离为 0，则倒推 100cm）。
+    
+-   下一帧，角色刹车，距离变为 90cm，节点查找 -90cm 的对应帧。
 -   **功能**：计算当前位置到“目标点”的剩余距离，并将动画匹配到该距离对应的帧。
     
 -   **应用场景**：比如角色离停止点还有 50 厘米，该节点会让动画立即跳转到“停止动画”中离结束还有 50 厘米姿态的那一帧。
@@ -75,6 +82,6 @@ $$CurrentTime = CurveLookup( CurrentDistance + DistanceTraveled )$$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTUwMjY3NzcsMTc2MjI5ODM3MiwtOD
-UwNjYyNTk4LDE5Mzc1ODc2MjYsMTY0MDczNzM4XX0=
+eyJoaXN0b3J5IjpbMTk0MDI5MjUyNCwxNzYyMjk4MzcyLC04NT
+A2NjI1OTgsMTkzNzU4NzYyNiwxNjQwNzM3MzhdfQ==
 -->
