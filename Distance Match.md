@@ -8,7 +8,9 @@ Distance Match实现“动画推进”核心是不再使用时间这一概念来
 这些函数的核心逻辑是：**不再根据秒数（Time）更新动画，而是根据角色移动的物理距离（Distance）来决定动画该播到哪一帧。**
 Distance Match通常涉及 **Animation Locomotion Library** 插件中的函数。以下是所有用于推进 `Sequence Evaluator` 时间的核心蓝图节点及其详细分类：
 
-## Advanced Time by Distance Match
+
+## 1. 核心距离匹配节点 (Distance Matching)
+### Advanced Time by Distance Match
 这是最常用的节点，主要用于**循环动作**（如走路、跑步）。这个就完全相当于是根据移动距离这个物理量来作为动画播放进度条，而不是传统的时间。
 
 -   **功能**：根据本帧角色移动的距离，计算出动画应该前进多少时间。
@@ -25,7 +27,7 @@ Distance Match通常涉及 **Animation Locomotion Library** 插件中的函数�
 
 
 
-## Distance Match to Target
+### Distance Match to Target
 
 主要用于**非循环动作**（如下落着地、停止跑动、跳跃起跳）。
 
@@ -38,7 +40,7 @@ Distance Match通常涉及 **Animation Locomotion Library** 插件中的函数�
     -   **Distance to Target**: 到目标的物理距离。
 
 
-## **Set Explicit Time by Percentage**
+### **Set Explicit Time by Percentage**
 
 -   **功能**：虽然不是直接基于距离，但常用于将 0-1 的比例映射到动画。
     
@@ -46,11 +48,11 @@ Distance Match通常涉及 **Animation Locomotion Library** 插件中的函数�
 
 
 
-## 状态改变时的特殊推进节点
+## 2.状态改变时的特殊推进节点
 
 ### **D. Sequence Evaluator: Advance Time**
 
-这是你之前提到的基础函数。
+这是用时间推进动画进度的节点，如果用这个的话那和Sequence Player区别不大，主要是自己维护D额理他Time
 
 -   **功能**：在 Evaluator 内部累加 `Delta Time`。
     
@@ -65,5 +67,5 @@ Distance Match通常涉及 **Animation Locomotion Library** 插件中的函数�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzk2Njc0NjYsMTY0MDczNzM4XX0=
+eyJoaXN0b3J5IjpbMTkzNzU4NzYyNiwxNjQwNzM3MzhdfQ==
 -->
