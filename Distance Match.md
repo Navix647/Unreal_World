@@ -77,7 +77,7 @@ $$CurrentTime = CurveLookup( CurrentDistance + DistanceTraveled )$$
 |**Play Rate Clamp**|Vector2D|(可选) 播放率的限制范围。防止在物理速度极快或极慢时，动画播放速度过于离谱。|
 
 
-### **Set Explicit Time by Percentage**
+### *Set Explicit Time by Percentage*
 
 -   **功能**：虽然不是直接基于距离，但常用于将 0-1 的比例映射到动画。
     
@@ -104,7 +104,7 @@ $$CurrentTime = CurveLookup( CurrentDistance + DistanceTraveled )$$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODU2OTg4MTYsMTI3NTg2MjcxNCwxNz
-YyMjk4MzcyLC04NTA2NjI1OTgsMTkzNzU4NzYyNiwxNjQwNzM3
-MzhdfQ==
+eyJoaXN0b3J5IjpbMTEyNTYyMzA2NCwxMjc1ODYyNzE0LDE3Nj
+IyOTgzNzIsLTg1MDY2MjU5OCwxOTM3NTg3NjI2LDE2NDA3Mzcz
+OF19
 -->
