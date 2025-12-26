@@ -10,7 +10,7 @@ Distance Match通常涉及 **Animation Locomotion Library** 插件中的函数�
 
 
 ## 1. 核心距离匹配节点 (Distance Matching)
-### Advanced Time by Distance Match
+### 1.1 *Advanced Time by Distance Match*
 这是最常用的节点，主要用于**循环动作**（如走路、跑步）。这个就完全相当于是根据移动距离这个物理量来作为动画播放进度条，而不是传统的时间。
 #### 节点逻辑
 
@@ -35,7 +35,7 @@ $$CurrentTime = CurveLookup( CurrentDistance + DistanceTraveled )$$
 
 
 
-### Distance Match to Target
+### 1.2 *Distance Match to Target*
 
 主要用于**非循环动作**（如下落着地、停止跑动、跳跃起跳）。
 #### 节点逻辑
@@ -82,6 +82,6 @@ $$CurrentTime = CurveLookup( CurrentDistance + DistanceTraveled )$$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjY2NTI5NSwxNzYyMjk4MzcyLC04NT
+eyJoaXN0b3J5IjpbLTY3NTgyMDY0NiwxNzYyMjk4MzcyLC04NT
 A2NjI1OTgsMTkzNzU4NzYyNiwxNjQwNzM3MzhdfQ==
 -->
