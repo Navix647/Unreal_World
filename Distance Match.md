@@ -21,19 +21,15 @@ $$CurrentTime = CurveLookup( CurrentDistance + DistanceTraveled )$$
 系统不再问“过了 0.03 秒，动画该播到哪？”，而是问“角色在这一帧移动了 5 厘米，动画曲线上累积移动 5 厘米对应的位置是哪里？”。
 -   **功能**：根据本帧角色移动的距离，计算出动画应该前进多少时间。
     
--   **核心输入**：
+-   **#### 输入参数详解**：
     |参数名称|数据类型|描述|
     |-|-|-|
     |**Update Context**|Struct|动画更新上下文（AnimUpdateContext），通常由 Update 节点的引脚提供。|
     |**Sequence Evaluator**|Struct|需要操作的序列评估器节点引用。注意：必须是 Sequence Evaluator，不能是 Sequence Player。|
-    |**Distance Traveled**|||
-    |**Distance Curve Name**|||
+    |**Distance Traveled**|Float|本帧角色实际移动的距离。通常由  `DisplacementSpeed * DeltaTime`  或  `(CurrentLocation - PreviousLocation).Size2D()`  计算得出。|
+    |**Distance Curve Name**|Name|动画序列中存储距离数据的曲线名称（默认为 "Distance"）。|
+    |**Play Rate Clamp**|Vector2D|(可选) 播放率的限制范围。防止在物理速度极快或极慢时，动画播放速度过于离谱。|
     
-    -   **Update Context**: 动画更新上下文。
-        
-    -   **Distance **: 本帧移动的实际物理距离（通常由 `Character Movement` 组件获取）。
-        
-    -   **Distance Curve Name**: 动画序列中记录位移信息的曲线名称（默认为 `Distance`）。
         
 -   **原理**：它会查找动画曲线，找到当前距离对应的曲线值，然后将动画指针“推进”到对应位置。这样可以彻底解决“滑步”问题。
 
@@ -79,6 +75,6 @@ $$CurrentTime = CurveLookup( CurrentDistance + DistanceTraveled )$$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MDkyNzYyNywxNzYyMjk4MzcyLC04NT
-A2NjI1OTgsMTkzNzU4NzYyNiwxNjQwNzM3MzhdfQ==
+eyJoaXN0b3J5IjpbLTEyNTUwMjY3NzcsMTc2MjI5ODM3MiwtOD
+UwNjYyNTk4LDE5Mzc1ODc2MjYsMTY0MDczNzM4XX0=
 -->
