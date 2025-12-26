@@ -83,7 +83,7 @@ $$CurrentTime = CurveLookup( CurrentDistance + DistanceTraveled )$$
 
 ## 2.状态改变时的特殊推进节点
 
-### D. Advance Time
+### *Advance Time*
 
 这是用时间推进动画进度的节点，如果用这个的话那和Sequence Player区别不大，主要是自己维护D额理他Time
 
@@ -92,15 +92,22 @@ $$CurrentTime = CurveLookup( CurrentDistance + DistanceTraveled )$$
 -   **区别**：它和普通的 Sequence Player 类似，但它允许你在特定的逻辑流中手动触发时间累加，而不是每帧自动播放。
     
 
-### E. Set Explicit Time (直接设置显式时间)
+### *Set Explicit Time*
 
 -   **功能**：最暴力的推进方式，直接给定一个 `float` 值。
     
 -   **场景**：当你自己写了一套复杂的数学公式计算时间（比如基于物理模拟的反馈）时使用。
 
+
+
+### *Set Explicit Frame*
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNTU4MTcxMywtODA4NzYzMTQwLDEzNj
-IwNDA2MjYsMTEyNTYyMzA2NCwxMjc1ODYyNzE0LDE3NjIyOTgz
-NzIsLTg1MDY2MjU5OCwxOTM3NTg3NjI2LDE2NDA3MzczOF19
+eyJoaXN0b3J5IjpbLTM4NDU3Mjc5NSwxMzE1NTgxNzEzLC04MD
+g3NjMxNDAsMTM2MjA0MDYyNiwxMTI1NjIzMDY0LDEyNzU4NjI3
+MTQsMTc2MjI5ODM3MiwtODUwNjYyNTk4LDE5Mzc1ODc2MjYsMT
+Y0MDczNzM4XX0=
 -->
