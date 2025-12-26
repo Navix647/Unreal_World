@@ -24,7 +24,11 @@ $$CurrentTime = CurveLookup( CurrentDistance + DistanceTraveled )$$
 -   **核心输入**：
     |参数名称|数据类型|描述|
     |-|-|-|
-    |**Update Context**|Struct|**Distance Traveled**|
+    |**Update Context**|Struct|动画更新上下文（AnimUpdateContext），通常由 Update 节点的引脚提供。|
+    |**Sequence Evaluator**|Struct|需要操作的序列评估器节点引用。注意：必须是 Sequence Evaluator，不能是 Sequence Player。|
+    |**Distance Traveled**|||
+    |**Distance Curve Name**|||
+    
     -   **Update Context**: 动画更新上下文。
         
     -   **Distance **: 本帧移动的实际物理距离（通常由 `Character Movement` 组件获取）。
@@ -75,6 +79,6 @@ $$CurrentTime = CurveLookup( CurrentDistance + DistanceTraveled )$$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MjI5ODM3MiwtODUwNjYyNTk4LDE5Mz
-c1ODc2MjYsMTY0MDczNzM4XX0=
+eyJoaXN0b3J5IjpbMTA0MDkyNzYyNywxNzYyMjk4MzcyLC04NT
+A2NjI1OTgsMTkzNzU4NzYyNiwxNjQwNzM3MzhdfQ==
 -->
