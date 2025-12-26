@@ -61,6 +61,12 @@ $$CurrentTime = CurveLookup( CurrentDistance + DistanceTraveled )$$
 #### 异常处理与抖动消除
 在实际开发中，当  `DistanceToTarget`  接近 0 时，由于浮点数精度或物理抖动，动画可能会在最后几帧反复跳变。UE5.6/5.7 的文档建议在输入端增加一个微小的插值（Interp）或钳制（Clamp），或者在距离小于阈值（如 5cm）时直接通过惯性混合（Inertialization）切换到 Idle 状态，以避免“抽搐”现象 。
 
+
+### *Set Playrate To Match Speed*
+此节点通常用于 Loop（循环）状态，作为  `Stride Warping`  的辅助或轻量级替代方案 。
+
+
+
 ### **Set Explicit Time by Percentage**
 
 -   **功能**：虽然不是直接基于距离，但常用于将 0-1 的比例映射到动画。
@@ -88,7 +94,7 @@ $$CurrentTime = CurveLookup( CurrentDistance + DistanceTraveled )$$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzA0MzA5NDcsMTI3NTg2MjcxNCwxNz
-YyMjk4MzcyLC04NTA2NjI1OTgsMTkzNzU4NzYyNiwxNjQwNzM3
-MzhdfQ==
+eyJoaXN0b3J5IjpbLTU0NzczNjE1OCwxMjc1ODYyNzE0LDE3Nj
+IyOTgzNzIsLTg1MDY2MjU5OCwxOTM3NTg3NjI2LDE2NDA3Mzcz
+OF19
 -->
