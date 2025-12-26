@@ -58,7 +58,8 @@ $$CurrentTime = CurveLookup( CurrentDistance + DistanceTraveled )$$
 |**Distance to Target**|Float|距离停止点的剩余距离。由  `Predict Ground Movement Stop Location`  的返回值模长提供。|
 |**Distance Curve Name**|Name|距离曲线名称。|
 
-
+#### 异常处理与抖动消除
+在实际开发中，当  `DistanceToTarget`  接近 0 时，由于浮点数精度或物理抖动，动画可能会在最后几帧反复跳变。UE5.6/5.7 的文档建议在输入端增加一个微小的插值（Interp）或钳制（Clamp），或者在距离小于阈值（如 5cm）时直接通过惯性混合（Inertialization）切换到 Idle 状态，以避免“抽搐”现象 。
 
 ### **Set Explicit Time by Percentage**
 
@@ -87,6 +88,7 @@ $$CurrentTime = CurveLookup( CurrentDistance + DistanceTraveled )$$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NTg2MjcxNCwxNzYyMjk4MzcyLC04NT
-A2NjI1OTgsMTkzNzU4NzYyNiwxNjQwNzM3MzhdfQ==
+eyJoaXN0b3J5IjpbLTEzMzA0MzA5NDcsMTI3NTg2MjcxNCwxNz
+YyMjk4MzcyLC04NTA2NjI1OTgsMTkzNzU4NzYyNiwxNjQwNzM3
+MzhdfQ==
 -->
