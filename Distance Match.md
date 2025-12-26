@@ -38,11 +38,15 @@ Distance Match通常涉及 **Animation Locomotion Library** 插件中的函数�
     -   **Distance to Target**: 到目标的物理距离。
 
 
+## **Set Explicit Time by Percentage**
 
+-   **功能**：虽然不是直接基于距离，但常用于将 0-1 的比例映射到动画。
+    
+-   **场景**：比如根据拉弓的蓄力程度（0% 到 100%）来强制设定动画位置。
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NjIzMjU4OCwxNjQwNzM3MzhdfQ==
+eyJoaXN0b3J5IjpbLTE1MTIwOTYxMzksMTY0MDczNzM4XX0=
 -->
