@@ -65,6 +65,16 @@ $$CurrentTime = CurveLookup( CurrentDistance + DistanceTraveled )$$
 ### *Set Playrate To Match Speed*
 此节点通常用于 Loop（循环）状态，作为  `Stride Warping`  的辅助或轻量级替代方案 。
 
+#### 节点功能
+
+它根据角色的当前移动速度，动态调整动画的播放速率（Play Rate）。例如，如果跑步动画的原始速度是 400cm/s，而角色当前速度是 600cm/s，节点会将 PlayRate 设为 1.5。
+
+#### 输入参数详解
+|参数名称|数据类型|描述|
+|-|-|-|
+|**Sequence Evaluator**|Struct|目标评估器。|
+|**Speed To Match**|Float|需要匹配的目标速度（通常是胶囊体速度）。|
+|**Distance Curve Name**|Name|距离曲线名称。|
 
 
 ### **Set Explicit Time by Percentage**
@@ -94,7 +104,7 @@ $$CurrentTime = CurveLookup( CurrentDistance + DistanceTraveled )$$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NzczNjE1OCwxMjc1ODYyNzE0LDE3Nj
-IyOTgzNzIsLTg1MDY2MjU5OCwxOTM3NTg3NjI2LDE2NDA3Mzcz
-OF19
+eyJoaXN0b3J5IjpbLTkzNDM2ODUsMTI3NTg2MjcxNCwxNzYyMj
+k4MzcyLC04NTA2NjI1OTgsMTkzNzU4NzYyNiwxNjQwNzM3Mzhd
+fQ==
 -->
