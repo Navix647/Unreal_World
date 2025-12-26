@@ -3,13 +3,15 @@ Distance Match实现“动画推进”核心是不再使用时间这一概念来
 
 
 
-# 核心距离匹配节点 (Distance Matching)
+# 核心节点
 
 这些函数的核心逻辑是：**不再根据秒数（Time）更新动画，而是根据角色移动的物理距离（Distance）来决定动画该播到哪一帧。**
 Distance Match通常涉及 **Animation Locomotion Library** 插件中的函数。以下是所有用于推进 `Sequence Evaluator` 时间的核心蓝图节点及其详细分类：
 
 
 ## 1. 核心距离匹配节点 (Distance Matching)
+以下三个节点均需要开启Animation Locomotion Library才能使用
+
 ### 1.1 *Advanced Time by Distance Match*
 这是最常用的节点，主要用于**循环动作**（如走路、跑步）。这个就完全相当于是根据移动距离这个物理量来作为动画播放进度条，而不是传统的时间。
 #### 节点逻辑
@@ -98,7 +100,7 @@ $$CurrentTime = CurveLookup( CurrentDistance + DistanceTraveled )$$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwODc2MzE0MCwxMzYyMDQwNjI2LDExMj
-U2MjMwNjQsMTI3NTg2MjcxNCwxNzYyMjk4MzcyLC04NTA2NjI1
-OTgsMTkzNzU4NzYyNiwxNjQwNzM3MzhdfQ==
+eyJoaXN0b3J5IjpbMTMxNTU4MTcxMywtODA4NzYzMTQwLDEzNj
+IwNDA2MjYsMTEyNTYyMzA2NCwxMjc1ODYyNzE0LDE3NjIyOTgz
+NzIsLTg1MDY2MjU5OCwxOTM3NTg3NjI2LDE2NDA3MzczOF19
 -->
