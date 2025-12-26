@@ -49,7 +49,16 @@ $$CurrentTime = CurveLookup( CurrentDistance + DistanceTraveled )$$
 -   **功能**：计算当前位置到“目标点”的剩余距离，并将动画匹配到该距离对应的帧。
     
 -   **应用场景**：比如角色离停止点还有 50 厘米，该节点会让动画立即跳转到“停止动画”中离结束还有 50 厘米姿态的那一帧。
-    
+
+#### 输入参数详解
+|参数名称|数据类型|描述|
+|-|-|-|
+|**Sequence Evaluator**|Struct|目标评估器。|
+|**Distance to Target**|Float|距离停止点的剩余距离。由  `Predict Ground Movement Stop Location`  的返回值模长提供。|
+|**Distance Curve Name**|||
+
+
+
 -   **核心输入**：
     
     -   **Distance to Target**: 到目标的物理距离。
@@ -82,6 +91,6 @@ $$CurrentTime = CurveLookup( CurrentDistance + DistanceTraveled )$$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NTgyMDY0NiwxNzYyMjk4MzcyLC04NT
+eyJoaXN0b3J5IjpbLTQ0MjUxMjAzOSwxNzYyMjk4MzcyLC04NT
 A2NjI1OTgsMTkzNzU4NzYyNiwxNjQwNzM3MzhdfQ==
 -->
