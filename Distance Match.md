@@ -74,7 +74,7 @@ $$CurrentTime = CurveLookup( CurrentDistance + DistanceTraveled )$$
 |-|-|-|
 |**Sequence Evaluator**|Struct|目标评估器。|
 |**Speed To Match**|Float|需要匹配的目标速度（通常是胶囊体速度）。|
-|**Distance Curve Name**|Name|距离曲线名称。|
+|**Play Rate Clamp**|Vector2D|(可选) 播放率的限制范围。防止在物理速度极快或极慢时，动画播放速度过于离谱。|
 
 
 ### **Set Explicit Time by Percentage**
@@ -104,7 +104,7 @@ $$CurrentTime = CurveLookup( CurrentDistance + DistanceTraveled )$$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNDM2ODUsMTI3NTg2MjcxNCwxNzYyMj
-k4MzcyLC04NTA2NjI1OTgsMTkzNzU4NzYyNiwxNjQwNzM3Mzhd
-fQ==
+eyJoaXN0b3J5IjpbLTEwODU2OTg4MTYsMTI3NTg2MjcxNCwxNz
+YyMjk4MzcyLC04NTA2NjI1OTgsMTkzNzU4NzYyNiwxNjQwNzM3
+MzhdfQ==
 -->
