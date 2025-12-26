@@ -22,7 +22,9 @@ $$CurrentTime = CurveLookup( CurrentDistance + DistanceTraveled )$$
 -   **功能**：根据本帧角色移动的距离，计算出动画应该前进多少时间。
     
 -   **核心输入**：
-    
+    |参数名称|数据类型|描述|
+    |-|-|-|
+    |**Update Context**|Struct|**Distance Traveled**|
     -   **Update Context**: 动画更新上下文。
         
     -   **Distance **: 本帧移动的实际物理距离（通常由 `Character Movement` 组件获取）。
@@ -73,6 +75,6 @@ $$CurrentTime = CurveLookup( CurrentDistance + DistanceTraveled )$$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MDY2MjU5OCwxOTM3NTg3NjI2LDE2ND
-A3MzczOF19
+eyJoaXN0b3J5IjpbMTc2MjI5ODM3MiwtODUwNjYyNTk4LDE5Mz
+c1ODc2MjYsMTY0MDczNzM4XX0=
 -->
