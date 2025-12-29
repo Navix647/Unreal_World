@@ -6,7 +6,9 @@ Wad
 5.Razors Edge Outfit
 6.Seven Seas
 7.Everyday Cowgirl
-8.
+8.Roma Dance Outfit
+9.
+10.
 
 Ha
 Lana Ha
@@ -37,6 +39,6 @@ An
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUwMjQ2NzE4LDM2MTUzMDg5LDEzNTYwNj
-A0MzksLTE0NTI5NTgyNzUsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTEzNzgwNDQwODksMzYxNTMwODksMTM1Nj
+A2MDQzOSwtMTQ1Mjk1ODI3NSw3MzA5OTgxMTZdfQ==
 -->
