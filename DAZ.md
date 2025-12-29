@@ -11,7 +11,7 @@ Wad
 10.Kurohana dForce Outfit
 11.CB Delphine Clothing Set
 12.dForce Etain Sage
-13.
+13.Carnival Devil
 
 Ha
 Lana Ha
@@ -46,8 +46,8 @@ An
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NDc5MzUwNiwtMTIxNjQ3MjA5OSwtMj
-M3ODQwOTg2LDE3ODAxMDYxNzIsLTEzNzgwNDQwODksMzYxNTMw
-ODksMTM1NjA2MDQzOSwtMTQ1Mjk1ODI3NSw3MzA5OTgxMTZdfQ
-==
+eyJoaXN0b3J5IjpbNTQxNTU3MzM2LDEwNjQ3OTM1MDYsLTEyMT
+Y0NzIwOTksLTIzNzg0MDk4NiwxNzgwMTA2MTcyLC0xMzc4MDQ0
+MDg5LDM2MTUzMDg5LDEzNTYwNjA0MzksLTE0NTI5NTgyNzUsNz
+MwOTk4MTE2XX0=
 -->
