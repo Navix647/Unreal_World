@@ -8,7 +8,9 @@ Wad
 7.Everyday Cowgirl
 8.Roma Dance Outfit
 9.Leather and Lace Flirty Outfit
-10.
+10.Kurohana dForce Outfit
+11.CB Delphine Clothing Set
+
 
 Ha
 Lana Ha
@@ -18,7 +20,7 @@ Faye H
 
 Bund
 Ethereal Celestial Forest
-
+KLY Furious Mona
 
 Sh/Bo
 
@@ -43,7 +45,7 @@ An
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNzg0MDk4NiwxNzgwMTA2MTcyLC0xMz
-c4MDQ0MDg5LDM2MTUzMDg5LDEzNTYwNjA0MzksLTE0NTI5NTgy
-NzUsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTEyMTY0NzIwOTksLTIzNzg0MDk4NiwxNz
+gwMTA2MTcyLC0xMzc4MDQ0MDg5LDM2MTUzMDg5LDEzNTYwNjA0
+MzksLTE0NTI5NTgyNzUsNzMwOTk4MTE2XX0=
 -->
