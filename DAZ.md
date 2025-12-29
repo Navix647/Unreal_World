@@ -12,7 +12,8 @@ Wad
 11.CB Delphine Clothing Set
 12.dForce Etain Sage
 13.Carnival Devil Outfit
-14.
+14.Shadow Lurker  Outfit
+15.
 
 Ha
 Lana Ha
@@ -47,8 +48,8 @@ An
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTc3MDA1MTAsMTA2NDc5MzUwNiwtMT
-IxNjQ3MjA5OSwtMjM3ODQwOTg2LDE3ODAxMDYxNzIsLTEzNzgw
-NDQwODksMzYxNTMwODksMTM1NjA2MDQzOSwtMTQ1Mjk1ODI3NS
-w3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMjAyODAwMTUzMiwxMDY0NzkzNTA2LC0xMj
+E2NDcyMDk5LC0yMzc4NDA5ODYsMTc4MDEwNjE3MiwtMTM3ODA0
+NDA4OSwzNjE1MzA4OSwxMzU2MDYwNDM5LC0xNDUyOTU4Mjc1LD
+czMDk5ODExNl19
 -->
