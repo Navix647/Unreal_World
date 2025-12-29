@@ -11,7 +11,6 @@ Wad
 10.Kurohana dForce Outfit
 11.CB Delphine Clothing Set
 12.dForce Etain Sage
-13.Carnival Devil Outfit
 14.Shadow Lurker  Outfit
 15.
 
@@ -48,8 +47,8 @@ An
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyODAwMTUzMiwxMDY0NzkzNTA2LC0xMj
-E2NDcyMDk5LC0yMzc4NDA5ODYsMTc4MDEwNjE3MiwtMTM3ODA0
-NDA4OSwzNjE1MzA4OSwxMzU2MDYwNDM5LC0xNDUyOTU4Mjc1LD
-czMDk5ODExNl19
+eyJoaXN0b3J5IjpbOTI2ODkxMTMzLDIwMjgwMDE1MzIsMTA2ND
+c5MzUwNiwtMTIxNjQ3MjA5OSwtMjM3ODQwOTg2LDE3ODAxMDYx
+NzIsLTEzNzgwNDQwODksMzYxNTMwODksMTM1NjA2MDQzOSwtMT
+Q1Mjk1ODI3NSw3MzA5OTgxMTZdfQ==
 -->
