@@ -16,6 +16,10 @@ Sloane H
 Faye H
 
 
+Bund
+Ethereal Celestial Forest
+
+
 Sh/Bo
 
 
@@ -30,7 +34,7 @@ Gl
 
 
 Po
-
+FG Spell Casting 
 
 An
 
@@ -39,7 +43,7 @@ An
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MDEwNjE3MiwtMTM3ODA0NDA4OSwzNj
-E1MzA4OSwxMzU2MDYwNDM5LC0xNDUyOTU4Mjc1LDczMDk5ODEx
-Nl19
+eyJoaXN0b3J5IjpbLTIzNzg0MDk4NiwxNzgwMTA2MTcyLC0xMz
+c4MDQ0MDg5LDM2MTUzMDg5LDEzNTYwNjA0MzksLTE0NTI5NTgy
+NzUsNzMwOTk4MTE2XX0=
 -->
