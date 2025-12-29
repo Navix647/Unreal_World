@@ -10,7 +10,8 @@ Wad
 9.Leather and Lace Flirty Outfit
 10.Kurohana dForce Outfit
 11.CB Delphine Clothing Set
-12
+12.dForce Etain Sage
+13.
 
 Ha
 Lana Ha
@@ -45,7 +46,7 @@ An
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MTM4ODE5NiwtMTIxNjQ3MjA5OSwtMj
+eyJoaXN0b3J5IjpbMTA2NDc5MzUwNiwtMTIxNjQ3MjA5OSwtMj
 M3ODQwOTg2LDE3ODAxMDYxNzIsLTEzNzgwNDQwODksMzYxNTMw
 ODksMTM1NjA2MDQzOSwtMTQ1Mjk1ODI3NSw3MzA5OTgxMTZdfQ
 ==
