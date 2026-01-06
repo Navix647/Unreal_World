@@ -44,14 +44,26 @@ An
 
 
 
-针对包含根骨骼旋转的动画可以从哪些地方入手
+针对包含根骨骼旋转的动画可以从哪些地方入手：
+1.调整动画播放速率匹配CMC的速度和旋转速率
+
+2.通过RootMotion方案（我坚持不使用）
+
+3.使用Angle Match方法，就是Distance Match的推广，这个我没想明白
+
+4.通过曲线驱动，只不过不在ANS的Tick上修改而是在角色蓝图上OnUpdateMovement上面采样修改
+这个也是ALSv4实现Turn In Place的方案。
+有时间再看看ALSv4的Turn In Place实现方案。
+
+
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNDk4MTg1Miw0Njk5ODY0NzAsMTI2NT
-ExOTE4MSw5MjY4OTExMzMsMjAyODAwMTUzMiwxMDY0NzkzNTA2
-LC0xMjE2NDcyMDk5LC0yMzc4NDA5ODYsMTc4MDEwNjE3MiwtMT
-M3ODA0NDA4OSwzNjE1MzA4OSwxMzU2MDYwNDM5LC0xNDUyOTU4
-Mjc1LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTQ0NDc1NzY0MSwxMTI0OTgxODUyLDQ2OT
+k4NjQ3MCwxMjY1MTE5MTgxLDkyNjg5MTEzMywyMDI4MDAxNTMy
+LDEwNjQ3OTM1MDYsLTEyMTY0NzIwOTksLTIzNzg0MDk4NiwxNz
+gwMTA2MTcyLC0xMzc4MDQ0MDg5LDM2MTUzMDg5LDEzNTYwNjA0
+MzksLTE0NTI5NTgyNzUsNzMwOTk4MTE2XX0=
 -->
