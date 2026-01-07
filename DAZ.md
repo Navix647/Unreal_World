@@ -52,7 +52,7 @@ An
 3.使用Angle Match方法，就是Distance Match的推广，这个我没想明白
 也不是Distance Match推广，也是通过曲线驱动，只不过在动画层修改物理逻辑层上的一个变化
 首先获取：
-1.进入状态时，角色的World Rotation，然后j
+1.进入状态时，角色的World Rotation，然后记录相对旋转Target Angle，基于动画的旋转角度执行做一个归一化处理，然后每帧计算
 
 4.通过曲线驱动，只不过不在ANS的Tick上修改而是在角色蓝图上OnUpdateMovement上面采样修改
 这个也是ALSv4实现Turn In Place的方案。
@@ -64,10 +64,10 @@ An
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODkwODE5MzQsLTQ0NDc1NzY0MSwxMT
-I0OTgxODUyLDQ2OTk4NjQ3MCwxMjY1MTE5MTgxLDkyNjg5MTEz
-MywyMDI4MDAxNTMyLDEwNjQ3OTM1MDYsLTEyMTY0NzIwOTksLT
-IzNzg0MDk4NiwxNzgwMTA2MTcyLC0xMzc4MDQ0MDg5LDM2MTUz
-MDg5LDEzNTYwNjA0MzksLTE0NTI5NTgyNzUsNzMwOTk4MTE2XX
-0=
+eyJoaXN0b3J5IjpbMTU4MDQyMDMxOCwtNDQ0NzU3NjQxLDExMj
+Q5ODE4NTIsNDY5OTg2NDcwLDEyNjUxMTkxODEsOTI2ODkxMTMz
+LDIwMjgwMDE1MzIsMTA2NDc5MzUwNiwtMTIxNjQ3MjA5OSwtMj
+M3ODQwOTg2LDE3ODAxMDYxNzIsLTEzNzgwNDQwODksMzYxNTMw
+ODksMTM1NjA2MDQzOSwtMTQ1Mjk1ODI3NSw3MzA5OTgxMTZdfQ
+==
 -->
