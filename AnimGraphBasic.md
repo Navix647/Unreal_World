@@ -29,15 +29,18 @@ Locomotion System比想象中费时间，但也比想象中有意思，原来一
 1. Motion Warping
 2. Overlay System
 3. Dynamic Transition这个需要配合FootLock
-4. FootLock
- 
+4. FootLock System
+5. Pivot System
+6. 
 
+Velocity Based Movement和Strafe Movement逻辑很多不一样。
+不应该共用同一套状态机以及动画蓝图。
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMDEwNDY5Myw3NDQ5NTMwMzksMTg2Nz
+eyJoaXN0b3J5IjpbLTc3NzE0NDIyOSw3NDQ5NTMwMzksMTg2Nz
 kyMDEyLC05OTM5MjU5OTYsNDQ1MDE5MTEyXX0=
 -->
