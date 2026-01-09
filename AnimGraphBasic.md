@@ -24,12 +24,20 @@ https://www.gfxcamp.com/numerion-carbon-v3/
 
 
 
-Locomotion System比想象中费时间
+Locomotion System比想象中费时间，但也比想象中有意思，原来一个基础的运动系统就有那么多技术和门道。
+
+1. Motion Warping
+2. Overlay System
+3. Dynamic Transition这个需要配合FootLock
+4. FootLock
  
+
+
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ0OTUzMDM5LDE4Njc5MjAxMiwtOTkzOT
-I1OTk2LDQ0NTAxOTExMl19
+eyJoaXN0b3J5IjpbMTAwMDEwNDY5Myw3NDQ5NTMwMzksMTg2Nz
+kyMDEyLC05OTM5MjU5OTYsNDQ1MDE5MTEyXX0=
 -->
