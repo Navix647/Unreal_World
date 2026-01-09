@@ -58,16 +58,16 @@ An
 这个也是ALSv4实现Turn In Place的方案。
 有时间再看看ALSv4的Turn In Place实现方案。
 
-
+目前看下来性能较高的方法就是动画蓝图直接与角色蓝图通信，修改状态量，也有另一种方法就是角色蓝图在Tick里检查动画蓝图状态，但最好的系统解耦方式是
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MDQyMDMxOCwtNDQ0NzU3NjQxLDExMj
-Q5ODE4NTIsNDY5OTg2NDcwLDEyNjUxMTkxODEsOTI2ODkxMTMz
-LDIwMjgwMDE1MzIsMTA2NDc5MzUwNiwtMTIxNjQ3MjA5OSwtMj
-M3ODQwOTg2LDE3ODAxMDYxNzIsLTEzNzgwNDQwODksMzYxNTMw
-ODksMTM1NjA2MDQzOSwtMTQ1Mjk1ODI3NSw3MzA5OTgxMTZdfQ
-==
+eyJoaXN0b3J5IjpbLTE4NjUzMDk5OSwxNTgwNDIwMzE4LC00ND
+Q3NTc2NDEsMTEyNDk4MTg1Miw0Njk5ODY0NzAsMTI2NTExOTE4
+MSw5MjY4OTExMzMsMjAyODAwMTUzMiwxMDY0NzkzNTA2LC0xMj
+E2NDcyMDk5LC0yMzc4NDA5ODYsMTc4MDEwNjE3MiwtMTM3ODA0
+NDA4OSwzNjE1MzA4OSwxMzU2MDYwNDM5LC0xNDUyOTU4Mjc1LD
+czMDk5ODExNl19
 -->
