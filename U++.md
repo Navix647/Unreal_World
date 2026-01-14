@@ -12,13 +12,15 @@
 ### NotBlueprintable 默认选项
 
 
-UEnum
+## UEnum
+### **`BlueprintType`**
 
-USTRUCT
+## USTRUCT
+### **`BlueprintType`**
 
-UPROPERTY
+## UPROPERTY
 
-UFUNCTION
+## UFUNCTION
 
 UMETA
 
@@ -28,6 +30,6 @@ GENERATE_BODY()
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NzExNzY0NSwxMzAxNzU5MzczLDE2MD
-k4MDgwMjEsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMzc0MzAwODI1LDEzNDcxMTc2NDUsMTMwMT
+c1OTM3MywxNjA5ODA4MDIxLDczMDk5ODExNl19
 -->
