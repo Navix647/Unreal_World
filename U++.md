@@ -50,9 +50,11 @@ void AMyActor::SetIsLightOn(bool bNewState)
 	LightComponent->SetVisibility(bIsLightOn); // 副作用：甚至可以播放声音 
 	if(bIsLightOn) UGameplayStatics::PlaySoundAtLocation(...); 
 }
-
-
 ```
+2.获取角色的速度 (Speed)
+
+
+
 注意事项：需要对应的UFUNCTION
 ### BlueprintGetter
 
@@ -81,7 +83,8 @@ void AMyActor::SetIsLightOn(bool bNewState)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNzc1ODA1NywyMjk0ODk2NDgsMTY3NT
-A0MDUyNywtNjk4MDM3NjUxLDE0MzAyNzQ5MDksMTM0NzExNzY0
-NSwxMzAxNzU5MzczLDE2MDk4MDgwMjEsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbOTE5Mzk3NDgxLC02MTc3NTgwNTcsMjI5ND
+g5NjQ4LDE2NzUwNDA1MjcsLTY5ODAzNzY1MSwxNDMwMjc0OTA5
+LDEzNDcxMTc2NDUsMTMwMTc1OTM3MywxNjA5ODA4MDIxLDczMD
+k5ODExNl19
 -->
