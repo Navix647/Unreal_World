@@ -61,9 +61,9 @@ void AMyActor::SetIsLightOn(bool bNewState)
 ```
 
 **2.属性验证**
-防止蓝图设计者输入非法数值，破坏游戏逻辑。
+解释：防止蓝图设计者输入非法数值，破坏游戏逻辑。
 
-数据校验与钳制 
+场景举例：数据校验与钳制 
 -   生命值不能超过最大值，也不能低于 0。
     
 -   如果没有 Setter，蓝图开发者可能会不小心把 HP 设为 9999 或者 -10。
@@ -117,7 +117,32 @@ float AMyCharacter::GetSpeed() const
 
 **2.懒加载 (Lazy Initialization)**
 用于优化性能。只有当蓝图真正去读取这个变量时，才去执行加载或查找逻辑。
+**场景举例：获取 UI 组件**
+-   假设有一个复杂的 UI Widget，但不是每次都需要。如果一开始就 `CreateWidget` 会卡顿。
+    
+-   使用 Getter，在第一次访问时才创建。
 
+```c++
+// .h
+UPROPERTY(BlueprintReadOnly, BlueprintGetter=GetInventoryWidget)
+UUserWidget* InventoryWidget;
+
+UUserWidget* InternalWidgetInstance; // 私有缓存
+
+UFUNCTION(BlueprintGetter)
+UUserWidget* GetInventoryWidget();
+
+// .cpp
+UUserWidget* AMyHUD::GetInventoryWidget()
+{
+    if (!InternalWidgetInstance)
+    {
+        // 只有在第一次被蓝图读取时才创建
+        InternalWidgetInstance = CreateWidget<>(...);
+    }
+    return InternalWidgetInstance;
+}
+```
 ### EditAnywhere
 
 ### VisibleAnywhere
@@ -143,8 +168,8 @@ float AMyCharacter::GetSpeed() const
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NzAwNDY3MSwtNjE3NzU4MDU3LDIyOT
-Q4OTY0OCwxNjc1MDQwNTI3LC02OTgwMzc2NTEsMTQzMDI3NDkw
-OSwxMzQ3MTE3NjQ1LDEzMDE3NTkzNzMsMTYwOTgwODAyMSw3Mz
-A5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNDg0NjQ4MzU5LC02MTc3NTgwNTcsMjI5ND
+g5NjQ4LDE2NzUwNDA1MjcsLTY5ODAzNzY1MSwxNDMwMjc0OTA5
+LDEzNDcxMTc2NDUsMTMwMTc1OTM3MywxNjA5ODA4MDIxLDczMD
+k5ODExNl19
 -->
