@@ -7,6 +7,10 @@
 ### Blueprintable 经常选
 若还希望蓝图能继承它，必须加上
 
+### NotBlueprintType 默认选项
+
+### NotBlueprintable 默认选项
+
 
 UEnum
 
@@ -22,6 +26,6 @@ GENERATE_BODY()
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczODYzMzE3MSwxNjA5ODA4MDIxLDczMD
+eyJoaXN0b3J5IjpbMTMwMTc1OTM3MywxNjA5ODA4MDIxLDczMD
 k5ODExNl19
 -->
