@@ -161,6 +161,9 @@ UUserWidget* AMyHUD::GetInventoryWidget()
 
 
 ## UINTERFACE
+和UCLASS一样都是用来放在类上面的
+
+
 
 ## *UMETA
 
@@ -170,8 +173,9 @@ UUserWidget* AMyHUD::GetInventoryWidget()
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MDEwNTAzMiwyMDU1OTM3MjQ0LC0xNT
-QzMjY0NDg4LC02MTc3NTgwNTcsMjI5NDg5NjQ4LDE2NzUwNDA1
-MjcsLTY5ODAzNzY1MSwxNDMwMjc0OTA5LDEzNDcxMTc2NDUsMT
-MwMTc1OTM3MywxNjA5ODA4MDIxLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTMyNTgyOTIzMiwtNTgwMTA1MDMyLDIwNT
+U5MzcyNDQsLTE1NDMyNjQ0ODgsLTYxNzc1ODA1NywyMjk0ODk2
+NDgsMTY3NTA0MDUyNywtNjk4MDM3NjUxLDE0MzAyNzQ5MDksMT
+M0NzExNzY0NSwxMzAxNzU5MzczLDE2MDk4MDgwMjEsNzMwOTk4
+MTE2XX0=
 -->
