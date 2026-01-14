@@ -40,8 +40,16 @@
 ```c++
 // .h 
 UPROPERTY(EditAnywhere, BlueprintReadWrite, BlueprintSetter=SetIsLightOn) 
-bool bIsLightOn; UFUNCTION(BlueprintSetter) void SetIsLightOn(bool bNewState); 
-// .cpp void AMyActor::SetIsLightOn(bool bNewState) { bIsLightOn = bNewState; // 副作用：直接修改组件状态 LightComponent->SetVisibility(bIsLightOn); // 副作用：甚至可以播放声音 if(bIsLightOn) UGameplayStatics::PlaySoundAtLocation(...); }
+bool bIsLightOn; 
+UFUNCTION(BlueprintSetter) 
+void SetIsLightOn(bool bNewState); 
+// .cpp 
+void AMyActor::SetIsLightOn(bool bNewState) 
+{ 
+	bIsLightOn = bNewState; // 副作用：直接修改组件状态 
+	LightComponent->SetVisibility(bIsLightOn); // 副作用：甚至可以播放声音 
+	if(bIsLightOn) UGameplayStatics::PlaySoundAtLocation(...); 
+}
 
 
 ```
@@ -73,7 +81,7 @@ bool bIsLightOn; UFUNCTION(BlueprintSetter) void SetIsLightOn(bool bNewState);
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5OTg2MTc2OSwyMjk0ODk2NDgsMTY3NT
+eyJoaXN0b3J5IjpbLTYxNzc1ODA1NywyMjk0ODk2NDgsMTY3NT
 A0MDUyNywtNjk4MDM3NjUxLDE0MzAyNzQ5MDksMTM0NzExNzY0
 NSwxMzAxNzU5MzczLDE2MDk4MDgwMjEsNzMwOTk4MTE2XX0=
 -->
