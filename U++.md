@@ -1,8 +1,6 @@
- 七个最主要的宏标签：
-
-
-
-
+ 六个最主要的宏标签：
+ DSL如下
+{UCLASS/UENUM/UINTERFACE/USTRUCT/UFUNCTION/UPROPERTY}(SpecifierX, meta=(MetaTag1="Value1", MetaTag2, ..), SpecifierY)
 
 ## UClass
 ### BlueprintType 几乎必选
@@ -210,9 +208,9 @@ public:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2ODcxNjA3OCwtNTgwMTA1MDMyLDIwNT
-U5MzcyNDQsLTE1NDMyNjQ0ODgsLTYxNzc1ODA1NywyMjk0ODk2
-NDgsMTY3NTA0MDUyNywtNjk4MDM3NjUxLDE0MzAyNzQ5MDksMT
-M0NzExNzY0NSwxMzAxNzU5MzczLDE2MDk4MDgwMjEsNzMwOTk4
-MTE2XX0=
+eyJoaXN0b3J5IjpbNDE2ODgwMDg0LC01ODAxMDUwMzIsMjA1NT
+kzNzI0NCwtMTU0MzI2NDQ4OCwtNjE3NzU4MDU3LDIyOTQ4OTY0
+OCwxNjc1MDQwNTI3LC02OTgwMzc2NTEsMTQzMDI3NDkwOSwxMz
+Q3MTE3NjQ1LDEzMDE3NTkzNzMsMTYwOTgwODAyMSw3MzA5OTgx
+MTZdfQ==
 -->
