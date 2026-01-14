@@ -162,7 +162,43 @@ UUserWidget* AMyHUD::GetInventoryWidget()
 
 ## UINTERFACE
 和UCLASS一样都是用来放在类上面的
-而且他很特殊的一点，它继承的是`UInterface`类
+而且他很特殊的一点，它继承的是`UInterface`类而不是`UObject`类，这一点和其他都不一样。
+
+官方案例：
+```c++
+#pragma once
+ 
+#include "CoreMinimal.h"
+#include "UObject/Interface.h"
+#include "ReactToTriggerInterface.generated.h"
+ 
+/*
+This class does not need to be modified.
+Empty class for reflection system visibility.
+Uses the UINTERFACE macro.
+Inherits from UInterface.
+*/
+UINTERFACE(MinimalAPI, Blueprintable)
+class UReactToTriggerInterface : public UInterface
+{
+	GENERATED_BODY()
+};
+ 
+/* Actual Interface declaration. */
+class IReactToTriggerInterface
+{
+	GENERATED_BODY()
+ 
+	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
+public:
+	// Add interface function declarations here
+};
+
+```
+
+
+
+
 
 
 ## *UMETA
@@ -173,7 +209,7 @@ UUserWidget* AMyHUD::GetInventoryWidget()
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MDM5MjA5OSwtNTgwMTA1MDMyLDIwNT
+eyJoaXN0b3J5IjpbMTQ2NTU1NTk1NiwtNTgwMTA1MDMyLDIwNT
 U5MzcyNDQsLTE1NDMyNjQ0ODgsLTYxNzc1ODA1NywyMjk0ODk2
 NDgsMTY3NTA0MDUyNywtNjk4MDM3NjUxLDE0MzAyNzQ5MDksMT
 M0NzExNzY0NSwxMzAxNzU5MzczLDE2MDk4MDgwMjEsNzMwOTk4
