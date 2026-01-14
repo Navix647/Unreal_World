@@ -48,8 +48,13 @@ float Health;
 ### VisibleAnywhere
 
 ## UFUNCTION
+### BlueprintCallable
+含义：函数可在蓝图中调用，有执行引脚
+
+
 
 ### BlueprintPure
+含义：纯函数，无执行引脚，只读取数据
 
 
 ### BlueprintThreadSafe
@@ -63,7 +68,7 @@ float Health;
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI5NDg5NjQ4LDE2NzUwNDA1MjcsLTY5OD
-AzNzY1MSwxNDMwMjc0OTA5LDEzNDcxMTc2NDUsMTMwMTc1OTM3
-MywxNjA5ODA4MDIxLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTQxNzMxMDYyNSwyMjk0ODk2NDgsMTY3NT
+A0MDUyNywtNjk4MDM3NjUxLDE0MzAyNzQ5MDksMTM0NzExNzY0
+NSwxMzAxNzU5MzczLDE2MDk4MDgwMjEsNzMwOTk4MTE2XX0=
 -->
