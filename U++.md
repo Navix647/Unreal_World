@@ -49,6 +49,12 @@ float Health;
 
 ## UFUNCTION
 
+### BlueprintPure
+
+
+### BlueprintThreadSafe
+
+
 ## UMETA
 
 ## GENERATE_BODY()
@@ -57,7 +63,7 @@ float Health;
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NTA0MDUyNywtNjk4MDM3NjUxLDE0Mz
-AyNzQ5MDksMTM0NzExNzY0NSwxMzAxNzU5MzczLDE2MDk4MDgw
-MjEsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMjI5NDg5NjQ4LDE2NzUwNDA1MjcsLTY5OD
+AzNzY1MSwxNDMwMjc0OTA5LDEzNDcxMTc2NDUsMTMwMTc1OTM3
+MywxNjA5ODA4MDIxLDczMDk5ODExNl19
 -->
