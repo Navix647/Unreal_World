@@ -196,7 +196,8 @@ public:
 
 ```
 
-
+注意看写法，它需要一个*空类* 来添加标签UINTERFACE，这是为了让反射系统可见的胶水代码。
+一个U<InterfaceName>类 一个实现类I<InterfaceName>
 
 
 
@@ -209,7 +210,7 @@ public:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NTU1NTk1NiwtNTgwMTA1MDMyLDIwNT
+eyJoaXN0b3J5IjpbMTc2ODcxNjA3OCwtNTgwMTA1MDMyLDIwNT
 U5MzcyNDQsLTE1NDMyNjQ0ODgsLTYxNzc1ODA1NywyMjk0ODk2
 NDgsMTY3NTA0MDUyNywtNjk4MDM3NjUxLDE0MzAyNzQ5MDksMT
 M0NzExNzY0NSwxMzAxNzU5MzczLDE2MDk4MDgwMjEsNzMwOTk4
