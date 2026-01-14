@@ -27,8 +27,12 @@
 含义：属性在蓝图中只读
 
 ### BlueprintReadWrite
-含义
+含义：属性在蓝图中可读可写
+
+
 ### BlueprintSetter
+含义：指定自定义Getter
+
 
 ### BlueprintGetter
 
@@ -46,7 +50,7 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0ODk2NDUwNCwtNjk4MDM3NjUxLDE0Mz
-AyNzQ5MDksMTM0NzExNzY0NSwxMzAxNzU5MzczLDE2MDk4MDgw
-MjEsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbNTQ3NzMwNDA4LC02OTgwMzc2NTEsMTQzMD
+I3NDkwOSwxMzQ3MTE3NjQ1LDEzMDE3NTkzNzMsMTYwOTgwODAy
+MSw3MzA5OTgxMTZdfQ==
 -->
