@@ -31,9 +31,16 @@
 
 
 ### BlueprintSetter
-含义：指定自定义Getter
+含义：指定自定义Getter函数
+使用场景：复杂属性逻辑
+具体案例：
+```c++
+UPROPERTY(BlueprintGetter=GetHealth, BlueprintSetter=SetHealth)
+float Health;
 
 
+```
+注意事项：需要对应的UFUNCTION
 ### BlueprintGetter
 
 ### EditAnywhere
@@ -50,7 +57,7 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ3NzMwNDA4LC02OTgwMzc2NTEsMTQzMD
-I3NDkwOSwxMzQ3MTE3NjQ1LDEzMDE3NTkzNzMsMTYwOTgwODAy
-MSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTY3NTA0MDUyNywtNjk4MDM3NjUxLDE0Mz
+AyNzQ5MDksMTM0NzExNzY0NSwxMzAxNzU5MzczLDE2MDk4MDgw
+MjEsNzMwOTk4MTE2XX0=
 -->
