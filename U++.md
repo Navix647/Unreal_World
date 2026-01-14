@@ -33,6 +33,7 @@
 ### BlueprintSetter
 含义：指定自定义Setter函数
 使用场景：属性验证、副作用
+注意事项：需要对应的UFUNCTION
 具体案例：
 **1.副作用**
 这是最常用的场景。当你在蓝图中修改一个变量时，你希望不仅仅是改变数值，还能**立刻**看到游戏世界的变化（比如改变材质、播放音效、更新变换）。
@@ -46,6 +47,7 @@
 UPROPERTY(EditAnywhere, BlueprintReadWrite, BlueprintSetter=SetIsLightOn) 
 bool bIsLightOn; 
 
+// 对应的UFUNCTION
 UFUNCTION(BlueprintSetter) 
 void SetIsLightOn(bool bNewState); 
 
@@ -67,7 +69,7 @@ void AMyActor::SetIsLightOn(bool bNewState)
 // .h
 UPROPERTY(EditAnywhere, BlueprintReadWrite, BlueprintSetter=SetIsLightOn)
 bool bIsLightOn;
-
+// 对应的UFUNCTION
 UFUNCTION(BlueprintSetter)
 void SetIsLightOn(bool bNewState);
 
@@ -83,13 +85,13 @@ void AMyActor::SetIsLightOn(bool bNewState)
 ```
 
 
-注意事项：需要对应的UFUNCTION
+
 ### BlueprintGetter
 含义：指定自定义Getter函数
 使用场景：复杂属性逻辑
 具体案例：
 
-2.获取角色的速度 (Speed)
+1.获取角色的速度 (Speed)
 -   我们通常存储的是 `Velocity` (向量)，但策划和美术通常只关心 `Speed` (标量)。
     
 -   不需要专门存一个 `Speed` 变量，只需要写一个 Getter。
@@ -99,6 +101,7 @@ void AMyActor::SetIsLightOn(bool bNewState)
 // 注意：这里没有 EditAnywhere，因为它是算出来的，不能编辑 
 UPROPERTY(BlueprintReadOnly,VisibleAnywhere, BlueprintGetter=GetSpeed) 
 float Speed; 
+// 对应的UFUNCTION
 UFUNCTION(BlueprintGetter) 
 float GetSpeed() const; 
 // .cpp 
@@ -107,7 +110,7 @@ float AMyCharacter::GetSpeed() const
 	// 实时计算 
 	return GetVelocity().Size(); 
 }
-
+```
 ### EditAnywhere
 
 ### VisibleAnywhere
@@ -133,8 +136,8 @@ float AMyCharacter::GetSpeed() const
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjczNTI1NzYsLTYxNzc1ODA1NywyMj
-k0ODk2NDgsMTY3NTA0MDUyNywtNjk4MDM3NjUxLDE0MzAyNzQ5
-MDksMTM0NzExNzY0NSwxMzAxNzU5MzczLDE2MDk4MDgwMjEsNz
-MwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbODA2ODA3OTA5LC02MTc3NTgwNTcsMjI5ND
+g5NjQ4LDE2NzUwNDA1MjcsLTY5ODAzNzY1MSwxNDMwMjc0OTA5
+LDEzNDcxMTc2NDUsMTMwMTc1OTM3MywxNjA5ODA4MDIxLDczMD
+k5ODExNl19
 -->
