@@ -36,10 +36,9 @@
 注意事项：需要对应的UFUNCTION
 具体案例：
 **1.副作用**
-这是最常用的场景。当你在蓝图中修改一个变量时，你希望不仅仅是改变数值，还能**立刻**看到游戏世界的变化（比如改变材质、播放音效、更新变换）。
+解释：这是最常用的场景。当你在蓝图中修改一个变量时，你希望不仅仅是改变数值，还能**立刻**看到游戏世界的变化（比如改变材质、播放音效、更新变换）。
 
-开关灯 
-
+场景举例：开关灯 
 -   **如果不使用 Setter**：蓝图用户设置 `bIsLightOn = true`，然后必须手动调用一个 `UpdateLightState()` 函数，灯才会亮。如果用户忘了调函数，就是 Bug。
 -   **使用 Setter**：蓝图用户只需设置 `bIsLightOn = true`，灯自动亮起。
 ```c++
@@ -93,7 +92,7 @@ void AMyActor::SetIsLightOn(bool bNewState)
 具体案例：
 **1.伪装成变量的“计算属性” (Computed Properties)**
 解释：有些数据并不需要存储在内存里，它是实时计算出来的，但为了让蓝图节点看起来简洁，我们把它伪装成一个变量。
-场景举例：**获取角色的速度 (Speed)**
+场景举例：获取角色的速度 (Speed)
 -   我们通常存储的是 `Velocity` (向量)，但策划和美术通常只关心 `Speed` (标量)。
     
 -   不需要专门存一个 `Speed` 变量，只需要写一个 Getter。
@@ -168,8 +167,8 @@ UUserWidget* AMyHUD::GetInventoryWidget()
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg0NjQ4MzU5LC02MTc3NTgwNTcsMjI5ND
-g5NjQ4LDE2NzUwNDA1MjcsLTY5ODAzNzY1MSwxNDMwMjc0OTA5
-LDEzNDcxMTc2NDUsMTMwMTc1OTM3MywxNjA5ODA4MDIxLDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbLTE1NDMyNjQ0ODgsLTYxNzc1ODA1NywyMj
+k0ODk2NDgsMTY3NTA0MDUyNywtNjk4MDM3NjUxLDE0MzAyNzQ5
+MDksMTM0NzExNzY0NSwxMzAxNzU5MzczLDE2MDk4MDgwMjEsNz
+MwOTk4MTE2XX0=
 -->
