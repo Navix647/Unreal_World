@@ -34,9 +34,11 @@
 含义：指定自定义Setter函数
 使用场景：属性验证、副作用
 具体案例：
-副作用
+**1.副作用**
 这是最常用的场景。当你在蓝图中修改一个变量时，你希望不仅仅是改变数值，还能**立刻**看到游戏世界的变化（比如改变材质、播放音效、更新变换）。
-1.开关灯 
+
+开关灯 
+
 -   **如果不使用 Setter**：蓝图用户设置 `bIsLightOn = true`，然后必须手动调用一个 `UpdateLightState()` 函数，灯才会亮。如果用户忘了调函数，就是 Bug。
 -   **使用 Setter**：蓝图用户只需设置 `bIsLightOn = true`，灯自动亮起。
 ```c++
@@ -55,8 +57,11 @@ void AMyActor::SetIsLightOn(bool bNewState)
 	if(bIsLightOn) UGameplayStatics::PlaySoundAtLocation(...); 
 }
 ```
-2.数据校验与钳制 （属性验证）
 
+**2.属性验证**
+防止蓝图设计者输入非法数值，破坏游戏逻辑。
+
+数据校验与钳制 
 
 ```c++
 // .h
@@ -128,8 +133,8 @@ float AMyCharacter::GetSpeed() const
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM5NDEzMDA5LC02MTc3NTgwNTcsMjI5ND
-g5NjQ4LDE2NzUwNDA1MjcsLTY5ODAzNzY1MSwxNDMwMjc0OTA5
-LDEzNDcxMTc2NDUsMTMwMTc1OTM3MywxNjA5ODA4MDIxLDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbLTE4NjczNTI1NzYsLTYxNzc1ODA1NywyMj
+k0ODk2NDgsMTY3NTA0MDUyNywtNjk4MDM3NjUxLDE0MzAyNzQ5
+MDksMTM0NzExNzY0NSwxMzAxNzU5MzczLDE2MDk4MDgwMjEsNz
+MwOTk4MTE2XX0=
 -->
