@@ -17,16 +17,17 @@
 
 
 ## UEnum
-### **`BlueprintType`**
+### BlueprintType
 
 ## USTRUCT
-### **`BlueprintType`**
+### BlueprintType
 
 ## UPROPERTY
 ### BlueprintReadOnly
+含义：属性在蓝图中只读
 
 ### BlueprintReadWrite
-
+含义
 ### BlueprintSetter
 
 ### BlueprintGetter
@@ -45,7 +46,7 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQwODg4NTYsLTY5ODAzNzY1MSwxNDMwMj
-c0OTA5LDEzNDcxMTc2NDUsMTMwMTc1OTM3MywxNjA5ODA4MDIx
-LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTg0ODk2NDUwNCwtNjk4MDM3NjUxLDE0Mz
+AyNzQ5MDksMTM0NzExNzY0NSwxMzAxNzU5MzczLDE2MDk4MDgw
+MjEsNzMwOTk4MTE2XX0=
 -->
