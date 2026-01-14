@@ -159,6 +159,9 @@ UUserWidget* AMyHUD::GetInventoryWidget()
 ### BlueprintThreadSafe
 
 
+
+## UINTERFACE
+
 ## UMETA
 
 ## GENERATE_BODY()
@@ -167,8 +170,8 @@ UUserWidget* AMyHUD::GetInventoryWidget()
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDMyNjQ0ODgsLTYxNzc1ODA1NywyMj
-k0ODk2NDgsMTY3NTA0MDUyNywtNjk4MDM3NjUxLDE0MzAyNzQ5
-MDksMTM0NzExNzY0NSwxMzAxNzU5MzczLDE2MDk4MDgwMjEsNz
-MwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMjA1NTkzNzI0NCwtMTU0MzI2NDQ4OCwtNj
+E3NzU4MDU3LDIyOTQ4OTY0OCwxNjc1MDQwNTI3LC02OTgwMzc2
+NTEsMTQzMDI3NDkwOSwxMzQ3MTE3NjQ1LDEzMDE3NTkzNzMsMT
+YwOTgwODAyMSw3MzA5OTgxMTZdfQ==
 -->
