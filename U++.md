@@ -52,6 +52,23 @@ void AMyActor::SetIsLightOn(bool bNewState)
 }
 ```
 2.获取角色的速度 (Speed)
+-   我们通常存储的是 `Velocity` (向量)，但策划和美术通常只关心 `Speed` (标量)。
+    
+-   不需要专门存一个 `Speed` 变量，只需要写一个 Getter。
+
+```c++
+// .h 
+// 注意：这里没有 EditAnywhere，因为它是算出来的，不能编辑 
+UPROPERTY(BlueprintReadOnly, BlueprintGetter=GetSpeed) 
+float Speed; 
+UFUNCTION(BlueprintGetter) 
+float GetSpeed() const; 
+// .cpp 
+float AMyCharacter::GetSpeed() const 
+{ 	// 实时计算 return GetVelocity().Size(); }
+
+```
+
 
 
 
@@ -83,8 +100,8 @@ void AMyActor::SetIsLightOn(bool bNewState)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE5Mzk3NDgxLC02MTc3NTgwNTcsMjI5ND
-g5NjQ4LDE2NzUwNDA1MjcsLTY5ODAzNzY1MSwxNDMwMjc0OTA5
-LDEzNDcxMTc2NDUsMTMwMTc1OTM3MywxNjA5ODA4MDIxLDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbLTk5MzAwMjYxNiwtNjE3NzU4MDU3LDIyOT
+Q4OTY0OCwxNjc1MDQwNTI3LC02OTgwMzc2NTEsMTQzMDI3NDkw
+OSwxMzQ3MTE3NjQ1LDEzMDE3NTkzNzMsMTYwOTgwODAyMSw3Mz
+A5OTgxMTZdfQ==
 -->
