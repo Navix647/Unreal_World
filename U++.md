@@ -64,7 +64,9 @@ void AMyActor::SetIsLightOn(bool bNewState)
 防止蓝图设计者输入非法数值，破坏游戏逻辑。
 
 数据校验与钳制 
-
+-   生命值不能超过最大值，也不能低于 0。
+    
+-   如果没有 Setter，蓝图开发者可能会不小心把 HP 设为 9999 或者 -10。
 ```c++
 // .h
 UPROPERTY(EditAnywhere, BlueprintReadWrite, BlueprintSetter=SetIsLightOn)
@@ -85,13 +87,12 @@ void AMyActor::SetIsLightOn(bool bNewState)
 ```
 
 
-
 ### BlueprintGetter
 含义：指定自定义Getter函数
 使用场景：复杂属性逻辑
 具体案例：
-
-1.获取角色的速度 (Speed)
+1.伪装成变量的“计算属性” (Computed Properties)
+获取角色的速度 (Speed)
 -   我们通常存储的是 `Velocity` (向量)，但策划和美术通常只关心 `Speed` (标量)。
     
 -   不需要专门存一个 `Speed` 变量，只需要写一个 Getter。
@@ -111,6 +112,11 @@ float AMyCharacter::GetSpeed() const
 	return GetVelocity().Size(); 
 }
 ```
+在蓝图中，用户看到的是一个名为“Speed”的绿色变量节点，而不是一个函数调用节点，连线更干净。
+
+2.懒加载 (Lazy Initialization)
+用于优化性能。只有当蓝图真正去读取这个变量时，才去执行加载或查找逻辑。
+
 ### EditAnywhere
 
 ### VisibleAnywhere
@@ -136,8 +142,8 @@ float AMyCharacter::GetSpeed() const
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA2ODA3OTA5LC02MTc3NTgwNTcsMjI5ND
-g5NjQ4LDE2NzUwNDA1MjcsLTY5ODAzNzY1MSwxNDMwMjc0OTA5
-LDEzNDcxMTc2NDUsMTMwMTc1OTM3MywxNjA5ODA4MDIxLDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbMjA3MTQ5MDEwNSwtNjE3NzU4MDU3LDIyOT
+Q4OTY0OCwxNjc1MDQwNTI3LC02OTgwMzc2NTEsMTQzMDI3NDkw
+OSwxMzQ3MTE3NjQ1LDEzMDE3NTkzNzMsMTYwOTgwODAyMSw3Mz
+A5OTgxMTZdfQ==
 -->
