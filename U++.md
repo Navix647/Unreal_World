@@ -91,8 +91,9 @@ void AMyActor::SetIsLightOn(bool bNewState)
 含义：指定自定义Getter函数
 使用场景：复杂属性逻辑
 具体案例：
-1.伪装成变量的“计算属性” (Computed Properties)
-获取角色的速度 (Speed)
+**1.伪装成变量的“计算属性” (Computed Properties)**
+解释：有些数据并不需要存储在内存里，它是实时计算出来的，但为了让蓝图节点看起来简洁，我们把它伪装成一个变量。
+场景举例：**获取角色的速度 (Speed)**
 -   我们通常存储的是 `Velocity` (向量)，但策划和美术通常只关心 `Speed` (标量)。
     
 -   不需要专门存一个 `Speed` 变量，只需要写一个 Getter。
@@ -114,7 +115,7 @@ float AMyCharacter::GetSpeed() const
 ```
 在蓝图中，用户看到的是一个名为“Speed”的绿色变量节点，而不是一个函数调用节点，连线更干净。
 
-2.懒加载 (Lazy Initialization)
+**2.懒加载 (Lazy Initialization)**
 用于优化性能。只有当蓝图真正去读取这个变量时，才去执行加载或查找逻辑。
 
 ### EditAnywhere
@@ -142,7 +143,7 @@ float AMyCharacter::GetSpeed() const
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MTQ5MDEwNSwtNjE3NzU4MDU3LDIyOT
+eyJoaXN0b3J5IjpbLTI1NzAwNDY3MSwtNjE3NzU4MDU3LDIyOT
 Q4OTY0OCwxNjc1MDQwNTI3LC02OTgwMzc2NTEsMTQzMDI3NDkw
 OSwxMzQ3MTE3NjQ1LDEzMDE3NTkzNzMsMTYwOTgwODAyMSw3Mz
 A5OTgxMTZdfQ==
