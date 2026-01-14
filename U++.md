@@ -31,10 +31,10 @@
 
 
 ### BlueprintSetter
-含义：指定自定义Getter函数
-使用场景：复杂属性逻辑
+含义：指定自定义Setter函数
+使用场景：属性验证、副作用
 具体案例：
-1.开关灯
+1.开关灯 （副作用）
 -   **如果不使用 Setter**：蓝图用户设置 `bIsLightOn = true`，然后必须手动调用一个 `UpdateLightState()` 函数，灯才会亮。如果用户忘了调函数，就是 Bug。
 -   **使用 Setter**：蓝图用户只需设置 `bIsLightOn = true`，灯自动亮起。
 ```c++
@@ -51,6 +51,20 @@ void AMyActor::SetIsLightOn(bool bNewState)
 	if(bIsLightOn) UGameplayStatics::PlaySoundAtLocation(...); 
 }
 ```
+2.
+
+
+```
+
+
+
+
+注意事项：需要对应的UFUNCTION
+### BlueprintGetter
+含义：指定自定义Getter函数
+使用场景：复杂属性逻辑
+具体案例：
+
 2.获取角色的速度 (Speed)
 -   我们通常存储的是 `Velocity` (向量)，但策划和美术通常只关心 `Speed` (标量)。
     
@@ -69,14 +83,6 @@ float AMyCharacter::GetSpeed() const
 	// 实时计算 
 	return GetVelocity().Size(); 
 }
-
-```
-
-
-
-
-注意事项：需要对应的UFUNCTION
-### BlueprintGetter
 
 ### EditAnywhere
 
@@ -103,8 +109,8 @@ float AMyCharacter::GetSpeed() const
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUwMDIyNzYxLC02MTc3NTgwNTcsMjI5ND
-g5NjQ4LDE2NzUwNDA1MjcsLTY5ODAzNzY1MSwxNDMwMjc0OTA5
-LDEzNDcxMTc2NDUsMTMwMTc1OTM3MywxNjA5ODA4MDIxLDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbLTEzNTIzMzQ0MjQsLTYxNzc1ODA1NywyMj
+k0ODk2NDgsMTY3NTA0MDUyNywtNjk4MDM3NjUxLDE0MzAyNzQ5
+MDksMTM0NzExNzY0NSwxMzAxNzU5MzczLDE2MDk4MDgwMjEsNz
+MwOTk4MTE2XX0=
 -->
