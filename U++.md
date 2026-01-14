@@ -27,7 +27,11 @@
 
 ### BlueprintReadWrite
 
-### 
+### BlueprintSetter
+
+### EditAnywhere
+
+### VisibleAnywhere
 
 ## UFUNCTION
 
@@ -39,7 +43,7 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5ODAzNzY1MSwxNDMwMjc0OTA5LDEzND
-cxMTc2NDUsMTMwMTc1OTM3MywxNjA5ODA4MDIxLDczMDk5ODEx
-Nl19
+eyJoaXN0b3J5IjpbLTEwODAxNTc1MTEsLTY5ODAzNzY1MSwxND
+MwMjc0OTA5LDEzNDcxMTc2NDUsMTMwMTc1OTM3MywxNjA5ODA4
+MDIxLDczMDk5ODExNl19
 -->
