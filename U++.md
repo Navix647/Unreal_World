@@ -29,6 +29,8 @@
 
 ### BlueprintSetter
 
+### BlueprintGetter
+
 ### EditAnywhere
 
 ### VisibleAnywhere
@@ -43,7 +45,7 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODAxNTc1MTEsLTY5ODAzNzY1MSwxND
-MwMjc0OTA5LDEzNDcxMTc2NDUsMTMwMTc1OTM3MywxNjA5ODA4
-MDIxLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbOTQwODg4NTYsLTY5ODAzNzY1MSwxNDMwMj
+c0OTA5LDEzNDcxMTc2NDUsMTMwMTc1OTM3MywxNjA5ODA4MDIx
+LDczMDk5ODExNl19
 -->
