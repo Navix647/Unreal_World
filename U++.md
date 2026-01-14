@@ -12,10 +12,10 @@ UFUNCTION
 
 GENERATE_BODY()
 
-GENERATE_
+GENERATE_UCLASS_BODY()
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODkyMzEzNDQsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTYwOTgwODAyMSw3MzA5OTgxMTZdfQ==
 -->
