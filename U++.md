@@ -154,7 +154,7 @@ UUserWidget* AMyHUD::GetInventoryWidget()
 含义：纯函数，无执行引脚，只读取数据
 
 
-### BlueprintThreadSafe
+### 
 
 
 
@@ -208,9 +208,9 @@ public:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE2ODgwMDg0LC01ODAxMDUwMzIsMjA1NT
-kzNzI0NCwtMTU0MzI2NDQ4OCwtNjE3NzU4MDU3LDIyOTQ4OTY0
-OCwxNjc1MDQwNTI3LC02OTgwMzc2NTEsMTQzMDI3NDkwOSwxMz
-Q3MTE3NjQ1LDEzMDE3NTkzNzMsMTYwOTgwODAyMSw3MzA5OTgx
-MTZdfQ==
+eyJoaXN0b3J5IjpbLTExMDE0ODM0NTIsNDE2ODgwMDg0LC01OD
+AxMDUwMzIsMjA1NTkzNzI0NCwtMTU0MzI2NDQ4OCwtNjE3NzU4
+MDU3LDIyOTQ4OTY0OCwxNjc1MDQwNTI3LC02OTgwMzc2NTEsMT
+QzMDI3NDkwOSwxMzQ3MTE3NjQ1LDEzMDE3NTkzNzMsMTYwOTgw
+ODAyMSw3MzA5OTgxMTZdfQ==
 -->
