@@ -18,6 +18,9 @@ StartDistance
 
 
 
+Loc
+
+
 
 ## Distance-Based
 ### Variable
@@ -27,6 +30,6 @@ StartDistance
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MjE3MTcxNiw5MTU0ODg3NDksNTAwOD
-k4MjMzXX0=
+eyJoaXN0b3J5IjpbLTg3MTEzOTE5NiwxNTQyMTcxNzE2LDkxNT
+Q4ODc0OSw1MDA4OTgyMzNdfQ==
 -->
