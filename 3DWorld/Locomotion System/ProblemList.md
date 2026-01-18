@@ -7,9 +7,9 @@
 3. Arch动画能否实装？
 4. 开始动画是否应该学习Pivot？第一步重心前移之后再执行位移，因为目前这套动画确实不是立刻移动。
 5. 如何减少目前的Rotation Matching的耦合？
-6. 
+6. Physic Rotation原理？ 居然和Rotation Rate有关
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwOTE2MTk3Nl19
+eyJoaXN0b3J5IjpbLTEyMzU2MTEwNTEsLTcwOTE2MTk3Nl19
 -->
