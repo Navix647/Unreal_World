@@ -109,8 +109,51 @@ Return Value
 
 The predicted pivot position in local space to the character. The size of this vector will be the distance to the pivot.
 
+
+
+
+
+
+vector
+
+Velocity
+
+boolean
+
+Use Separate Braking Friction
+
+real
+
+Braking Friction
+
+real
+
+Ground Friction
+
+real
+
+Braking Friction Factor
+
+real
+
+Braking Deceleration Walking
+
+## Outputs
+
+Type
+
+Name
+
+Description
+
+vector
+
+Return Value
+
+The predicted stop position in local space to the character. The size of this vector will be the distance to the stop location.
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMDk0MTM0MCw4MDUyODE2MTAsLTEyMz
-IzNTAxMjQsLTEyMzU2MTEwNTFdfQ==
+eyJoaXN0b3J5IjpbLTE3MDk5Mjg0NDYsMTYyMDk0MTM0MCw4MD
+UyODE2MTAsLTEyMzIzNTAxMjQsLTEyMzU2MTEwNTFdfQ==
 -->
