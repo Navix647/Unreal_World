@@ -8,9 +8,10 @@
 4. 开始动画是否应该学习Pivot？第一步重心前移之后再执行位移，因为目前这套动画确实不是立刻移动。
 5. 如何减少目前的Rotation Matching的耦合？
 6. Physic Rotation原理？ 居然和Rotation Rate有关
-目前的
+目前的方案里面，用到的CustomRotationYaw其实是输入到PhysicRotation里面的，但是这个东西也是插值的，所以最终就是和Rotation Rate有关
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwOTk4ODU3NiwtMTIzNTYxMTA1MV19
+eyJoaXN0b3J5IjpbLTEyMzIzNTAxMjQsLTEyMzU2MTEwNTFdfQ
+==
 -->
