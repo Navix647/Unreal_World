@@ -1,10 +1,18 @@
 # 目前尚存问题
+- [x] 停止状态有点问题
+- [x] 如何解决溜冰感
+- [ ] 
+
 
 1. 停止状态有点问题
 因为停滞状态是HoldRotation模式，可以参考一下GameSampleAnimationProject
-2. 如何解决溜冰感？
-是否需要调整CMC参数？如何调整？如Friction、Factor等
-**"Detect Surface Types in Unreal Engine 5 - Slippery ice, Snow, Grass & More!(Movement System)"**视频下设置的参数，可以作为参考，为何出现溜冰感。
+2. 如何解决溜冰感？ 
+是否需要调整CMC参数？如何调整？如Friction、Factor等  
+**"Detect Surface Types in Unreal Engine 5 - Slippery ice, Snow, Grass & More!(Movement System)"**视频
+
+
+
+下设置的参数，可以作为参考，为何出现溜冰感。
 
 
 
@@ -154,6 +162,7 @@ The predicted stop position in local space to the character. The size of this ve
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDk5Mjg0NDYsMTYyMDk0MTM0MCw4MD
-UyODE2MTAsLTEyMzIzNTAxMjQsLTEyMzU2MTEwNTFdfQ==
+eyJoaXN0b3J5IjpbMjI1NjM0OTAyLC0xNzA5OTI4NDQ2LDE2Mj
+A5NDEzNDAsODA1MjgxNjEwLC0xMjMyMzUwMTI0LC0xMjM1NjEx
+MDUxXX0=
 -->
