@@ -2,19 +2,14 @@
 - [x] 停止状态有点问题
 Chooser的变量用错了，使用了Velocity Locomotion Angle应该是Acceleration Locomotion Angle
 - [x] 如何解决溜冰感
-GroundFriction太小了，这个没办法，只能调高，然后再在Pivot的时候实时修改Friction，结束Pivot再改回去
+GroundFriction太小了，这个没办法，只能调高，然后再在Pivot的时候实时修改Friction，结束Pivot再改回去。
 - [ ] 
 
 
-1. 停止状态有点问题
-
-2. 如何解决溜冰感？ 
-是否需要调整CMC参数？如何调整？如Friction、Factor等  
-**"Detect Surface Types in Unreal Engine 5 - Slippery ice, Snow, Grass & More!(Movement System)"**视频
 
 
 
-下设置的参数，可以作为参考，为何出现溜冰感。
+以下设置的参数，可以作为参考，为何出现溜冰感。
 
 
 
@@ -70,101 +65,12 @@ GroundFriction太小了，这个没办法，只能调高，然后再在Pivot的�
     
 -   **Max Acceleration:** `2048.0`
 
-3. Arch动画能否实装？
-4. 开始动画是否应该学习Pivot？第一步重心前移之后再执行位移，因为目前这套动画确实不是立刻移动。
-5. 如何减少目前的Rotation Matching的耦合？
-6. Physic Rotation原理？ 居然和Rotation Rate有关
-目前的方案里面，用到的CustomRotationYaw其实是输入到PhysicRotation里面的，但是这个东西也是插值的，所以最终就是和Rotation Rate有关
 
 
-
-
-
-
-Predict where the character will change direction during a pivot based on its current movement properties and parameters from the movement component. This uses prediction logic that is heavily tied to the UCharacterMovementComponent. Each parameter corresponds to a value from the UCharacterMovementComponent with the same name. Because this is a thread safe function, it's recommended to populate these fields via the Property Access system.
-
-Target is Anim Character Movement Library
-
-## Inputs
-
-Type
-
-Name
-
-Description
-
-vector
-
-Acceleration
-
-vector
-
-Velocity
-
-real
-
-Ground Friction
-
-## Outputs
-
-Type
-
-Name
-
-Description
-
-vector
-
-Return Value
-
-The predicted pivot position in local space to the character. The size of this vector will be the distance to the pivot.
-
-
-
-
-
-
-vector
-
-Velocity
-
-boolean
-
-Use Separate Braking Friction
-
-real
-
-Braking Friction
-
-real
-
-Ground Friction
-
-real
-
-Braking Friction Factor
-
-real
-
-Braking Deceleration Walking
-
-## Outputs
-
-Type
-
-Name
-
-Description
-
-vector
-
-Return Value
-
-The predicted stop position in local space to the character. The size of this vector will be the distance to the stop location.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTM3Njc5OCwtMTcwOTkyODQ0NiwxNj
-IwOTQxMzQwLDgwNTI4MTYxMCwtMTIzMjM1MDEyNCwtMTIzNTYx
-MTA1MV19
+eyJoaXN0b3J5IjpbLTIxMzAzMDYxMTAsLTE3MDk5Mjg0NDYsMT
+YyMDk0MTM0MCw4MDUyODE2MTAsLTEyMzIzNTAxMjQsLTEyMzU2
+MTEwNTFdfQ==
 -->
