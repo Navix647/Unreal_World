@@ -1,11 +1,13 @@
 # 目前尚存问题
 - [x] 停止状态有点问题
+Chooser的变量用错了，使用了Velocity Locomotion Angle应该是Acceleration Locomotion Angle
 - [x] 如何解决溜冰感
+GroundFriction太小了，这个没办法，只能调高，然后再在Pivot的时候实时修改Friction，结束Pivot再改回去
 - [ ] 
 
 
 1. 停止状态有点问题
-因为停滞状态是HoldRotation模式，可以参考一下GameSampleAnimationProject
+
 2. 如何解决溜冰感？ 
 是否需要调整CMC参数？如何调整？如Friction、Factor等  
 **"Detect Surface Types in Unreal Engine 5 - Slippery ice, Snow, Grass & More!(Movement System)"**视频
@@ -162,7 +164,7 @@ The predicted stop position in local space to the character. The size of this ve
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI1NjM0OTAyLC0xNzA5OTI4NDQ2LDE2Mj
-A5NDEzNDAsODA1MjgxNjEwLC0xMjMyMzUwMTI0LC0xMjM1NjEx
-MDUxXX0=
+eyJoaXN0b3J5IjpbLTE0NTM3Njc5OCwtMTcwOTkyODQ0NiwxNj
+IwOTQxMzQwLDgwNTI4MTYxMCwtMTIzMjM1MDEyNCwtMTIzNTYx
+MTA1MV19
 -->
