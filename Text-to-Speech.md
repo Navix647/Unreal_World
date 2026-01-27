@@ -5,7 +5,7 @@
 BenchMark：GPT-SoVITS
 
 
-
+闭源最强：SeedTTS
 1. Spark-TTS 已经落后了
 2. CosyVoice 2.0
 3. FunCosyVoice3 0.5B
@@ -32,5 +32,5 @@ F5-TTS
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MjkxOTM2MF19
+eyJoaXN0b3J5IjpbODEwNjQ3NzA3LDEzNjI5MTkzNjBdfQ==
 -->
