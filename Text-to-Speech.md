@@ -11,7 +11,7 @@ BenchMark：GPT-SoVITS
 3. FunCosyVoice3 0.5B
 4. F5-TTS
 5. KoKoRo 速度快
-6. IndexTTS2
+6. IndexTTS2  可以控制情感输出，可能徐亚
 7. VoxCPM1.5 还原度非常高
 
 
@@ -32,5 +32,6 @@ F5-TTS
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEwNjQ3NzA3LDEzNjI5MTkzNjBdfQ==
+eyJoaXN0b3J5IjpbMjY3NDMyMjM3LDgxMDY0NzcwNywxMzYyOT
+E5MzYwXX0=
 -->
