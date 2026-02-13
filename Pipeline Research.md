@@ -40,7 +40,7 @@
 
 ## Cloth Simulation： From Marvelous Designer To Houdini
 ## 布料仿真：从Marvelous Designer到Houdini
-如果布料模拟可以把MD里的服装稳定送到Houdini里做布料模拟的话，那么布料褶皱效果可以进入Next Level。因为Houdini的肌肉脂肪模拟和布料模拟是可以放到一起进行仿真从而出现双向影响的一个效果的，因此拟真程度非常逆天，是影视级别的效果，如果这个doushix
+如果布料模拟可以把MD里的服装稳定送到Houdini里做布料模拟的话，那么布料褶皱效果可以进入Next Level。因为Houdini的肌肉脂肪模拟和布料模拟是可以放到一起进行仿真从而出现双向影响的一个效果的，因此拟真程度非常逆天，是影视级别的效果，如果这个都实现了，那非常牛叉。
 
 
 
@@ -70,6 +70,6 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk3MzMxMjA4LC0zMjI0MTAwODIsLTE5Mj
+eyJoaXN0b3J5IjpbNDUxOTQ3NDM0LC0zMjI0MTAwODIsLTE5Mj
 I3NzYyOTNdfQ==
 -->
