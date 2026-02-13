@@ -1,6 +1,6 @@
 > 这里记录平时想到的灵感但还未实现的工作流构想，也记录下已经实现的工作流以及后续可能的优化方案的目录，已实现的工作流需要记录下工作流的目的，技术方案。一定要详细，这个玩意非常值钱。
 
-## 基于 Blender RetopoPlane 的物理级褶皱 Morph 与游戏化拓扑的融合管线
+## 基于 Blender RetopoPlane 的服装物理级褶皱 Morph 与游戏化拓扑的融合管线
 背景：想要获得既有MD中仿真出来的不同姿态下的褶皱Morph又有游戏可用级别的拓扑和面数，从而实现Skinning以及良好的Deform，因此必须获得重拓扑后不同姿态的模型。重拓扑简单，但是要融合得到一致的拓扑同时仿真后不同姿态带有非线性变化形状的Cloth非常困难。我相信这个东西一出来放到DAZ3D上面应该是不愁卖的。就是估计很容易被盗。也算回馈社区了。
 目前技术方案提炼了两种
 通过MD仿真得到不同姿态下的仿真模型，直接使用**Blender**的**RetopoPlane**进行重拓扑，从而得到不同姿态下拓扑相同的服装模型，从而可以有希望对它做Morph。为什么要这么做？因为重拓扑之后，衣服板片是散的，同时如果重新导入到MD里仿真，不仅导入效率非常低，而且一大堆问题，如衣服没有连接起来等问题，如仿真粒度不够的问题，如果细分几次再导入，你又没办法搞定导入效率甚至爆内存的问题。
@@ -62,6 +62,5 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODQ4MDQ2MDMsLTE5MjI3NzYyOTNdfQ
-==
+eyJoaXN0b3J5IjpbLTIwODcxOTkwNywtMTkyMjc3NjI5M119
 -->
