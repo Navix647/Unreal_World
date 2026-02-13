@@ -47,7 +47,7 @@
 
 
 ## Wrinkle Map方案
-这个是未来想要研究和探索的方向，目前对渲染对法线图这块的了解还非常少，因此没办法研究，等以后对法线图有更深的研究之后就开始探索这个方案。
+这个是未来想要研究和探索的方向，目前对渲染对法线图这块的了解还非常少，因此没办法研究，等以后对法线图有更深的研究之后就开始探索这个方案。Wrinkle Map方案就不太需要考虑不同姿态高模如何变成同一姿态的相同拓扑的低模了，难点在其他地方。是一种实时的最高性能方案。
 
 
 
@@ -62,5 +62,5 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODcxOTkwNywtMTkyMjc3NjI5M119
+eyJoaXN0b3J5IjpbLTMyMjQxMDA4MiwtMTkyMjc3NjI5M119
 -->
