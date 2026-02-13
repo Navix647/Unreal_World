@@ -58,9 +58,10 @@
 
 
 
-目前服装模型的再利用，因为MetaTailor的出现已经有了完整可用的工作流，但是MetaTailor的
+目前服装模型的再利用，因为MetaTailor的出现服装已经有了完整可用的工作流，但是MetaTailor是商业软件需要付费，价格比较昂贵，因此如果有一套属于自己的工作管线那肯定是非常非常值钱了。我自己目前是有一些方案，但是效率都不怎么样而且有限制条件，MetaTailor的通用性太强了而且效果也非常ok，虽然某些场景下还不完美，但整体绝对非常okle
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMjQxMDA4MiwtMTkyMjc3NjI5M119
+eyJoaXN0b3J5IjpbMTUxODEwMjA2OCwtMzIyNDEwMDgyLC0xOT
+IyNzc2MjkzXX0=
 -->
