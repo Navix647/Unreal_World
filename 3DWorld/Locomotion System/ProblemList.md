@@ -1,5 +1,6 @@
 # 目前尚存问题
-- [x] 停止状态有点问题
+- [x]
+1. 停止状态有点问题
 Chooser的变量用错了，使用了Velocity Locomotion Angle应该是Acceleration Locomotion Angle
 - [x] 如何解决溜冰感
 GroundFriction太小了，这个没办法，只能调高，然后再在Pivot的时候实时修改Friction，结束Pivot再改回去。
@@ -72,10 +73,16 @@ GroundFriction太小了，这个没办法，只能调高，然后再在Pivot的�
 -   **Max Acceleration:** `2048.0`
 
 
-
+因为停滞状态是HoldRotation模式，可以参考一下GameSampleAnimationProject
+2. 如何解决溜冰感？
+是否需要调整CMC参数？如何调整？如Friction、Factor等
+3. Arch动画能否实装？
+4. 开始动画是否应该学习Pivot？第一步重心前移之后再执行位移，因为目前这套动画确实不是立刻移动。
+5. 如何减少目前的Rotation Matching的耦合？
+6. 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MDIyOTk4NywtMTIzNTYxMTA1MSwtNz
+eyJoaXN0b3J5IjpbMTcxNTYzMjA5NiwtMTIzNTYxMTA1MSwtNz
 A5MTYxOTc2XX0=
 -->
