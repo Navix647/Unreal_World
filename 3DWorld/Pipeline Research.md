@@ -7,9 +7,12 @@
 
 工作流风险：
 1.重拓扑后顶点顺序不一致，尽管顶点拓扑相同，数量相同，UV相同，但是没办法直接用来做Blendshape或者Morph，因此必须找到一套算法实现顶点顺序的映射。
-然而一个简单的实践证明了只要UV不动，其他设置都一致的情况下，RetopoPlane生成的低模，顶点数一样，甚至连顶点的索引都一致，这说明，这套流程它可以直接用来做Blendshape或者Morph，不需要算法再去做转换。
+
+实践：然而一个简单的实践证明了只要UV不动，其他设置都一致的情况下，RetopoPlane生成的低模，顶点数一样，甚至连顶点的索引都一致，这说明，这套流程它可以直接用来做Blendshape或者Morph，不需要算法再去做转换。
 
 2.RetopoPlane没有办法显示MD上面布料线条的连接关系，比如口袋的缝纫位置，这个如果想要精确的话直接用MD的重拓扑是最好的，但是MD的重拓扑非常不好用。因此需要一种办法把MD简单重拓扑的网格以面片方式导出来指导RetopoPlane的流程。如果可以实现，那就完美解决问题了。
+
+实践：通过实践发现MD之后的
 
 3.如果想融合RetopoPlane自动生成厚度的功能，那就得看看不同姿态下生成厚度会不会导致一些撕裂或者顶点数发生变化，如果顶点数发生变化，那厚度功能就没办法使用，得另辟蹊径。
 
@@ -71,5 +74,6 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzc3MDI3NjgsLTE4NjQzOTEyXX0=
+eyJoaXN0b3J5IjpbLTE1MjkzMzI5MjUsLTEwNzc3MDI3NjgsLT
+E4NjQzOTEyXX0=
 -->
