@@ -12,7 +12,8 @@
 
 2.RetopoPlane没有办法显示MD上面布料线条的连接关系，比如口袋的缝纫位置，这个如果想要精确的话直接用MD的重拓扑是最好的，但是MD的重拓扑非常不好用。因此需要一种办法把MD简单重拓扑的网格以面片方式导出来指导RetopoPlane的流程。如果可以实现，那就完美解决问题了。
 
-实践：通过实践发现MD之后的
+实践：通过实践发现在MD重拓扑之后的衣服也可以转换成2D板片，此时只要UV和板片位置一致那就完全实现了使用MD的板片制作RetopoPlane的引导板片，这时候所有的内部线条关系都可以重现出来。非常完美的流程。
+
 
 3.如果想融合RetopoPlane自动生成厚度的功能，那就得看看不同姿态下生成厚度会不会导致一些撕裂或者顶点数发生变化，如果顶点数发生变化，那厚度功能就没办法使用，得另辟蹊径。
 
@@ -74,6 +75,6 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjkzMzI5MjUsLTEwNzc3MDI3NjgsLT
+eyJoaXN0b3J5IjpbLTE5NzAwMzA1MjEsLTEwNzc3MDI3NjgsLT
 E4NjQzOTEyXX0=
 -->
