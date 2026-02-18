@@ -23,7 +23,7 @@
 由这个流程我们得到一个完美的模型，此时只需要放到MetaTailor或者直接用Blender的权重算法即可套到角色身上，当然如果想要搞到DAZ3D上，那还是得要像之前整头发那样的手段才行。我总觉得DAZ3D不太适合保存我未来战略级别的资产保存库，只适合想办法把里面的资产拿出来复用。
 
 缺点：
-只有实践该流程才知道，原来这样做拓扑并不能做得很完美，而且必须要人工参与，同时有些情况褶皱如果比较细，褶皱内陷这种情况，顶点Morph很难搞出来，用这种顶点位移Morph的方式表现褶皱不太现实，那种大的硬朗的褶皱ji
+只有实践该流程才知道，原来这样做拓扑并不能做得很完美，而且必须要人工参与，同时有些情况褶皱如果比较细，褶皱内陷这种情况，顶点Morph很难搞出来，用这种顶点位移Morph的方式表现褶皱不太现实，那种大的硬朗的褶皱就合适。
 
 
 
@@ -61,8 +61,15 @@
 
 
 
-## Wrinkle Map方案
+## Tension Map + Wrinkle Map方案
 这个是未来想要研究和探索的方向，目前对渲染对法线图这块的了解还非常少，因此没办法研究，等以后对法线图有更深的研究之后就开始探索这个方案。Wrinkle Map方案就不太需要考虑不同姿态高模如何变成同一姿态的相同拓扑的低模了，难点在其他地方。是一种实时的最高性能方案。
+目前必须得研究这个流程了。
+尤其是Tension Map。
+
+
+Tension Map和Wrinkle Map不是同一个东西，Tension Map可以理解为一种实时计算出来的，用来驱动
+
+
 
 
 
@@ -78,6 +85,6 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwOTM5ODQ3MSwtMTIzNzIwMzk0MywtMT
-A3NzcwMjc2OCwtMTg2NDM5MTJdfQ==
+eyJoaXN0b3J5IjpbNDQ3NjM1Nzg0LC0xMjM3MjAzOTQzLC0xMD
+c3NzAyNzY4LC0xODY0MzkxMl19
 -->
