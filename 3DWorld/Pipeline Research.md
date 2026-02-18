@@ -67,7 +67,7 @@
 尤其是Tension Map。
 
 
-Tension Map和Wrinkle Map不是同一个东西，Tension Map可以理解为一种实时计算出来的，用来驱动
+Tension Map和Wrinkle Map不是同一个东西，Tension Map可以理解为一种实时计算出来的，用来驱动贴图、Morph或者其他东西的一个权重，只不过这个权重也是以Map的形式实时计算。
 
 
 
@@ -85,6 +85,6 @@ Tension Map和Wrinkle Map不是同一个东西，Tension Map可以理解为一�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ3NjM1Nzg0LC0xMjM3MjAzOTQzLC0xMD
-c3NzAyNzY4LC0xODY0MzkxMl19
+eyJoaXN0b3J5IjpbMTIzMzMyNzg5NiwtMTIzNzIwMzk0MywtMT
+A3NzcwMjc2OCwtMTg2NDM5MTJdfQ==
 -->
