@@ -75,6 +75,19 @@ Tension Map和Wrinkle Map不是同一个东西，Tension Map可以理解为一�
 
 
 
+## Neural Morph Model (NMM) 方案
+这个还没研究
+
+
+
+
+## ML Deformer方案
+这个和Pose Driver + Morph流程很像，但是需要数据量更大，表现效果更好。
+
+
+
+
+
 
 其实我一直在研究资产复用再利用的东西，我个人能力有限审美有限，当然是要想尽办法把网络资源游戏里的模型拿出来最大化再创造，最大化利用。
 
@@ -85,6 +98,6 @@ Tension Map和Wrinkle Map不是同一个东西，Tension Map可以理解为一�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMzMyNzg5NiwtMTIzNzIwMzk0MywtMT
-A3NzcwMjc2OCwtMTg2NDM5MTJdfQ==
+eyJoaXN0b3J5IjpbNzMxNTU4NzczLDEyMzMzMjc4OTYsLTEyMz
+cyMDM5NDMsLTEwNzc3MDI3NjgsLTE4NjQzOTEyXX0=
 -->
