@@ -115,7 +115,7 @@ Tension Map和Wrinkle Map不是同一个东西，Tension Map可以理解为一�
 
 
 
-
+Weight Transfer
 
 Garment Fitting/Registration
 
@@ -129,7 +129,7 @@ Rigidity Preserving
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ1NzIzNzA0LC0zODY3OTcwODEsLTE4OD
-U1OTkxMjgsLTE5NDQ2Njg0NzksMTIzMzMyNzg5NiwtMTIzNzIw
-Mzk0MywtMTA3NzcwMjc2OCwtMTg2NDM5MTJdfQ==
+eyJoaXN0b3J5IjpbLTE1MDQyNzk1NjUsLTM4Njc5NzA4MSwtMT
+g4NTU5OTEyOCwtMTk0NDY2ODQ3OSwxMjMzMzI3ODk2LC0xMjM3
+MjAzOTQzLC0xMDc3NzAyNzY4LC0xODY0MzkxMl19
 -->
