@@ -101,19 +101,26 @@ Tension Map和Wrinkle Map不是同一个东西，Tension Map可以理解为一�
 
 
 
-其实我一直在研究资产复用再利用的东西，我个人能力有限审美有限，当然是要想尽办法把网络资源或Game里的模型拿出来最大化再创造，最大化利用。
 
 
 
 
 
-Any Character Mesh to Standard Mesh with Standard Pose
+
+From Any Character Mesh to Standard Mesh like Genesis Mesh with Standard Pose
+
+
+
+
+
+Garment Fitting/Registration
+Wrap4D Lattice
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODU1OTkxMjgsLTE5NDQ2Njg0NzksMT
-IzMzMyNzg5NiwtMTIzNzIwMzk0MywtMTA3NzcwMjc2OCwtMTg2
-NDM5MTJdfQ==
+eyJoaXN0b3J5IjpbLTE3ODM0MDM2NzksLTE4ODU1OTkxMjgsLT
+E5NDQ2Njg0NzksMTIzMzMyNzg5NiwtMTIzNzIwMzk0MywtMTA3
+NzcwMjc2OCwtMTg2NDM5MTJdfQ==
 -->
