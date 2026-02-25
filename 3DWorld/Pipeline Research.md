@@ -101,19 +101,19 @@ Tension Map和Wrinkle Map不是同一个东西，Tension Map可以理解为一�
 
 
 
-其实我一直在研究资产复用再利用的东西，我个人能力有限审美有限，当然是要想尽办法把网络资源游戏里的模型拿出来最大化再创造，最大化利用。
+其实我一直在研究资产复用再利用的东西，我个人能力有限审美有限，当然是要想尽办法把网络资源或Game里的模型拿出来最大化再创造，最大化利用。
 
 
 
 
 
-Any Character Mesh to 
+Any Character Mesh to Standard Mesh with Standard Pose
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3OTg3MzUyMywtMTk0NDY2ODQ3OSwxMj
-MzMzI3ODk2LC0xMjM3MjAzOTQzLC0xMDc3NzAyNzY4LC0xODY0
-MzkxMl19
+eyJoaXN0b3J5IjpbLTE4ODU1OTkxMjgsLTE5NDQ2Njg0NzksMT
+IzMzMyNzg5NiwtMTIzNzIwMzk0MywtMTA3NzcwMjc2OCwtMTg2
+NDM5MTJdfQ==
 -->
