@@ -124,13 +124,59 @@ Garment Fitting/Registration
 Wrap4D Lattice
 
 
-Rigidity Preserving
-刚性保持
+## Rigidity Preserving 刚性保持
+### 1. 骨骼约束法（最通用的工业方案）
+
+与其在权重上死磕，不如改变驱动逻辑。
+
+-   **操作思路：** 给每个纽扣、扣环、金属块分配一根**独立的骨骼**（Leaf Bone）。
+    
+-   **权重处理：** 这些刚体零件 100% 刷在它们各自的骨骼上，完全不参与布料的平滑权重分配。
+    
+-   **驱动逻辑：** 在三维软件或引擎中，让这些骨骼通过“表面约束”（Surface Constraint）或“顶点父级”跟随布料模型的某个三角面。
+    
+-   **优点：** 刚体绝对不会变形，且能完美跟随布料的法线旋转。
+    
+
+### 2. 采样单点权重法（最简单的权宜之计）
+
+导致刚体脱离布料的主因是刚体上的不同顶点采样了布料上不同位置的权重。
+
+-   **操作思路：** 在进行权重传递（Weight Transfer）后，不要保留平滑的权重。
+    
+-   **优化操作：** 选中整个刚体（如一个纽扣），找到布料上与其中心最近的一个顶点，将**该顶点的权重数值 100% 复制给整个刚体所有的顶点**。
+    
+-   **效果：** 这样整个纽扣会像一个整体一样移动，虽然在极度弯曲时仍可能有轻微位移，但由于它只跟随一个“点”的权重，它不会像之前那样因为权重插值而产生拉伸。
+    
+
+### 3. UE5 Skin Attachment 系统（现代引擎最优解）
+
+既然你正在深入研究 UE5 和 ML Deformer，这是最推荐的方案。
+
+-   **技术原理：** UE5 提供了一种 **Skin Attachment**（皮肤附件）机制。它允许你在运行阶段将一个静态网格体直接“吸附”在另一个 Skeletal Mesh 的表面。
+    
+-   **实现方式：**
+    
+    1.  衣服作为主体进行正常的布料仿真或骨骼驱动。
+        
+    2.  纽扣作为独立的 Static Mesh，通过 **Skin Attachment** 组件或 **Deformer Graph** 绑定到衣服的特定顶点 ID 上。
+        
+-   **优点：** 纽扣不占用衣服的骨骼预算，不参与皮肤变形计算，性能好且永远贴合。
+    
+
+### 4. 模拟/烘焙阶段的“扣子Link” (Marvelous Designer)
+
+如果你是在 MD 阶段遇到这个问题：
+
+-   **MD 技巧：** 使用 **Button** 工具或者 **Tack On To Surface** 功能。在 MD 内部，扣子是作为附件存在的，它会计算碰撞并跟随布料。
+    
+-   **导出建议：** 在导出到 Blender 进行重拓扑时，将扣子作为独立物体导出。在后期绑定时，使用上面提到的“骨骼约束”或“Skin Attachment”来还原这种跟随关系，而不是直接把扣子并入衣服网格进行平滑减权。
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEzMzA1Mjg1LC0zODY3OTcwODEsLTE4OD
-U1OTkxMjgsLTE5NDQ2Njg0NzksMTIzMzMyNzg5NiwtMTIzNzIw
-Mzk0MywtMTA3NzcwMjc2OCwtMTg2NDM5MTJdfQ==
+eyJoaXN0b3J5IjpbODA3NDA4NjAyLDQxMzMwNTI4NSwtMzg2Nz
+k3MDgxLC0xODg1NTk5MTI4LC0xOTQ0NjY4NDc5LDEyMzMzMjc4
+OTYsLTEyMzcyMDM5NDMsLTEwNzc3MDI3NjgsLTE4NjQzOTEyXX
+0=
 -->
