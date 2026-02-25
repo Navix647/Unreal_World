@@ -108,19 +108,25 @@ Tension Map和Wrinkle Map不是同一个东西，Tension Map可以理解为一�
 
 
 ## From Any Character Mesh to Standard Mesh like Genesis or MetaHuman Mesh with Corresponding Standard Pose Alignment
-通过这个管线，我们可以得到具有标准拓扑模型的任意角色并且还是标准拓扑模型对应的Calibration姿势，不管是A 
+通过这个管线，我们可以得到具有标准拓扑模型的任意角色并且还是标准拓扑模型对应的Calibration姿势，不管是A-Pose还是T-Pose尤其是A-Pose，它的手之间会有些差别。
+
+
+
+
 
 
 
 
 Garment Fitting/Registration
+
+
 Wrap4D Lattice
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxODkzNDA2OCwtMTg4NTU5OTEyOCwtMT
+eyJoaXN0b3J5IjpbLTM4Njc5NzA4MSwtMTg4NTU5OTEyOCwtMT
 k0NDY2ODQ3OSwxMjMzMzI3ODk2LC0xMjM3MjAzOTQzLC0xMDc3
 NzAyNzY4LC0xODY0MzkxMl19
 -->
