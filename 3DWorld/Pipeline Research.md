@@ -179,11 +179,14 @@ Wrap4D Lattice For Garment Fitting
 
 
 
-1.
-
+1.看看UE5里是否顶点索引顺序不同
+2.看看为何导出的骨骼朝向不同，如何对齐解决？
+3.
+4.学习ngSkinTool
+5.学习Houdini
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4OTk0NjEyNywxMzE4NTEwNDg0LDgwNz
+eyJoaXN0b3J5IjpbMjA2MDAyMTk5OCwxMzE4NTEwNDg0LDgwNz
 QwODYwMiw0MTMzMDUyODUsLTM4Njc5NzA4MSwtMTg4NTU5OTEy
 OCwtMTk0NDY2ODQ3OSwxMjMzMzI3ODk2LC0xMjM3MjAzOTQzLC
 0xMDc3NzAyNzY4LC0xODY0MzkxMl19
