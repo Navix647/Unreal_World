@@ -121,7 +121,11 @@ Weight Transfer
 Garment Fitting/Registration
 
 
-Wrap4D Lattice
+Wrap4D Lattice For Garment Fitting
+
+
+
+
 
 
 ## Rigidity Preserving 刚性保持
@@ -175,8 +179,8 @@ Wrap4D Lattice
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA3NDA4NjAyLDQxMzMwNTI4NSwtMzg2Nz
-k3MDgxLC0xODg1NTk5MTI4LC0xOTQ0NjY4NDc5LDEyMzMzMjc4
-OTYsLTEyMzcyMDM5NDMsLTEwNzc3MDI3NjgsLTE4NjQzOTEyXX
-0=
+eyJoaXN0b3J5IjpbMTMxODUxMDQ4NCw4MDc0MDg2MDIsNDEzMz
+A1Mjg1LC0zODY3OTcwODEsLTE4ODU1OTkxMjgsLTE5NDQ2Njg0
+NzksMTIzMzMyNzg5NiwtMTIzNzIwMzk0MywtMTA3NzcwMjc2OC
+wtMTg2NDM5MTJdfQ==
 -->
