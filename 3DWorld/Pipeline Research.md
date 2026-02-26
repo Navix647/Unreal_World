@@ -177,10 +177,14 @@ Wrap4D Lattice For Garment Fitting
 -   **导出建议：** 在导出到 Blender 进行重拓扑时，将扣子作为独立物体导出。在后期绑定时，使用上面提到的“骨骼约束”或“Skin Attachment”来还原这种跟随关系，而不是直接把扣子并入衣服网格进行平滑减权。
 
 
+
+
+1.
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxODUxMDQ4NCw4MDc0MDg2MDIsNDEzMz
-A1Mjg1LC0zODY3OTcwODEsLTE4ODU1OTkxMjgsLTE5NDQ2Njg0
-NzksMTIzMzMyNzg5NiwtMTIzNzIwMzk0MywtMTA3NzcwMjc2OC
-wtMTg2NDM5MTJdfQ==
+eyJoaXN0b3J5IjpbMTU4OTk0NjEyNywxMzE4NTEwNDg0LDgwNz
+QwODYwMiw0MTMzMDUyODUsLTM4Njc5NzA4MSwtMTg4NTU5OTEy
+OCwtMTk0NDY2ODQ3OSwxMjMzMzI3ODk2LC0xMjM3MjAzOTQzLC
+0xMDc3NzAyNzY4LC0xODY0MzkxMl19
 -->
