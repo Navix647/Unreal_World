@@ -76,6 +76,11 @@ Maya权重绘制前的工作：清理模型
 6.检查法线和软硬边
 
 
+7.-   **冻结变换（Freeze Transformations / Reset XForm）：** 必须确保模型的 **位移、旋转为 0，缩放为 1**。如果不做这一步，绑定后的骨骼可能会产生意想不到的缩放变形，甚至导出后角色变得巨大或极小。
+    
+-   **清除历史记录（Delete History）：** 模型制作过程中产生的建模历史会占用大量内存，且可能导致权重信息与旧的操作指令冲突。
+
+
 
 
 
@@ -133,6 +138,6 @@ Artifact这个单词表达的是一种非自然的东西。例如人造的东西
 ### polygon budgets
 一个计算机图形学的术语，指的是多边形数量上限预算
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUzMzQzNjcsOTU1OTg3ODYzLC00OTEyNT
-QwMzFdfQ==
+eyJoaXN0b3J5IjpbLTU4MzE4NTQ0Nyw0NTMzNDM2Nyw5NTU5OD
+c4NjMsLTQ5MTI1NDAzMV19
 -->
