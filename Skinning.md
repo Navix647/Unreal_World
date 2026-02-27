@@ -115,6 +115,8 @@ Maya权重绘制前的工作：清理模型
 
 
 
+
+
 ## Terminology
 ### Candy Wrapper Effect
 指的是joint旋转导致网格体在关节处变得像糖果包装一样体积完全消失的效果
@@ -133,6 +135,7 @@ Artifact这个单词表达的是一种非自然的东西。例如人造的东西
 ### polygon budgets
 一个计算机图形学的术语，指的是多边形数量上限预算
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUzMzQzNjcsOTU1OTg3ODYzLC02NTczOD
-c5NTUsLTE1NDg0NDgzODQsLTEyNDAyOTI1MzVdfQ==
+eyJoaXN0b3J5IjpbMTc1NTE3MTg0Myw0NTMzNDM2Nyw5NTU5OD
+c4NjMsLTY1NzM4Nzk1NSwtMTU0ODQ0ODM4NCwtMTI0MDI5MjUz
+NV19
 -->
