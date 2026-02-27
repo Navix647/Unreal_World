@@ -179,15 +179,20 @@ Wrap4D Lattice For Garment Fitting
 
 
 
-1.看看UE5里是否顶点索引顺序不同 确实不同了，只能靠UV传递
-2.看看为何导出的骨骼朝向不同，如何对齐解决？
-3.
+1.看看为何导出的骨骼朝向不同，如何对齐解决？
+方案1：通过导出骨骼驱动原骨骼并烘焙的方式解决问题
+
+方案2：修正朝向
+
+
+3.调研
 4.学习ngSkinTool
 5.学习Houdini
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NzMyNzMzMSwyMDYwMDIxOTk4LDEzMT
-g1MTA0ODQsODA3NDA4NjAyLDQxMzMwNTI4NSwtMzg2Nzk3MDgx
-LC0xODg1NTk5MTI4LC0xOTQ0NjY4NDc5LDEyMzMzMjc4OTYsLT
-EyMzcyMDM5NDMsLTEwNzc3MDI3NjgsLTE4NjQzOTEyXX0=
+eyJoaXN0b3J5IjpbLTEzOTE4OTM4MjMsMTA2NzMyNzMzMSwyMD
+YwMDIxOTk4LDEzMTg1MTA0ODQsODA3NDA4NjAyLDQxMzMwNTI4
+NSwtMzg2Nzk3MDgxLC0xODg1NTk5MTI4LC0xOTQ0NjY4NDc5LD
+EyMzMzMjc4OTYsLTEyMzcyMDM5NDMsLTEwNzc3MDI3NjgsLTE4
+NjQzOTEyXX0=
 -->
