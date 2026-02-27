@@ -51,7 +51,31 @@ Second Layer：是一个更大的但代价更小的LBS模型
 
 ## The Black Art -- Weight Painted
 经验之谈：
-权重绘制前的
+### Before Painting
+什么样的模型
+权重绘制前的工作：
+1.检查面数，如果
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -91,6 +115,6 @@ Artifact这个单词表达的是一种非自然的东西。例如人造的东西
 ### polygon budgets
 一个计算机图形学的术语，指的是多边形数量上限预算
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MDQ2MTE2NiwtNjU3Mzg3OTU1LC0xNT
-Q4NDQ4Mzg0LC0xMjQwMjkyNTM1XX0=
+eyJoaXN0b3J5IjpbLTE4MTQxMTkzODgsLTY1NzM4Nzk1NSwtMT
+U0ODQ0ODM4NCwtMTI0MDI5MjUzNV19
 -->
