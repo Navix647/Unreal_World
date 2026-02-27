@@ -185,12 +185,14 @@ Wrap4D Lattice For Garment Fitting
 方案2：修正朝向
 
 
-3.调研
-4.学习ngSkinTool
-5.学习Houdini
+2.全力调研MetaHuman，转向MetaHuman做主力了。
+
+3.学习ngSkinTool
+
+4.学习Houdini
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTE4OTM4MjMsMTA2NzMyNzMzMSwyMD
+eyJoaXN0b3J5IjpbLTIwMjU5NTAwOTQsMTA2NzMyNzMzMSwyMD
 YwMDIxOTk4LDEzMTg1MTA0ODQsODA3NDA4NjAyLDQxMzMwNTI4
 NSwtMzg2Nzk3MDgxLC0xODg1NTk5MTI4LC0xOTQ0NjY4NDc5LD
 EyMzMzMjc4OTYsLTEyMzcyMDM5NDMsLTEwNzc3MDI3NjgsLTE4
