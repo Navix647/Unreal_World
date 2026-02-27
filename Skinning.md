@@ -64,7 +64,7 @@ Maya权重绘制前的工作：清理模型
 
 
 3.模型资产该拆分的拆分，该合并的合并
-衣服、头发、鞋子要做好**命名**并做好目录上的分级，分好类。左右对称的物体要合并到一起
+衣服、头发、鞋子要做好**命名**并做好目录上的分级，分好类。左右对称的物体要合并到一起，否则权重镜像绘制无法
 
 
 
@@ -124,6 +124,6 @@ Artifact这个单词表达的是一种非自然的东西。例如人造的东西
 ### polygon budgets
 一个计算机图形学的术语，指的是多边形数量上限预算
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNjE4ODY4MywtNjU3Mzg3OTU1LC0xNT
-Q4NDQ4Mzg0LC0xMjQwMjkyNTM1XX0=
+eyJoaXN0b3J5IjpbMjQ5MTk4OTE0LC02NTczODc5NTUsLTE1ND
+g0NDgzODQsLTEyNDAyOTI1MzVdfQ==
 -->
