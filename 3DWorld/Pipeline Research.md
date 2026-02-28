@@ -189,11 +189,26 @@ Wrap4D Lattice For Garment Fitting
 3.学习ngSkinTool
 
 4.学习Houdini
+
+
+
+
+
+
+2.学习经典论文，理解思路及其背后的一些数学原理
+隐式场
+
+能量场
+
+拉普拉斯算子等
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0ODMxNDI4NCwxMDY3MzI3MzMxLDIwNj
-AwMjE5OTgsMTMxODUxMDQ4NCw4MDc0MDg2MDIsNDEzMzA1Mjg1
-LC0zODY3OTcwODEsLTE4ODU1OTkxMjgsLTE5NDQ2Njg0NzksMT
-IzMzMyNzg5NiwtMTIzNzIwMzk0MywtMTA3NzcwMjc2OCwtMTg2
-NDM5MTJdfQ==
+eyJoaXN0b3J5IjpbOTc2NjU3OTQ1LC03NDgzMTQyODQsMTA2Nz
+MyNzMzMSwyMDYwMDIxOTk4LDEzMTg1MTA0ODQsODA3NDA4NjAy
+LDQxMzMwNTI4NSwtMzg2Nzk3MDgxLC0xODg1NTk5MTI4LC0xOT
+Q0NjY4NDc5LDEyMzMzMjc4OTYsLTEyMzcyMDM5NDMsLTEwNzc3
+MDI3NjgsLTE4NjQzOTEyXX0=
 -->
