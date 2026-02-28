@@ -189,7 +189,7 @@ Wrap4D Lattice For Garment Fitting
 3.学习ngSkinTool
 
 4.学习Houdini
-
+学习目标：复现Robust Weight Transfer那篇论文
 
 
 
@@ -206,9 +206,9 @@ Wrap4D Lattice For Garment Fitting
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc2NjU3OTQ1LC03NDgzMTQyODQsMTA2Nz
-MyNzMzMSwyMDYwMDIxOTk4LDEzMTg1MTA0ODQsODA3NDA4NjAy
-LDQxMzMwNTI4NSwtMzg2Nzk3MDgxLC0xODg1NTk5MTI4LC0xOT
-Q0NjY4NDc5LDEyMzMzMjc4OTYsLTEyMzcyMDM5NDMsLTEwNzc3
-MDI3NjgsLTE4NjQzOTEyXX0=
+eyJoaXN0b3J5IjpbMTgzMzQ5MDMyMCw5NzY2NTc5NDUsLTc0OD
+MxNDI4NCwxMDY3MzI3MzMxLDIwNjAwMjE5OTgsMTMxODUxMDQ4
+NCw4MDc0MDg2MDIsNDEzMzA1Mjg1LC0zODY3OTcwODEsLTE4OD
+U1OTkxMjgsLTE5NDQ2Njg0NzksMTIzMzMyNzg5NiwtMTIzNzIw
+Mzk0MywtMTA3NzcwMjc2OCwtMTg2NDM5MTJdfQ==
 -->
