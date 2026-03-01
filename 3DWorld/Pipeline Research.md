@@ -62,13 +62,15 @@
 
 
 ### 方案二：FaceForm Wrap Lattice节点
+重采样方法？ 先用Maya的Wrap节点得到一个粗略结果，再用Lattice节点重采样形变。
+
 
 
 
 ### 方案三：Maya SuperRig Plugin的RBF
 
 
-
+### 方案四：Maya的Wrap节点
 
 
 
@@ -228,10 +230,10 @@ Wrap4D Lattice For Garment Fitting
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzk1MTEyODQsNTA4ODcwNjU0LDE4Mz
-M0OTAzMjAsOTc2NjU3OTQ1LC03NDgzMTQyODQsMTA2NzMyNzMz
-MSwyMDYwMDIxOTk4LDEzMTg1MTA0ODQsODA3NDA4NjAyLDQxMz
-MwNTI4NSwtMzg2Nzk3MDgxLC0xODg1NTk5MTI4LC0xOTQ0NjY4
-NDc5LDEyMzMzMjc4OTYsLTEyMzcyMDM5NDMsLTEwNzc3MDI3Nj
-gsLTE4NjQzOTEyXX0=
+eyJoaXN0b3J5IjpbNTI4NjY2ODk4LDUwODg3MDY1NCwxODMzND
+kwMzIwLDk3NjY1Nzk0NSwtNzQ4MzE0Mjg0LDEwNjczMjczMzEs
+MjA2MDAyMTk5OCwxMzE4NTEwNDg0LDgwNzQwODYwMiw0MTMzMD
+UyODUsLTM4Njc5NzA4MSwtMTg4NTU5OTEyOCwtMTk0NDY2ODQ3
+OSwxMjMzMzI3ODk2LC0xMjM3MjAzOTQzLC0xMDc3NzAyNzY4LC
+0xODY0MzkxMl19
 -->
