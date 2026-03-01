@@ -58,6 +58,17 @@
 ## 跨体型服装同步管线
 背景：目前服装模型的再利用，因为MetaTailor的出现服装已经有了完整可用的工作流，但是MetaTailor是商业软件需要付费，价格比较昂贵，因此如果有一套属于自己的工作管线那肯定是非常非常值钱了。我自己目前是有一些方案，但是效率都不怎么样而且有限制条件，MetaTailor的通用性太强了而且效果也非常ok，但是在某些Corner Case下还不完美，如手套等内容，并且没办法定制化，深度改造自己的工作流，因此只适合在某些情况下拿来使用。只要这套管线实现了，那我就可以把其他游戏上或者网络上的所有服装资源拿来复用了。
 
+### 方案一： MetaTailor
+
+
+### 方案二：FaceForm Wrap Lattice节点
+
+
+
+### 方案三：Maya SuperRig Plugin的RBF
+
+
+
 
 
 
@@ -217,10 +228,10 @@ Wrap4D Lattice For Garment Fitting
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ3NTEwMjk3LDUwODg3MDY1NCwxODMzND
-kwMzIwLDk3NjY1Nzk0NSwtNzQ4MzE0Mjg0LDEwNjczMjczMzEs
-MjA2MDAyMTk5OCwxMzE4NTEwNDg0LDgwNzQwODYwMiw0MTMzMD
-UyODUsLTM4Njc5NzA4MSwtMTg4NTU5OTEyOCwtMTk0NDY2ODQ3
-OSwxMjMzMzI3ODk2LC0xMjM3MjAzOTQzLC0xMDc3NzAyNzY4LC
-0xODY0MzkxMl19
+eyJoaXN0b3J5IjpbLTExMzk1MTEyODQsNTA4ODcwNjU0LDE4Mz
+M0OTAzMjAsOTc2NjU3OTQ1LC03NDgzMTQyODQsMTA2NzMyNzMz
+MSwyMDYwMDIxOTk4LDEzMTg1MTA0ODQsODA3NDA4NjAyLDQxMz
+MwNTI4NSwtMzg2Nzk3MDgxLC0xODg1NTk5MTI4LC0xOTQ0NjY4
+NDc5LDEyMzMzMjc4OTYsLTEyMzcyMDM5NDMsLTEwNzc3MDI3Nj
+gsLTE4NjQzOTEyXX0=
 -->
