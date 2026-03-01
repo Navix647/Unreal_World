@@ -34,7 +34,7 @@
 
 2.因为最后肯定是要搬到UE5里的，因此想办法在UE5里直接构建一套角色自定义系统，或者干脆就利用MetaHuman进行也是一种想法，不知道MetaHuman的支持度怎么样？
 
-3.Character Creator是我绝对不想碰的一个流程，商业软件贵，而且冷门，网络资源不算多。
+3.Character Creator是我不太想碰的一个流程，商业软件贵，而且冷门，网络资源不算多。
 
 4.MakeHuman的开源方案目前还在研究当中，等有时间了再研究看看。
 
@@ -187,10 +187,13 @@ Wrap4D Lattice For Garment Fitting
 2.全力调研MetaHuman，转向MetaHuman做主力了。
 
 3.学习ngSkinTool
+对称
 
 4.学习Houdini
 学习目标：复现Robust Weight Transfer那篇论文
 
+
+常用操作
 
 
 
@@ -212,10 +215,10 @@ Wrap4D Lattice For Garment Fitting
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA4ODcwNjU0LDE4MzM0OTAzMjAsOTc2Nj
-U3OTQ1LC03NDgzMTQyODQsMTA2NzMyNzMzMSwyMDYwMDIxOTk4
-LDEzMTg1MTA0ODQsODA3NDA4NjAyLDQxMzMwNTI4NSwtMzg2Nz
-k3MDgxLC0xODg1NTk5MTI4LC0xOTQ0NjY4NDc5LDEyMzMzMjc4
-OTYsLTEyMzcyMDM5NDMsLTEwNzc3MDI3NjgsLTE4NjQzOTEyXX
-0=
+eyJoaXN0b3J5IjpbLTE3ODY0MzUxOTAsNTA4ODcwNjU0LDE4Mz
+M0OTAzMjAsOTc2NjU3OTQ1LC03NDgzMTQyODQsMTA2NzMyNzMz
+MSwyMDYwMDIxOTk4LDEzMTg1MTA0ODQsODA3NDA4NjAyLDQxMz
+MwNTI4NSwtMzg2Nzk3MDgxLC0xODg1NTk5MTI4LC0xOTQ0NjY4
+NDc5LDEyMzMzMjc4OTYsLTEyMzcyMDM5NDMsLTEwNzc3MDI3Nj
+gsLTE4NjQzOTEyXX0=
 -->
