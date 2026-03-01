@@ -36,7 +36,9 @@
 
 3.Character Creator是我不太想碰的一个流程，商业软件贵，而且冷门，网络资源不算多。
 
-4.MakeHuman的开源方案目前还在研究当中，等有时间了再研究看看。
+
+
+4.MakeHuman的开源方案目前还在研究当中，等有时间了再研究看看。这个方案直接毙掉，网络资源太少，教程少，没什么人用。时间宝贵，这个用不了，而且也是限死hm08拓扑，那还不如MetaHuman。
 
 
 
@@ -215,10 +217,10 @@ Wrap4D Lattice For Garment Fitting
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODY0MzUxOTAsNTA4ODcwNjU0LDE4Mz
-M0OTAzMjAsOTc2NjU3OTQ1LC03NDgzMTQyODQsMTA2NzMyNzMz
-MSwyMDYwMDIxOTk4LDEzMTg1MTA0ODQsODA3NDA4NjAyLDQxMz
-MwNTI4NSwtMzg2Nzk3MDgxLC0xODg1NTk5MTI4LC0xOTQ0NjY4
-NDc5LDEyMzMzMjc4OTYsLTEyMzcyMDM5NDMsLTEwNzc3MDI3Nj
-gsLTE4NjQzOTEyXX0=
+eyJoaXN0b3J5IjpbNjQ3NTEwMjk3LDUwODg3MDY1NCwxODMzND
+kwMzIwLDk3NjY1Nzk0NSwtNzQ4MzE0Mjg0LDEwNjczMjczMzEs
+MjA2MDAyMTk5OCwxMzE4NTEwNDg0LDgwNzQwODYwMiw0MTMzMD
+UyODUsLTM4Njc5NzA4MSwtMTg4NTU5OTEyOCwtMTk0NDY2ODQ3
+OSwxMjMzMzI3ODk2LC0xMjM3MjAzOTQzLC0xMDc3NzAyNzY4LC
+0xODY0MzkxMl19
 -->
