@@ -72,7 +72,11 @@ Target  "MyLibiglProject" links to target "igl::opengl_glfw" but the target was 
 行车能耗kWh/100km
 
 总成
+主驱动总成平台、主驱峰值功率、主驱峰值扭矩、主驱速比
+辅驱总成平台、辅驱峰值功率、辅驱峰值扭矩、辅驱速比
 
+动力性仿真
+百公里加速、80
 
 
 
@@ -83,5 +87,5 @@ Target  "MyLibiglProject" links to target "igl::opengl_glfw" but the target was 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxOTUxMDcyOF19
+eyJoaXN0b3J5IjpbLTExMzQ4MjczNTYsLTIxOTUxMDcyOF19
 -->
