@@ -76,7 +76,7 @@ Target  "MyLibiglProject" links to target "igl::opengl_glfw" but the target was 
 辅驱总成平台、辅驱峰值功率、辅驱峰值扭矩、辅驱速比
 
 动力性仿真
-百公里加速、80
+百公里加速、80~120kph超越加速、最高车速kph、最大爬坡度%、峰值功率扭矩
 
 
 
@@ -87,5 +87,5 @@ Target  "MyLibiglProject" links to target "igl::opengl_glfw" but the target was 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzQ4MjczNTYsLTIxOTUxMDcyOF19
+eyJoaXN0b3J5IjpbLTEzMzk3NTEwNjAsLTIxOTUxMDcyOF19
 -->
