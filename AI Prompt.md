@@ -81,11 +81,16 @@ Target  "MyLibiglProject" links to target "igl::opengl_glfw" but the target was 
 
 
 
+基于电驱动总成的关键参数(如电机功率、扭矩及减速器速比)，建立考虑不同总成参数下的损耗机制的实时电机效率Map模型，从而构建更高jing
+
+
+
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzk3NTEwNjAsLTIxOTUxMDcyOF19
+eyJoaXN0b3J5IjpbMzUzOTU3MDQsLTEzMzk3NTEwNjAsLTIxOT
+UxMDcyOF19
 -->
