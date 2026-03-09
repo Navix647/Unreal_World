@@ -109,10 +109,11 @@ Target  "MyLibiglProject" links to target "igl::opengl_glfw" but the target was 
 调用GOT2模型识别到的内容,返回String
 3.将2函数返回的String内容写到excel的一列上。
 
-写一个main函数先调用1函数得到一个目录里的裁剪图片，按OCR_顺序调用2,2函数里
+写一个main函数先调用1函数得到一个目录里的裁剪图片，按OCR_%number顺序调用2函数得到String并调用3函数把内容弄到excel的一列上，行的话根据2函数返回的换行进行换行。
+请以以上需求为准完成代码编写
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTQ4MzE2OTIsLTE4MjM5NzE2MjAsLT
-kxNTczNzk2MywtMTMzOTc1MTA2MCwtMjE5NTEwNzI4XX0=
+eyJoaXN0b3J5IjpbMTk0MzkwNTMzMywtMTgyMzk3MTYyMCwtOT
+E1NzM3OTYzLC0xMzM5NzUxMDYwLC0yMTk1MTA3MjhdfQ==
 -->
