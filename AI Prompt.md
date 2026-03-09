@@ -105,11 +105,14 @@ Target  "MyLibiglProject" links to target "igl::opengl_glfw" but the target was 
 分别写三个函数：
 1.裁剪图片函数crop_images(img_file,outdir)
 裁剪完后将图片保存到outdir上。按照OCR_%number顺序从01开始即OCR_01.jpg,OCR_02.jpg等等
-2.按顺序读取目录里的图片文件，并调用GOT2模型识别 GOT_OCR(dir)
-按照顺序OCR_%number图片，并调用GOT2模型识别得到的内容
+2.读取目录里的图片文件，并调用GOT2模型识别 GOT_OCR(dir)
+调用GOT2模型识别到的内容,返回String
+3.将2函数返回的String内容写到excel的一列上。
+
+写一个main函数先调用1函数得到一个目录里的裁剪图片，按OCR_顺序调用2,2函数里
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMjM2MTQwNiwtMTgyMzk3MTYyMCwtOT
-E1NzM3OTYzLC0xMzM5NzUxMDYwLC0yMTk1MTA3MjhdfQ==
+eyJoaXN0b3J5IjpbLTE0NTQ4MzE2OTIsLTE4MjM5NzE2MjAsLT
+kxNTczNzk2MywtMTMzOTc1MTA2MCwtMjE5NTEwNzI4XX0=
 -->
