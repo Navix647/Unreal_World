@@ -23,7 +23,7 @@
 由这个流程我们得到一个完美的模型，此时只需要放到MetaTailor或者直接用Blender的权重算法即可套到角色身上，当然如果想要搞到DAZ3D上，那还是得要像之前整头发那样的手段才行。我总觉得DAZ3D不太适合保存我未来战略级别的资产保存库，只适合想办法把里面的资产拿出来复用。
 
 缺点：
-只有实践该流程才知道，原来这样做拓扑并不能做得很完美，而且必须要人工参与，同时有些情况褶皱如果比较细，褶皱内陷这种情况，顶点Morph很难搞出来，用这种顶点位移Morph的方式表现大形褶皱还行，但如果是细微甚至一些凹陷褶皱就不太现实，那种大的硬朗的褶皱就合适。
+只有实践该流程才知道，原来这样做拓扑并不能做得很完美，而且必须要人工参与，同时有些情况褶皱如果比较细，褶皱内陷这种情况，顶点Morph很难搞出来，用这种顶点位移Morph的方式表现大形褶皱还行，但如果是细微甚至是一些凹陷褶皱就不太现实，那种大的硬朗的褶皱就合适。
 
 
 
@@ -231,7 +231,7 @@ Wrap4D Lattice For Garment Fitting
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDI5ODIxMjQsNTI4NjY2ODk4LDUwOD
+eyJoaXN0b3J5IjpbLTEwNjY1NzAwNjEsNTI4NjY2ODk4LDUwOD
 g3MDY1NCwxODMzNDkwMzIwLDk3NjY1Nzk0NSwtNzQ4MzE0Mjg0
 LDEwNjczMjczMzEsMjA2MDAyMTk5OCwxMzE4NTEwNDg0LDgwNz
 QwODYwMiw0MTMzMDUyODUsLTM4Njc5NzA4MSwtMTg4NTU5OTEy
