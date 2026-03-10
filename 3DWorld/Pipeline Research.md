@@ -230,16 +230,23 @@ Houdini骨骼重定向并烘焙。尽量不把东西放到UE5处理。
 
 
 ## 一个想法：
-使用最基础的Cage Deformation即Lattice的Point变形的话效果和DAZ3D中Conform服装跟随某个人物morph进行适配变形是一样的。但是形状会发生剧烈变化，因此我需要进行平滑同时保留变形前的几何结构。因此想到接入到Delta Mush中。但是Delta Mush平滑虽然能够很好地保持模型原来的形状，但是有可能会c
-因此我就需要引入“障碍势能”，参考IPC这篇论文的思想。
+使用最基础的Cage Deformation即Lattice的Point变形的话效果和DAZ3D中Conform服装跟随某个人物morph进行适配变形是一样的。但是形状会发生剧烈变化，因此我需要进行平滑同时保留变形前的几何结构。因此想到接入到Delta Mush中。但是Delta Mush平滑虽然能够很好地保持模型原来的形状，但是有可能会穿模，因为没有考虑约束。
+因此就需要引入“障碍势能”，参考IPC这篇论文的思想。
+Houdini里可以使用Vellum加约束的方式完成一帧的解算，解算之后就不会穿模了。
+
+这个就有可能是相对完美的一个方案。
+
+
+考虑使用SDF Pus
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODAxODk1MDUsLTMwMzU4NTA1LC0xNj
-c3ODc0MzEwLDUyODY2Njg5OCw1MDg4NzA2NTQsMTgzMzQ5MDMy
-MCw5NzY2NTc5NDUsLTc0ODMxNDI4NCwxMDY3MzI3MzMxLDIwNj
-AwMjE5OTgsMTMxODUxMDQ4NCw4MDc0MDg2MDIsNDEzMzA1Mjg1
-LC0zODY3OTcwODEsLTE4ODU1OTkxMjgsLTE5NDQ2Njg0NzksMT
-IzMzMyNzg5NiwtMTIzNzIwMzk0MywtMTA3NzcwMjc2OCwtMTg2
-NDM5MTJdfQ==
+eyJoaXN0b3J5IjpbMTk5OTM2NTcyOSwtMzAzNTg1MDUsLTE2Nz
+c4NzQzMTAsNTI4NjY2ODk4LDUwODg3MDY1NCwxODMzNDkwMzIw
+LDk3NjY1Nzk0NSwtNzQ4MzE0Mjg0LDEwNjczMjczMzEsMjA2MD
+AyMTk5OCwxMzE4NTEwNDg0LDgwNzQwODYwMiw0MTMzMDUyODUs
+LTM4Njc5NzA4MSwtMTg4NTU5OTEyOCwtMTk0NDY2ODQ3OSwxMj
+MzMzI3ODk2LC0xMjM3MjAzOTQzLC0xMDc3NzAyNzY4LC0xODY0
+MzkxMl19
 -->
