@@ -27,7 +27,7 @@
 
 因此下一步转向相对准确的褶皱生成加法线烘焙的方式，通过实时驱动法线的方法来实时控制褶皱的生成。这种方法一定是可行的。主要难点在于凹陷的位置法线不知道能不能烘焙上去。
 
-
+## 一种基于Proxy Mesh驱动原
 
 
 
@@ -232,10 +232,10 @@ Wrap4D Lattice For Garment Fitting
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDc5ODU5MzgsNTI4NjY2ODk4LDUwOD
-g3MDY1NCwxODMzNDkwMzIwLDk3NjY1Nzk0NSwtNzQ4MzE0Mjg0
-LDEwNjczMjczMzEsMjA2MDAyMTk5OCwxMzE4NTEwNDg0LDgwNz
-QwODYwMiw0MTMzMDUyODUsLTM4Njc5NzA4MSwtMTg4NTU5OTEy
-OCwtMTk0NDY2ODQ3OSwxMjMzMzI3ODk2LC0xMjM3MjAzOTQzLC
-0xMDc3NzAyNzY4LC0xODY0MzkxMl19
+eyJoaXN0b3J5IjpbMTA5MjUzODY0Niw1Mjg2NjY4OTgsNTA4OD
+cwNjU0LDE4MzM0OTAzMjAsOTc2NjU3OTQ1LC03NDgzMTQyODQs
+MTA2NzMyNzMzMSwyMDYwMDIxOTk4LDEzMTg1MTA0ODQsODA3ND
+A4NjAyLDQxMzMwNTI4NSwtMzg2Nzk3MDgxLC0xODg1NTk5MTI4
+LC0xOTQ0NjY4NDc5LDEyMzMzMjc4OTYsLTEyMzcyMDM5NDMsLT
+EwNzc3MDI3NjgsLTE4NjQzOTEyXX0=
 -->
