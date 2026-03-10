@@ -197,7 +197,8 @@ Wrap4D Lattice For Garment Fitting
 
 1.看看为何导出的骨骼朝向不同，如何对齐解决？
 方案1：通过导出骨骼驱动原骨骼并烘焙的方式解决问题 （优雅）
-Houdini重定向并并烘焙。
+Houdini骨骼重定向并烘焙。尽量不把东西放到UE5处理。
+
 方案2：硬核修正骨骼朝向Orientation
 
 
@@ -228,10 +229,10 @@ Houdini重定向并并烘焙。
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNDczMzM1OCwtMTY3Nzg3NDMxMCw1Mj
-g2NjY4OTgsNTA4ODcwNjU0LDE4MzM0OTAzMjAsOTc2NjU3OTQ1
-LC03NDgzMTQyODQsMTA2NzMyNzMzMSwyMDYwMDIxOTk4LDEzMT
-g1MTA0ODQsODA3NDA4NjAyLDQxMzMwNTI4NSwtMzg2Nzk3MDgx
-LC0xODg1NTk5MTI4LC0xOTQ0NjY4NDc5LDEyMzMzMjc4OTYsLT
-EyMzcyMDM5NDMsLTEwNzc3MDI3NjgsLTE4NjQzOTEyXX0=
+eyJoaXN0b3J5IjpbLTMwMzU4NTA1LC0xNjc3ODc0MzEwLDUyOD
+Y2Njg5OCw1MDg4NzA2NTQsMTgzMzQ5MDMyMCw5NzY2NTc5NDUs
+LTc0ODMxNDI4NCwxMDY3MzI3MzMxLDIwNjAwMjE5OTgsMTMxOD
+UxMDQ4NCw4MDc0MDg2MDIsNDEzMzA1Mjg1LC0zODY3OTcwODEs
+LTE4ODU1OTkxMjgsLTE5NDQ2Njg0NzksMTIzMzMyNzg5NiwtMT
+IzNzIwMzk0MywtMTA3NzcwMjc2OCwtMTg2NDM5MTJdfQ==
 -->
