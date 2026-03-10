@@ -197,15 +197,13 @@ Wrap4D Lattice For Garment Fitting
 
 1.看看为何导出的骨骼朝向不同，如何对齐解决？
 方案1：通过导出骨骼驱动原骨骼并烘焙的方式解决问题 （优雅）
-
+Houdini重定向并并烘焙。
 方案2：硬核修正骨骼朝向Orientation
 
 
-
-3.
-
-4.学习Houdini
+3.学习Houdini
 学习目标：复现Robust Weight Transfer那篇论文
+实现肌肉模拟，最主要的目标。
 
 
 常用操作
@@ -230,10 +228,10 @@ Wrap4D Lattice For Garment Fitting
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjMxMzM3MjEsLTE2Nzc4NzQzMTAsNT
-I4NjY2ODk4LDUwODg3MDY1NCwxODMzNDkwMzIwLDk3NjY1Nzk0
-NSwtNzQ4MzE0Mjg0LDEwNjczMjczMzEsMjA2MDAyMTk5OCwxMz
-E4NTEwNDg0LDgwNzQwODYwMiw0MTMzMDUyODUsLTM4Njc5NzA4
-MSwtMTg4NTU5OTEyOCwtMTk0NDY2ODQ3OSwxMjMzMzI3ODk2LC
-0xMjM3MjAzOTQzLC0xMDc3NzAyNzY4LC0xODY0MzkxMl19
+eyJoaXN0b3J5IjpbLTgyNDczMzM1OCwtMTY3Nzg3NDMxMCw1Mj
+g2NjY4OTgsNTA4ODcwNjU0LDE4MzM0OTAzMjAsOTc2NjU3OTQ1
+LC03NDgzMTQyODQsMTA2NzMyNzMzMSwyMDYwMDIxOTk4LDEzMT
+g1MTA0ODQsODA3NDA4NjAyLDQxMzMwNTI4NSwtMzg2Nzk3MDgx
+LC0xODg1NTk5MTI4LC0xOTQ0NjY4NDc5LDEyMzMzMjc4OTYsLT
+EyMzcyMDM5NDMsLTEwNzc3MDI3NjgsLTE4NjQzOTEyXX0=
 -->
