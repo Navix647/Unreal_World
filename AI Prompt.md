@@ -113,8 +113,16 @@ Target  "MyLibiglProject" links to target "igl::opengl_glfw" but the target was 
 写一个main函数先调用1函数得到一个目录里的裁剪图片，按OCR_%number顺序调用2函数得到String并调用3函数把内容弄到excel的一列上，行的话根据2函数返回的换行进行换行。
 请以以上需求为准完成代码编写
 
+
+
+
+
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyOTAyNjQ0MiwtMTgyMzk3MTYyMCwtOT
-E1NzM3OTYzLC0xMzM5NzUxMDYwLC0yMTk1MTA3MjhdfQ==
+eyJoaXN0b3J5IjpbLTE4NzI3MjY1ODAsMTcyOTAyNjQ0MiwtMT
+gyMzk3MTYyMCwtOTE1NzM3OTYzLC0xMzM5NzUxMDYwLC0yMTk1
+MTA3MjhdfQ==
 -->
