@@ -131,10 +131,19 @@ Target  "MyLibiglProject" links to target "igl::opengl_glfw" but the target was 
 9系腾势N8
 
 
+海鸥Plus
+海豚
+秦Max
+海狮07 EV
+海豹08
+腾势N8
+整车参数包括：风阻系数、轮胎滚动半径、滚动阻力系数
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDk2MDU1NTgsLTE5MzMxNTc2NzgsLT
-E4NzI3MjY1ODAsMTcyOTAyNjQ0MiwtMTgyMzk3MTYyMCwtOTE1
-NzM3OTYzLC0xMzM5NzUxMDYwLC0yMTk1MTA3MjhdfQ==
+eyJoaXN0b3J5IjpbMTMxNzMyMDU2NSwtMTA0OTYwNTU1OCwtMT
+kzMzE1NzY3OCwtMTg3MjcyNjU4MCwxNzI5MDI2NDQyLC0xODIz
+OTcxNjIwLC05MTU3Mzc5NjMsLTEzMzk3NTEwNjAsLTIxOTUxMD
+cyOF19
 -->
