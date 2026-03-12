@@ -142,11 +142,12 @@ CLTC百公里耗电量
 
 
 
-海狮07 EV
+海狮07 EV 
+CLTC能耗
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MDg3NDcwNywtMTA5MTc1MTMwNCwtMT
+eyJoaXN0b3J5IjpbMTcyNjg2NzA1NywtMTA5MTc1MTMwNCwtMT
 A0OTYwNTU1OCwtMTkzMzE1NzY3OCwtMTg3MjcyNjU4MCwxNzI5
 MDI2NDQyLC0xODIzOTcxNjIwLC05MTU3Mzc5NjMsLTEzMzk3NT
 EwNjAsLTIxOTUxMDcyOF19
