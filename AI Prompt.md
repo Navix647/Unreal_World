@@ -141,11 +141,11 @@ Target  "MyLibiglProject" links to target "igl::opengl_glfw" but the target was 
 CLTC百公里耗电量
 
 
-海鸥
+海鸥 405km续航版
 峰值功率55
 峰值扭矩135
 整备质量1240
-续航405
+CLTC续航405
 电池电量：38.88
 百公里耗电量：10.1
 
@@ -157,14 +157,17 @@ CLTC续航:610
 整备质量:2210
 
 
-海豚
-
-
+海豚 2025 420
+70
+180
+CLTC续航420
+电池电量44.928
+百公里耗电量：
 
 秦Max
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMzg0NjI4MywtMTA5MTc1MTMwNCwtMT
+eyJoaXN0b3J5IjpbMTQwNjg1OTcxNiwtMTA5MTc1MTMwNCwtMT
 A0OTYwNTU1OCwtMTkzMzE1NzY3OCwtMTg3MjcyNjU4MCwxNzI5
 MDI2NDQyLC0xODIzOTcxNjIwLC05MTU3Mzc5NjMsLTEzMzk3NT
 EwNjAsLTIxOTUxMDcyOF19
