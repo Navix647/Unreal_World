@@ -157,9 +157,10 @@ CLTC续航:610
 峰值功率:230
 峰值扭矩:380
 整备质量:2210
-80.64
+电量80.64
+百公里耗电量15.2
 
-海豚 2025 420
+海豚 2025 420km续航版
 峰值功率70
 峰值扭矩180
 整备质量：1435kg
@@ -185,7 +186,7 @@ CLTC续航880
 百公里耗电量13.0
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgyNDM2MTAyLDI4NDIzNTc3MiwtMTA5MT
+eyJoaXN0b3J5IjpbLTMwOTM4MzE4LDI4NDIzNTc3MiwtMTA5MT
 c1MTMwNCwtMTA0OTYwNTU1OCwtMTkzMzE1NzY3OCwtMTg3Mjcy
 NjU4MCwxNzI5MDI2NDQyLC0xODIzOTcxNjIwLC05MTU3Mzc5Nj
 MsLTEzMzk3NTEwNjAsLTIxOTUxMDcyOF19
