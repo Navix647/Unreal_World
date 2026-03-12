@@ -116,13 +116,13 @@ Target  "MyLibiglProject" links to target "igl::opengl_glfw" but the target was 
 
 
 
-2026年3月15日前，基于电机驱动总成的关键参数（如电机功率、扭矩及减速器速比），建立考虑不同总成参数下的损耗机制的实时电机效率Map模型，从而构建更高精度的CLTC工况能耗仿真模型，计算3系56系和789系车型的CLTC能耗，要求仿真结果与公开数据之间的平均误差小于5%。jiaofu
+2026年3月15日前，基于电机驱动总成的关键参数（如电机功率、扭矩及减速器速比），建立考虑不同总成参数下的损耗机制的实时电机效率Map模型，从而构建更高精度的CLTC工况能耗仿真模型，计算3系56系和789系车型的CLTC能耗，要求仿真结果与公开数据之间的平均误差小于5%。交付《CLTC能耗计算模型》及配套MATLAB实现代码。
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTE2Mjg1OTgsLTE4NzI3MjY1ODAsMT
+eyJoaXN0b3J5IjpbLTE5MzMxNTc2NzgsLTE4NzI3MjY1ODAsMT
 cyOTAyNjQ0MiwtMTgyMzk3MTYyMCwtOTE1NzM3OTYzLC0xMzM5
 NzUxMDYwLC0yMTk1MTA3MjhdfQ==
 -->
