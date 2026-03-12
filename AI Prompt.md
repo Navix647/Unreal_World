@@ -158,17 +158,18 @@ CLTC续航:610
 
 
 海豚 2025 420
-70
-180
+峰值功率70
+峰值扭矩180
+整备质量：1435kg
 CLTC续航420
 电池电量44.928
-百公里耗电量：
+百公里耗电量：10.5
 
 秦Max
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNjg1OTcxNiwtMTA5MTc1MTMwNCwtMT
-A0OTYwNTU1OCwtMTkzMzE1NzY3OCwtMTg3MjcyNjU4MCwxNzI5
-MDI2NDQyLC0xODIzOTcxNjIwLC05MTU3Mzc5NjMsLTEzMzk3NT
-EwNjAsLTIxOTUxMDcyOF19
+eyJoaXN0b3J5IjpbNDQ2NDQxMDM5LC0xMDkxNzUxMzA0LC0xMD
+Q5NjA1NTU4LC0xOTMzMTU3Njc4LC0xODcyNzI2NTgwLDE3Mjkw
+MjY0NDIsLTE4MjM5NzE2MjAsLTkxNTczNzk2MywtMTMzOTc1MT
+A2MCwtMjE5NTEwNzI4XX0=
 -->
