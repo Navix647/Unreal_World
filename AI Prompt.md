@@ -159,7 +159,7 @@ CLTC续航:610
 整备质量:2210
 电量80.64
 百公里耗电量15.2
-实际计算值：13.295
+实际计算值：15.354
 
 海豚 2025 420km续航版
 峰值功率70
@@ -168,7 +168,7 @@ CLTC续航:610
 CLTC续航420
 电池电量44.928
 百公里耗电量：10.5
-实际计算值：
+实际计算值：10.344
 
 海狮06 2026 605旗舰版
 峰值功率240
@@ -176,8 +176,8 @@ CLTC续航420
 整备质量2040
 CLTC续航605
 电量69.07
-百公里耗电量12.7 
-实际计算值：
+百公里耗电量:12.7 
+实际计算值：13.295
 
 腾势Z9GT
 峰值功率370
@@ -186,13 +186,13 @@ CLTC续航880
 整备质量2540
 电量：102.3
 百公里耗电量13.0
-实际计算值：
+实际计算值：13.864
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMjUzMTE3LC0zMDkzODMxOCwyODQyMz
-U3NzIsLTEwOTE3NTEzMDQsLTEwNDk2MDU1NTgsLTE5MzMxNTc2
-NzgsLTE4NzI3MjY1ODAsMTcyOTAyNjQ0MiwtMTgyMzk3MTYyMC
-wtOTE1NzM3OTYzLC0xMzM5NzUxMDYwLC0yMTk1MTA3MjhdfQ==
+eyJoaXN0b3J5IjpbLTEwODQ1MDA4OTksLTMwOTM4MzE4LDI4ND
+IzNTc3MiwtMTA5MTc1MTMwNCwtMTA0OTYwNTU1OCwtMTkzMzE1
+NzY3OCwtMTg3MjcyNjU4MCwxNzI5MDI2NDQyLC0xODIzOTcxNj
+IwLC05MTU3Mzc5NjMsLTEzMzk3NTEwNjAsLTIxOTUxMDcyOF19
 
 -->
