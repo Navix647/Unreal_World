@@ -133,7 +133,7 @@ Target  "MyLibiglProject" links to target "igl::opengl_glfw" but the target was 
 
 海鸥
 海豚
-秦Max
+海狮06 2026 606
 海狮07 EV
 海豹08
 腾势N8
@@ -148,6 +148,8 @@ CLTC百公里耗电量
 CLTC续航405
 电池电量：38.88
 百公里耗电量：10.1
+
+
 
 
 海狮07 EV  2025智航版
@@ -165,11 +167,15 @@ CLTC续航420
 电池电量44.928
 百公里耗电量：10.5
 
-秦Max
+海狮06 2026 605旗舰版
+峰值功率240
+峰值扭矩305
+整备质量2040
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ2NDQxMDM5LC0xMDkxNzUxMzA0LC0xMD
-Q5NjA1NTU4LC0xOTMzMTU3Njc4LC0xODcyNzI2NTgwLDE3Mjkw
-MjY0NDIsLTE4MjM5NzE2MjAsLTkxNTczNzk2MywtMTMzOTc1MT
-A2MCwtMjE5NTEwNzI4XX0=
+eyJoaXN0b3J5IjpbMTcxMjI1MzE2MywtMTA5MTc1MTMwNCwtMT
+A0OTYwNTU1OCwtMTkzMzE1NzY3OCwtMTg3MjcyNjU4MCwxNzI5
+MDI2NDQyLC0xODIzOTcxNjIwLC05MTU3Mzc5NjMsLTEzMzk3NT
+EwNjAsLTIxOTUxMDcyOF19
 -->
