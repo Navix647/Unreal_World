@@ -121,11 +121,17 @@ Target  "MyLibiglProject" links to target "igl::opengl_glfw" but the target was 
 
 
 
-给出这个代码，CLTC工况假定已存入到CLTC_Data.mat里了，他是一个结构体包含time_s 1801x1 double, speed_kmh 1801x1 double,speed_ms 1801x1 double, acc_ms2 1801x1 double, slope 1801x1 double的数据
+给出这个代码，CLTC工况假定已存入到CLTC_Data.mat里了，他是一个名为cyc_data的结构体包含time_s 1801x1 double, speed_kmh 1801x1 double,speed_ms 1801x1 double, acc_ms2 1801x1 double, slope 1801x1 double的数据
+
+3系 海鸥Plus
+
+5系
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMDQxNDAwNiwtMTkzMzE1NzY3OCwtMT
+eyJoaXN0b3J5IjpbLTkwNzQyMDIyNSwtMTkzMzE1NzY3OCwtMT
 g3MjcyNjU4MCwxNzI5MDI2NDQyLC0xODIzOTcxNjIwLC05MTU3
 Mzc5NjMsLTEzMzk3NTEwNjAsLTIxOTUxMDcyOF19
 -->
