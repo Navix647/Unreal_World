@@ -142,8 +142,12 @@ CLTC百公里耗电量
 
 
 海鸥
-
-
+峰值功率55
+峰值扭矩135
+整备质量1240
+续航405
+电池电量：38.88
+百公里耗电量：10.1
 
 
 海狮07 EV  2025智航版
@@ -160,7 +164,7 @@ CLTC续航:610
 秦Max
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMDc5OTM0MCwtMTA5MTc1MTMwNCwtMT
+eyJoaXN0b3J5IjpbMTAyMzg0NjI4MywtMTA5MTc1MTMwNCwtMT
 A0OTYwNTU1OCwtMTkzMzE1NzY3OCwtMTg3MjcyNjU4MCwxNzI5
 MDI2NDQyLC0xODIzOTcxNjIwLC05MTU3Mzc5NjMsLTEzMzk3NT
 EwNjAsLTIxOTUxMDcyOF19
