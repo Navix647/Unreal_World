@@ -127,7 +127,7 @@ Target  "MyLibiglProject" links to target "igl::opengl_glfw" but the target was 
 5系海豚
 6系 秦Max
 7系 海狮07 EV
-8系 海豹08
+8系 钛7
 9系腾势N8
 
 
@@ -135,8 +135,8 @@ Target  "MyLibiglProject" links to target "igl::opengl_glfw" but the target was 
 海豚
 海狮06 2026 606
 海狮07 EV
-海豹08
-腾势N8
+钛7
+腾势N9
 整车参数包括：风阻系数、轮胎滚动半径、滚动阻力系数
 CLTC百公里耗电量
 
@@ -174,10 +174,13 @@ CLTC续航420
 CLTC续航605
 电量69.07
 百公里耗电量12.7
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg0MjM1NzcyLC0xMDkxNzUxMzA0LC0xMD
-Q5NjA1NTU4LC0xOTMzMTU3Njc4LC0xODcyNzI2NTgwLDE3Mjkw
-MjY0NDIsLTE4MjM5NzE2MjAsLTkxNTczNzk2MywtMTMzOTc1MT
-A2MCwtMjE5NTEwNzI4XX0=
+eyJoaXN0b3J5IjpbLTgwNjQzNzI2OSwyODQyMzU3NzIsLTEwOT
+E3NTEzMDQsLTEwNDk2MDU1NTgsLTE5MzMxNTc2NzgsLTE4NzI3
+MjY1ODAsMTcyOTAyNjQ0MiwtMTgyMzk3MTYyMCwtOTE1NzM3OT
+YzLC0xMzM5NzUxMDYwLC0yMTk1MTA3MjhdfQ==
 -->
