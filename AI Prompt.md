@@ -192,18 +192,22 @@ CLTC续航880
 
 接下来流程：
 get_appliaction_id()
+url为base_url/application
 获取应用id,get请求，非json参数为：
 name
 desc
 都是可选
 然后返回json，当code=200时
-从data数组里获取第一个元素，每个元素是zidian
+从data数组里获取第一个元素，每个元素是字典，获取key为id的值即可，然后让class记住当前应用id
 
+然后进行chat请求
+open_chat
+也是get请求，
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MzgwNzU4LC0xMDg0NTAwODk5LC0zMD
-kzODMxOCwyODQyMzU3NzIsLTEwOTE3NTEzMDQsLTEwNDk2MDU1
-NTgsLTE5MzMxNTc2NzgsLTE4NzI3MjY1ODAsMTcyOTAyNjQ0Mi
-wtMTgyMzk3MTYyMCwtOTE1NzM3OTYzLC0xMzM5NzUxMDYwLC0y
-MTk1MTA3MjhdfQ==
+eyJoaXN0b3J5IjpbLTE0NDcxNjA1NDcsLTEwODQ1MDA4OTksLT
+MwOTM4MzE4LDI4NDIzNTc3MiwtMTA5MTc1MTMwNCwtMTA0OTYw
+NTU1OCwtMTkzMzE1NzY3OCwtMTg3MjcyNjU4MCwxNzI5MDI2ND
+QyLC0xODIzOTcxNjIwLC05MTU3Mzc5NjMsLTEzMzk3NTEwNjAs
+LTIxOTUxMDcyOF19
 -->
