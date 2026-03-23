@@ -213,13 +213,14 @@ post请求
 参数为message，re_chat，stream
 其中re_chat和stream都是布尔值
 message就是string，发送给LLM的信息。
+stream决定是否流式传输
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NTk2OTcyMywtMTA4NDUwMDg5OSwtMz
-A5MzgzMTgsMjg0MjM1NzcyLC0xMDkxNzUxMzA0LC0xMDQ5NjA1
-NTU4LC0xOTMzMTU3Njc4LC0xODcyNzI2NTgwLDE3MjkwMjY0ND
-IsLTE4MjM5NzE2MjAsLTkxNTczNzk2MywtMTMzOTc1MTA2MCwt
-MjE5NTEwNzI4XX0=
+eyJoaXN0b3J5IjpbMTMyMjg0MTcwLC0xMDg0NTAwODk5LC0zMD
+kzODMxOCwyODQyMzU3NzIsLTEwOTE3NTEzMDQsLTEwNDk2MDU1
+NTgsLTE5MzMxNTc2NzgsLTE4NzI3MjY1ODAsMTcyOTAyNjQ0Mi
+wtMTgyMzk3MTYyMCwtOTE1NzM3OTYzLC0xMzM5NzUxMDYwLC0y
+MTk1MTA3MjhdfQ==
 -->
