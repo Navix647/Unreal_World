@@ -202,12 +202,18 @@ desc
 
 然后进行chat请求
 open_chat
-也是get请求，
+url为
+也是get请求，参数为application_id，也就是把前面得到的id放到这里作为参数。
+返回json，key为data位置取值，获取当前chat_id
+
+接下来是关键一步：
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDcxNjA1NDcsLTEwODQ1MDA4OTksLT
-MwOTM4MzE4LDI4NDIzNTc3MiwtMTA5MTc1MTMwNCwtMTA0OTYw
-NTU1OCwtMTkzMzE1NzY3OCwtMTg3MjcyNjU4MCwxNzI5MDI2ND
-QyLC0xODIzOTcxNjIwLC05MTU3Mzc5NjMsLTEzMzk3NTEwNjAs
-LTIxOTUxMDcyOF19
+eyJoaXN0b3J5IjpbMTkwMTIzMTAxMiwtMTA4NDUwMDg5OSwtMz
+A5MzgzMTgsMjg0MjM1NzcyLC0xMDkxNzUxMzA0LC0xMDQ5NjA1
+NTU4LC0xOTMzMTU3Njc4LC0xODcyNzI2NTgwLDE3MjkwMjY0ND
+IsLTE4MjM5NzE2MjAsLTkxNTczNzk2MywtMTMzOTc1MTA2MCwt
+MjE5NTEwNzI4XX0=
 -->
