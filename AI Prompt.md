@@ -207,14 +207,17 @@ url为base_url/application/{application_id}/chat/open
 返回json，key为data位置取值，获取当前chat_id
 
 接下来是关键一步：
-chat(cha)
-
-
+chat(chat_id)
+url为base_url/application/chat_message/{chat_id}
+post请求
+参数为message，re_chat，stream
+其中re_chat和stream都是布尔值
+message就是string，发送给LLM的信息。
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNzM2NTY1MCwtMTA4NDUwMDg5OSwtMz
+eyJoaXN0b3J5IjpbMTY4NTk2OTcyMywtMTA4NDUwMDg5OSwtMz
 A5MzgzMTgsMjg0MjM1NzcyLC0xMDkxNzUxMzA0LC0xMDQ5NjA1
 NTU4LC0xOTMzMTU3Njc4LC0xODcyNzI2NTgwLDE3MjkwMjY0ND
 IsLTE4MjM5NzE2MjAsLTkxNTczNzk2MywtMTMzOTc1MTA2MCwt
