@@ -188,11 +188,22 @@ CLTC续航880
 百公里耗电量13.0
 实际计算值：13.864
 
+
+
+接下来流程：
+get_appliaction_id()
+获取应用id,get请求，非json参数为：
+name
+desc
+都是可选
+然后返回json，当code=200时
+从data数组里获取第一个元素，每个元素是zidian
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODQ1MDA4OTksLTMwOTM4MzE4LDI4ND
-IzNTc3MiwtMTA5MTc1MTMwNCwtMTA0OTYwNTU1OCwtMTkzMzE1
-NzY3OCwtMTg3MjcyNjU4MCwxNzI5MDI2NDQyLC0xODIzOTcxNj
-IwLC05MTU3Mzc5NjMsLTEzMzk3NTEwNjAsLTIxOTUxMDcyOF19
-
+eyJoaXN0b3J5IjpbLTU1MzgwNzU4LC0xMDg0NTAwODk5LC0zMD
+kzODMxOCwyODQyMzU3NzIsLTEwOTE3NTEzMDQsLTEwNDk2MDU1
+NTgsLTE5MzMxNTc2NzgsLTE4NzI3MjY1ODAsMTcyOTAyNjQ0Mi
+wtMTgyMzk3MTYyMCwtOTE1NzM3OTYzLC0xMzM5NzUxMDYwLC0y
+MTk1MTA3MjhdfQ==
 -->
