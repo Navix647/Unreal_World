@@ -201,17 +201,20 @@ desc
 从data数组里获取第一个元素，每个元素是字典，获取key为id的值即可，然后让class记住当前应用id
 
 然后进行chat请求
-open_chat
-url为
-也是get请求，参数为application_id，也就是把前面得到的id放到这里作为参数。
+open_chat()
+url为base_url/application/{application_id}/chat/open
+也是get请求，参数为application_id，也就是把前面得到的id放到这里作为参数。这个参数是url的一部分
 返回json，key为data位置取值，获取当前chat_id
 
 接下来是关键一步：
+chat(cha)
+
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMTIzMTAxMiwtMTA4NDUwMDg5OSwtMz
+eyJoaXN0b3J5IjpbLTYxNzM2NTY1MCwtMTA4NDUwMDg5OSwtMz
 A5MzgzMTgsMjg0MjM1NzcyLC0xMDkxNzUxMzA0LC0xMDQ5NjA1
 NTU4LC0xOTMzMTU3Njc4LC0xODcyNzI2NTgwLDE3MjkwMjY0ND
 IsLTE4MjM5NzE2MjAsLTkxNTczNzk2MywtMTMzOTc1MTA2MCwt
