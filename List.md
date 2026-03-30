@@ -2,13 +2,14 @@ SS:
 MegaManX8
 Metal Slug
 
-Princess Crown
-Guardian Heros
+
+[Princess Crown (Japan) (Rev A) (13M).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Princess%20Crown%20%28Japan%29%20%28Rev%20A%29%20%2813M%29.zip)
 
 
+[Guardian Heroes (Japan) (3M).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Guardian%20Heroes%20%28Japan%29%20%283M%29.zip)
 
 AVG：
-[Nonomura Byouin no Hitobito](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Nonomura%20Byouin%20no%20Hitobito%20%28Japan%29.zip "Nonomura Byouin no Hitobito (Japan).zip")
+[Nonomura Byouin no Hitobito](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Nonomura%20Byouin%20no%20Hitobito%20%28Japan%29.zip)
 
 
 
@@ -16,5 +17,6 @@ AVG：
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIzMjIzNjM2LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTExMDUyNDk2MDgsNjIzMjIzNjM2LDczMD
+k5ODExNl19
 -->
