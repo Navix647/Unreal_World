@@ -27,6 +27,10 @@ ATB
 [Linkle Liver Story (Japan).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Linkle%20Liver%20Story%20%28Japan%29.zip )
 
 
+[Dungeons & Dragons Collection (Japan) (Disc 1) (Tower of Doom).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Dungeons%20%26%20Dragons%20Collection%20%28Japan%29%20%28Disc%201%29%20%28Tower%20of%20Doom%29.zip)
+
+[Dungeons & Dragons Collection (Japan) (Disc 2) (Shadow over Mystara).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Dungeons%20%26%20Dragons%20Collection%20%28Japan%29%20%28Disc%202%29%20%28Shadow%20over%20Mystara%29.zip)
+
 AVG：
 [Nonomura Byouin no Hitobito](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Nonomura%20Byouin%20no%20Hitobito%20%28Japan%29.zip)
 
@@ -36,8 +40,8 @@ AVG：
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM2Njg3MjkxLC0xNzIyNTUzNDI3LC00Mz
-AyMDM1MSwtNzI1MDY4NjI1LDEwODgyMTMzNTAsLTk0MDE4MTMw
-NywxMTkzMTM3Mzk0LC0xMTAzNzk0Nzk2LC0xMTA1MjQ5NjA4LD
-YyMzIyMzYzNiw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE5NTU0OTYzNTcsLTE3MjI1NTM0MjcsLT
+QzMDIwMzUxLC03MjUwNjg2MjUsMTA4ODIxMzM1MCwtOTQwMTgx
+MzA3LDExOTMxMzczOTQsLTExMDM3OTQ3OTYsLTExMDUyNDk2MD
+gsNjIzMjIzNjM2LDczMDk5ODExNl19
 -->
