@@ -18,6 +18,9 @@ ATB
 [Nanatsu Kaze no Shima Monogatari (Japan) (Disc 1).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Nanatsu%20Kaze%20no%20Shima%20Monogatari%20%28Japan%29%20%28Disc%201%29.zip)
 [Nanatsu Kaze no Shima Monogatari (Japan) (Disc 2) (Premium CD).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Nanatsu%20Kaze%20no%20Shima%20Monogatari%20%28Japan%29%20%28Disc%202%29%20%28Premium%20CD%29.zip)
 
+[Arthur to Astaroth no Nazo Makaimura - Incredible Toons (Japan).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Arthur%20to%20Astaroth%20no%20Nazo%20Makaimura%20-%20Incredible%20Toons%20%28Japan%29.zip)
+
+
 AVG：
 [Nonomura Byouin no Hitobito](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Nonomura%20Byouin%20no%20Hitobito%20%28Japan%29.zip)
 
@@ -27,7 +30,7 @@ AVG：
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MDE4MTMwNywxMTkzMTM3Mzk0LC0xMT
-AzNzk0Nzk2LC0xMTA1MjQ5NjA4LDYyMzIyMzYzNiw3MzA5OTgx
-MTZdfQ==
+eyJoaXN0b3J5IjpbMTA4ODIxMzM1MCwtOTQwMTgxMzA3LDExOT
+MxMzczOTQsLTExMDM3OTQ3OTYsLTExMDUyNDk2MDgsNjIzMjIz
+NjM2LDczMDk5ODExNl19
 -->
