@@ -23,11 +23,11 @@ AVG：
 
 [Kindaichi Shounen no Jikenbo - Hoshimitou Kanashimi no Fukushuuki](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Kindaichi%20Shounen%20no%20Jikenbo%20-%20Hoshimitou%20Kanashimi%20no%20Fukushuuki%20%28Japan%29.zip)
 
-
+[Black-Matrix (Japan) (Rerelease).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Black-Matrix%20%28Japan%29%20%28Rerelease%29.zip "Black-Matrix (Japan) (Rerelease).zip")
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NjM4NjYyMywxMTkzMTM3Mzk0LC0xMT
-AzNzk0Nzk2LC0xMTA1MjQ5NjA4LDYyMzIyMzYzNiw3MzA5OTgx
-MTZdfQ==
+eyJoaXN0b3J5IjpbLTEwMjc0MjY1LDExOTMxMzczOTQsLTExMD
+M3OTQ3OTYsLTExMDUyNDk2MDgsNjIzMjIzNjM2LDczMDk5ODEx
+Nl19
 -->
