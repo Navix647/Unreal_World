@@ -21,12 +21,13 @@ ATB
 AVG：
 [Nonomura Byouin no Hitobito](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Nonomura%20Byouin%20no%20Hitobito%20%28Japan%29.zip)
 
-
+[Kindaichi Shounen no Jikenbo - Hoshimitou Kanashimi no Fukushuuki](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Kindaichi%20Shounen%20no%20Jikenbo%20-%20Hoshimitou%20Kanashimi%20no%20Fukushuuki%20%28Japan%29.zip)
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MzEzNzM5NCwtMTEwMzc5NDc5NiwtMT
-EwNTI0OTYwOCw2MjMyMjM2MzYsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTQ1NjM4NjYyMywxMTkzMTM3Mzk0LC0xMT
+AzNzk0Nzk2LC0xMTA1MjQ5NjA4LDYyMzIyMzYzNiw3MzA5OTgx
+MTZdfQ==
 -->
