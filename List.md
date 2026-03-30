@@ -67,14 +67,18 @@ AVG：
 
 [Yu-No - Konoyo no Hate de Koi o Utau Shoujo (Japan) (Disc C).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Yu-No%20-%20Konoyo%20no%20Hate%20de%20Koi%20o%20Utau%20Shoujo%20%28Japan%29%20%28Disc%20C%29.zip)
 
+
+[m [emu] - Kimi o Tsutaete (Japan) (2M).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/m%20%5Bemu%5D%20-%20Kimi%20o%20Tsutaete%20%28Japan%29%20%282M%29.zip "m [emu] - Kimi o Tsutaete (Japan) (2M).zip")
+
 STG
 
 [Metal Black (Japan) (3M).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Metal%20Black%20%28Japan%29%20%283M%29.zip "Metal Black (Japan) (3M).zip")
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkzNjE2MzIyLC0xMzY4ODQ0MDg0LDEwNj
-IyMDgzNzcsLTE1MjIwNDU1NzIsLTE5NTU0OTYzNTcsLTE3MjI1
-NTM0MjcsLTQzMDIwMzUxLC03MjUwNjg2MjUsMTA4ODIxMzM1MC
-wtOTQwMTgxMzA3LDExOTMxMzczOTQsLTExMDM3OTQ3OTYsLTEx
-MDUyNDk2MDgsNjIzMjIzNjM2LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbOTI3NzU5MzA2LDQ5MzYxNjMyMiwtMTM2OD
+g0NDA4NCwxMDYyMjA4Mzc3LC0xNTIyMDQ1NTcyLC0xOTU1NDk2
+MzU3LC0xNzIyNTUzNDI3LC00MzAyMDM1MSwtNzI1MDY4NjI1LD
+EwODgyMTMzNTAsLTk0MDE4MTMwNywxMTkzMTM3Mzk0LC0xMTAz
+Nzk0Nzk2LC0xMTA1MjQ5NjA4LDYyMzIyMzYzNiw3MzA5OTgxMT
+ZdfQ==
 -->
