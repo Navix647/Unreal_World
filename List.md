@@ -61,14 +61,20 @@ AVG：
 [Cross Tantei Monogatari - Motsureta Nanatsu no Labyrinth (Japan) (Disc 2).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Cross%20Tantei%20Monogatari%20-%20Motsureta%20Nanatsu%20no%20Labyrinth%20%28Japan%29%20%28Disc%202%29.zip "Cross Tantei Monogatari - Motsureta Nanatsu no Labyrinth (Japan) (Disc 2).zip")
 
 
+[Yu-No - Konoyo no Hate de Koi o Utau Shoujo (Japan) (Disc A).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Yu-No%20-%20Konoyo%20no%20Hate%20de%20Koi%20o%20Utau%20Shoujo%20%28Japan%29%20%28Disc%20A%29.zip)
+
+[Yu-No - Konoyo no Hate de Koi o Utau Shoujo (Japan) (Disc B).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Yu-No%20-%20Konoyo%20no%20Hate%20de%20Koi%20o%20Utau%20Shoujo%20%28Japan%29%20%28Disc%20B%29.zip)
+
+[Yu-No - Konoyo no Hate de Koi o Utau Shoujo (Japan) (Disc C).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Yu-No%20-%20Konoyo%20no%20Hate%20de%20Koi%20o%20Utau%20Shoujo%20%28Japan%29%20%28Disc%20C%29.zip)
+
 STG
 
 [Metal Black (Japan) (3M).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Metal%20Black%20%28Japan%29%20%283M%29.zip "Metal Black (Japan) (3M).zip")
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjg4NDQwODQsMTA2MjIwODM3NywtMT
-UyMjA0NTU3MiwtMTk1NTQ5NjM1NywtMTcyMjU1MzQyNywtNDMw
-MjAzNTEsLTcyNTA2ODYyNSwxMDg4MjEzMzUwLC05NDAxODEzMD
-csMTE5MzEzNzM5NCwtMTEwMzc5NDc5NiwtMTEwNTI0OTYwOCw2
-MjMyMjM2MzYsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbNDkzNjE2MzIyLC0xMzY4ODQ0MDg0LDEwNj
+IyMDgzNzcsLTE1MjIwNDU1NzIsLTE5NTU0OTYzNTcsLTE3MjI1
+NTM0MjcsLTQzMDIwMzUxLC03MjUwNjg2MjUsMTA4ODIxMzM1MC
+wtOTQwMTgxMzA3LDExOTMxMzczOTQsLTExMDM3OTQ3OTYsLTEx
+MDUyNDk2MDgsNjIzMjIzNjM2LDczMDk5ODExNl19
 -->
