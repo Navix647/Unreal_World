@@ -20,6 +20,8 @@ ATB
 
 [Arthur to Astaroth no Nazo Makaimura - Incredible Toons (Japan).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Arthur%20to%20Astaroth%20no%20Nazo%20Makaimura%20-%20Incredible%20Toons%20%28Japan%29.zip)
 
+[Linkle Liver Story (Japan).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Linkle%20Liver%20Story%20%28Japan%29.zip )
+
 
 AVG：
 [Nonomura Byouin no Hitobito](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Nonomura%20Byouin%20no%20Hitobito%20%28Japan%29.zip)
@@ -30,7 +32,7 @@ AVG：
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4ODIxMzM1MCwtOTQwMTgxMzA3LDExOT
-MxMzczOTQsLTExMDM3OTQ3OTYsLTExMDUyNDk2MDgsNjIzMjIz
-NjM2LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTcyNTA2ODYyNSwxMDg4MjEzMzUwLC05ND
+AxODEzMDcsMTE5MzEzNzM5NCwtMTEwMzc5NDc5NiwtMTEwNTI0
+OTYwOCw2MjMyMjM2MzYsNzMwOTk4MTE2XX0=
 -->
