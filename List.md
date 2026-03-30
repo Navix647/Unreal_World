@@ -73,17 +73,17 @@ AVG：
 
 [GeGeGe no Kitarou - Gentou Kaikitan (Japan).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/GeGeGe%20no%20Kitarou%20-%20Gentou%20Kaikitan%20%28Japan%29.zip "GeGeGe no Kitarou - Gentou Kaikitan (Japan).zip")
 
-[Mujintou Monogatari R - Futari no Love Love Island (Japan).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Mujintou%20Monogatari%20R%20-%20Futari%20no%20Love%20Love%20Island%20%28Japan%29.zip "Mujintou Monogatari R - Futari no Love Love Island (Japan).zip")
+[Mujintou Monogatari R - Futari no Love Love Island (Japan).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Mujintou%20Monogatari%20R%20-%20Futari%20no%20Love%20Love%20Island%20%28Japan%29.zip)
 
 STG
 
 [Metal Black (Japan) (3M).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Metal%20Black%20%28Japan%29%20%283M%29.zip "Metal Black (Japan) (3M).zip")
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA5MDE3NDYwLC0xOTk1OTk2OTg1LDkyNz
-c1OTMwNiw0OTM2MTYzMjIsLTEzNjg4NDQwODQsMTA2MjIwODM3
-NywtMTUyMjA0NTU3MiwtMTk1NTQ5NjM1NywtMTcyMjU1MzQyNy
-wtNDMwMjAzNTEsLTcyNTA2ODYyNSwxMDg4MjEzMzUwLC05NDAx
-ODEzMDcsMTE5MzEzNzM5NCwtMTEwMzc5NDc5NiwtMTEwNTI0OT
-YwOCw2MjMyMjM2MzYsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTg0MDUwNjg2NiwtMTk5NTk5Njk4NSw5Mj
+c3NTkzMDYsNDkzNjE2MzIyLC0xMzY4ODQ0MDg0LDEwNjIyMDgz
+NzcsLTE1MjIwNDU1NzIsLTE5NTU0OTYzNTcsLTE3MjI1NTM0Mj
+csLTQzMDIwMzUxLC03MjUwNjg2MjUsMTA4ODIxMzM1MCwtOTQw
+MTgxMzA3LDExOTMxMzczOTQsLTExMDM3OTQ3OTYsLTExMDUyND
+k2MDgsNjIzMjIzNjM2LDczMDk5ODExNl19
 -->
