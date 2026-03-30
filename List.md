@@ -54,6 +54,11 @@ AVG：
 [Policenauts (Japan) (Disc 3).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Policenauts%20%28Japan%29%20%28Disc%203%29.zip)
 
 
+[Cat the Ripper - 13Ninme no Tanteishi (Japan).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Cat%20the%20Ripper%20-%2013Ninme%20no%20Tanteishi%20%28Japan%29.zip "Cat the Ripper - 13Ninme no Tanteishi (Japan).zip")
+
+[Cross Tantei Monogatari - Motsureta Nanatsu no Labyrinth (Japan) (Disc 1).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Cross%20Tantei%20Monogatari%20-%20Motsureta%20Nanatsu%20no%20Labyrinth%20%28Japan%29%20%28Disc%201%29.zip "Cross Tantei Monogatari - Motsureta Nanatsu no Labyrinth (Japan) (Disc 1).zip")
+
+[Cross Tantei Monogatari - Motsureta Nanatsu no Labyrinth (Japan) (Disc 2).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Cross%20Tantei%20Monogatari%20-%20Motsureta%20Nanatsu%20no%20Labyrinth%20%28Japan%29%20%28Disc%202%29.zip "Cross Tantei Monogatari - Motsureta Nanatsu no Labyrinth (Japan) (Disc 2).zip")
 
 
 STG
@@ -61,9 +66,9 @@ STG
 [Metal Black (Japan) (3M).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Metal%20Black%20%28Japan%29%20%283M%29.zip "Metal Black (Japan) (3M).zip")
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MTQ1NzUwNywxMDYyMjA4Mzc3LC0xNT
-IyMDQ1NTcyLC0xOTU1NDk2MzU3LC0xNzIyNTUzNDI3LC00MzAy
-MDM1MSwtNzI1MDY4NjI1LDEwODgyMTMzNTAsLTk0MDE4MTMwNy
-wxMTkzMTM3Mzk0LC0xMTAzNzk0Nzk2LC0xMTA1MjQ5NjA4LDYy
-MzIyMzYzNiw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEzNjg4NDQwODQsMTA2MjIwODM3NywtMT
+UyMjA0NTU3MiwtMTk1NTQ5NjM1NywtMTcyMjU1MzQyNywtNDMw
+MjAzNTEsLTcyNTA2ODYyNSwxMDg4MjEzMzUwLC05NDAxODEzMD
+csMTE5MzEzNzM5NCwtMTEwMzc5NDc5NiwtMTEwNTI0OTYwOCw2
+MjMyMjM2MzYsNzMwOTk4MTE2XX0=
 -->
