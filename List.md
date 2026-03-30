@@ -48,11 +48,17 @@ AVG：
 
 [Policenauts (Japan) (Disc 3).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Policenauts%20%28Japan%29%20%28Disc%203%29.zip)
 
+
+
+
+STG
+
+[Metal Black (Japan) (3M).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Metal%20Black%20%28Japan%29%20%283M%29.zip "Metal Black (Japan) (3M).zip")
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzA5MjIzNzMsLTE1MjIwNDU1NzIsLT
-E5NTU0OTYzNTcsLTE3MjI1NTM0MjcsLTQzMDIwMzUxLC03MjUw
-Njg2MjUsMTA4ODIxMzM1MCwtOTQwMTgxMzA3LDExOTMxMzczOT
-QsLTExMDM3OTQ3OTYsLTExMDUyNDk2MDgsNjIzMjIzNjM2LDcz
-MDk5ODExNl19
+eyJoaXN0b3J5IjpbMTA2MjIwODM3NywtMTUyMjA0NTU3MiwtMT
+k1NTQ5NjM1NywtMTcyMjU1MzQyNywtNDMwMjAzNTEsLTcyNTA2
+ODYyNSwxMDg4MjEzMzUwLC05NDAxODEzMDcsMTE5MzEzNzM5NC
+wtMTEwMzc5NDc5NiwtMTEwNTI0OTYwOCw2MjMyMjM2MzYsNzMw
+OTk4MTE2XX0=
 -->
