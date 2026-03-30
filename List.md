@@ -4,6 +4,8 @@ Metal Slug
 
 [Silhouette Mirage (Japan) (Rev A).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Silhouette%20Mirage%20%28Japan%29%20%28Rev%20A%29.zip)
 
+[Madou Monogatari (Japan).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Madou%20Monogatari%20%28Japan%29.zip)
+
 SRPG:
 [Wachenroeder (Japan).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Wachenroeder%20%28Japan%29.zip)
 [Terra Phantastica (Japan).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Terra%20Phantastica%20%28Japan%29.zip)
@@ -32,7 +34,8 @@ AVG：
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMDIwMzUxLC03MjUwNjg2MjUsMTA4OD
-IxMzM1MCwtOTQwMTgxMzA3LDExOTMxMzczOTQsLTExMDM3OTQ3
-OTYsLTExMDUyNDk2MDgsNjIzMjIzNjM2LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE3MjI1NTM0MjcsLTQzMDIwMzUxLC03Mj
+UwNjg2MjUsMTA4ODIxMzM1MCwtOTQwMTgxMzA3LDExOTMxMzcz
+OTQsLTExMDM3OTQ3OTYsLTExMDUyNDk2MDgsNjIzMjIzNjM2LD
+czMDk5ODExNl19
 -->
