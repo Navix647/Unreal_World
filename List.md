@@ -2,7 +2,7 @@ SS:
 MegaManX8
 Metal Slug
 
-
+[Silhouette Mirage (Japan) (Rev A).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Silhouette%20Mirage%20%28Japan%29%20%28Rev%20A%29.zip)
 
 SRPG:
 [Wachenroeder (Japan).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Wachenroeder%20%28Japan%29.zip)
@@ -32,8 +32,7 @@ AVG：
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMzk3ODU3OSwtNzI1MDY4NjI1LDEwOD
-gyMTMzNTAsLTk0MDE4MTMwNywxMTkzMTM3Mzk0LC0xMTAzNzk0
-Nzk2LC0xMTA1MjQ5NjA4LDYyMzIyMzYzNiw3MzA5OTgxMTZdfQ
-==
+eyJoaXN0b3J5IjpbLTQzMDIwMzUxLC03MjUwNjg2MjUsMTA4OD
+IxMzM1MCwtOTQwMTgxMzA3LDExOTMxMzczOTQsLTExMDM3OTQ3
+OTYsLTExMDUyNDk2MDgsNjIzMjIzNjM2LDczMDk5ODExNl19
 -->
