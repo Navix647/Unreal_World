@@ -70,15 +70,20 @@ AVG：
 
 [m [emu] - Kimi o Tsutaete (Japan) (2M).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/m%20%5Bemu%5D%20-%20Kimi%20o%20Tsutaete%20%28Japan%29%20%282M%29.zip "m [emu] - Kimi o Tsutaete (Japan) (2M).zip")
 
+
+[GeGeGe no Kitarou - Gentou Kaikitan (Japan).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/GeGeGe%20no%20Kitarou%20-%20Gentou%20Kaikitan%20%28Japan%29.zip "GeGeGe no Kitarou - Gentou Kaikitan (Japan).zip")
+
+
+
 STG
 
 [Metal Black (Japan) (3M).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Metal%20Black%20%28Japan%29%20%283M%29.zip "Metal Black (Japan) (3M).zip")
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI3NzU5MzA2LDQ5MzYxNjMyMiwtMTM2OD
-g0NDA4NCwxMDYyMjA4Mzc3LC0xNTIyMDQ1NTcyLC0xOTU1NDk2
-MzU3LC0xNzIyNTUzNDI3LC00MzAyMDM1MSwtNzI1MDY4NjI1LD
-EwODgyMTMzNTAsLTk0MDE4MTMwNywxMTkzMTM3Mzk0LC0xMTAz
-Nzk0Nzk2LC0xMTA1MjQ5NjA4LDYyMzIyMzYzNiw3MzA5OTgxMT
-ZdfQ==
+eyJoaXN0b3J5IjpbLTE5OTU5OTY5ODUsOTI3NzU5MzA2LDQ5Mz
+YxNjMyMiwtMTM2ODg0NDA4NCwxMDYyMjA4Mzc3LC0xNTIyMDQ1
+NTcyLC0xOTU1NDk2MzU3LC0xNzIyNTUzNDI3LC00MzAyMDM1MS
+wtNzI1MDY4NjI1LDEwODgyMTMzNTAsLTk0MDE4MTMwNywxMTkz
+MTM3Mzk0LC0xMTAzNzk0Nzk2LC0xMTA1MjQ5NjA4LDYyMzIyMz
+YzNiw3MzA5OTgxMTZdfQ==
 -->
