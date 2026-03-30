@@ -8,6 +8,11 @@ Metal Slug
 
 [Magic Knight Rayearth (Japan) (4M).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Magic%20Knight%20Rayearth%20%28Japan%29%20%284M%29.zip)
 
+[Ishin no Arashi (Japan) (Rev A).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Ishin%20no%20Arashi%20%28Japan%29%20%28Rev%20A%29.zip "Ishin no Arashi (Japan) (Rev A).zip")
+
+
+
+
 SRPG:
 [Wachenroeder (Japan).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Wachenroeder%20%28Japan%29.zip)
 [Terra Phantastica (Japan).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Terra%20Phantastica%20%28Japan%29.zip)
@@ -56,9 +61,9 @@ STG
 [Metal Black (Japan) (3M).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Metal%20Black%20%28Japan%29%20%283M%29.zip "Metal Black (Japan) (3M).zip")
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MjIwODM3NywtMTUyMjA0NTU3MiwtMT
-k1NTQ5NjM1NywtMTcyMjU1MzQyNywtNDMwMjAzNTEsLTcyNTA2
-ODYyNSwxMDg4MjEzMzUwLC05NDAxODEzMDcsMTE5MzEzNzM5NC
-wtMTEwMzc5NDc5NiwtMTEwNTI0OTYwOCw2MjMyMjM2MzYsNzMw
-OTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTc5MTQ1NzUwNywxMDYyMjA4Mzc3LC0xNT
+IyMDQ1NTcyLC0xOTU1NDk2MzU3LC0xNzIyNTUzNDI3LC00MzAy
+MDM1MSwtNzI1MDY4NjI1LDEwODgyMTMzNTAsLTk0MDE4MTMwNy
+wxMTkzMTM3Mzk0LC0xMTAzNzk0Nzk2LC0xMTA1MjQ5NjA4LDYy
+MzIyMzYzNiw3MzA5OTgxMTZdfQ==
 -->
