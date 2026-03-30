@@ -31,6 +31,9 @@ ATB
 
 [Dungeons & Dragons Collection (Japan) (Disc 2) (Shadow over Mystara).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Dungeons%20%26%20Dragons%20Collection%20%28Japan%29%20%28Disc%202%29%20%28Shadow%20over%20Mystara%29.zip)
 
+[Shinrei Jusatsushi Taroumaru (Japan).zip](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Shinrei%20Jusatsushi%20Taroumaru%20%28Japan%29.zip )
+
+
 AVG：
 [Nonomura Byouin no Hitobito](https://myrient.erista.me/files/Redump/Sega%20-%20Saturn/Nonomura%20Byouin%20no%20Hitobito%20%28Japan%29.zip)
 
@@ -40,8 +43,8 @@ AVG：
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTU0OTYzNTcsLTE3MjI1NTM0MjcsLT
-QzMDIwMzUxLC03MjUwNjg2MjUsMTA4ODIxMzM1MCwtOTQwMTgx
-MzA3LDExOTMxMzczOTQsLTExMDM3OTQ3OTYsLTExMDUyNDk2MD
-gsNjIzMjIzNjM2LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE1MjIwNDU1NzIsLTE5NTU0OTYzNTcsLT
+E3MjI1NTM0MjcsLTQzMDIwMzUxLC03MjUwNjg2MjUsMTA4ODIx
+MzM1MCwtOTQwMTgxMzA3LDExOTMxMzczOTQsLTExMDM3OTQ3OT
+YsLTExMDUyNDk2MDgsNjIzMjIzNjM2LDczMDk5ODExNl19
 -->
