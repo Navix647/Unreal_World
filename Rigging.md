@@ -16,10 +16,20 @@ Dem Bones is released under the  [BSD 3-Clause license](https://github.com/elect
 ## ReverseFoot
 
 
+## Rigging Prerequisite
+基础不牢，地动山摇
 
-## 
+
+
+
+
+## Weight Painting
+
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA2MjgyOTUwLC0xNDA0NzU3NDY2LC05MT
-AyNDk0NjZdfQ==
+eyJoaXN0b3J5IjpbMzc5MzU1NDE0LDYwNjI4Mjk1MCwtMTQwND
+c1NzQ2NiwtOTEwMjQ5NDY2XX0=
 -->
