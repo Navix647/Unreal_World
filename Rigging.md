@@ -18,6 +18,12 @@ Dem Bones is released under the  [BSD 3-Clause license](https://github.com/elect
 
 ## Rigging Prerequisite
 基础不牢，地动山摇
+Mesh层面检查：
+
+
+
+Joint层面检查：
+
 
 
 
@@ -30,6 +36,6 @@ Dem Bones is released under the  [BSD 3-Clause license](https://github.com/elect
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc5MzU1NDE0LDYwNjI4Mjk1MCwtMTQwND
+eyJoaXN0b3J5IjpbMzY5NTc3Nzg3LDYwNjI4Mjk1MCwtMTQwND
 c1NzQ2NiwtOTEwMjQ5NDY2XX0=
 -->
