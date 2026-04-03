@@ -29,13 +29,13 @@ Joint层面检查：
 
 
 
-## Weight Painting
+## Skinning:Weight Painting
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY5NTc3Nzg3LDYwNjI4Mjk1MCwtMTQwND
-c1NzQ2NiwtOTEwMjQ5NDY2XX0=
+eyJoaXN0b3J5IjpbMjE0MTIxODk2Miw2MDYyODI5NTAsLTE0MD
+Q3NTc0NjYsLTkxMDI0OTQ2Nl19
 -->
