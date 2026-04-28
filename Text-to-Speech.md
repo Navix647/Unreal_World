@@ -14,6 +14,7 @@ BenchMark：GPT-SoVITS
 6. IndexTTS2  可以控制情感输出，可能需要微调，Ja支持度不高
 7. VoxCPM1.5 还原度非常高，Ja支持度非常高，但不能控制情感
 8. Qwen3TTS 尚未测试
+9. FishAudio S2 Pro
 
 
 CosyVoice 2.0和FunCosyVoice 3 零样本复刻人的声音。
@@ -21,9 +22,12 @@ CosyVoice 2.0和FunCosyVoice 3 零样本复刻人的声音。
 
 
 
+VoxCPM 2.0来了
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzYwMDczMDIsODEwNjQ3NzA3LDEzNj
-I5MTkzNjBdfQ==
+eyJoaXN0b3J5IjpbLTE0Njk0MDQxMTUsLTEzMzYwMDczMDIsOD
+EwNjQ3NzA3LDEzNjI5MTkzNjBdfQ==
 -->
