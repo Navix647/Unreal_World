@@ -335,14 +335,31 @@ A 基于point deform将C给的褶皱形状传递到D
 批量获取得到不同姿态下的D_i
 训练得到最终的ML Deformer E
 
+### 3A 局部厚度裤子 & ML Deformer 终极流水线
 
+**一、 资产制作与拓扑定型阶段**
+
+1.  `MD` -> 导出单面布料，进入 `ZBrush` 雕刻，得到 **高模 B（带物理厚度与细节）**。
+    
+2.  `MD` -> 导入拓扑软件，重拓扑得到 **纯单面低模 A**，并展好完美的单面 UV。
+    
+3.  对 **单面低模 A** 的三个洞口进行向内挤出（5-10cm 收口），得到 **带局部厚度的最终低模 D**。
+    
+4.  将 **高模 B** 的法线、AO 等细节烘焙到 **低模 D** 上，完成 SP 材质绘制。
+    
+
+**二、 绑定与权重阶段（优化点在这里）** 5. _（优化修正）_ **不需要分别去绑定 A 和 D，也不要重新刷两次权重！** * **最佳做法：** 直接对 **纯单面低模 A** 进行骨骼绑定（Rig），因为单面模型刷权重、调平滑最容易，绝不会有穿插干扰。 * 将 A 的权重刷到完美后，直接使用 `Copy Skin Weights` (最近点/射线投射)，一键将权重传递给 **最终低模 D**。D 的内层面会自动完美继承外层权重。 * 导出这个拥有完美 LBS 权重的 **低模 D** (Skeletal Mesh) 进入游戏引擎。
+
+**三、 Houdini 批量数据生成阶段 (PDG/TOPs)** 6. 批量读取不同动画姿态下的 `MD三角面形状 C_i` (Alembic/USD 缓存)。 7. **第一次形变传递：** 利用 `Point Deform`，将 `C_i` 的真实物理褶皱完美包裹并传递给 **纯单面低模 A**。 8. **第二次形变传递（安全锁）：** 利用 `Point Deform`，将 **拥有了褶皱的 A** 的形状传递给 **带局部厚度的最终低模 D**（设置小捕获半径，确保厚度边缘完美跟随，无穿插）。 9. 批量导出这些完美变形的 **低模 D_i** 的 Alembic 顶点缓存序列。
+
+**四、 引擎内 ML Deformer 训练阶段** 10. 在 UE5 中，输入 **最终低模 D**（第 5 步的骨骼模型）作为 Base Mesh。 11. 输入 **D_i 序列**（第 9 步的 ABC 缓存）作为 Target (Ground Truth)。 12. 训练并生成最终的 **ML Deformer E**。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA3ODIwNjg2LDk3Njc3ODIxLDEwMjE1OD
-IyOTksLTg5MTk2MzU1MCwxOTI5MTc2MTg4LDgzMTQyOTgsLTcw
-MDQ1MDIwNywtMTcyMDc3NTkzNiwtMTM5NDY4MzE3LDMxNzIzOD
-k4NiwtMzAzNTg1MDUsLTE2Nzc4NzQzMTAsNTI4NjY2ODk4LDUw
-ODg3MDY1NCwxODMzNDkwMzIwLDk3NjY1Nzk0NSwtNzQ4MzE0Mj
-g0LDEwNjczMjczMzEsMjA2MDAyMTk5OCwxMzE4NTEwNDg0XX0=
+eyJoaXN0b3J5IjpbLTM0NDI5NjczMyw3MDc4MjA2ODYsOTc2Nz
+c4MjEsMTAyMTU4MjI5OSwtODkxOTYzNTUwLDE5MjkxNzYxODgs
+ODMxNDI5OCwtNzAwNDUwMjA3LC0xNzIwNzc1OTM2LC0xMzk0Nj
+gzMTcsMzE3MjM4OTg2LC0zMDM1ODUwNSwtMTY3Nzg3NDMxMCw1
+Mjg2NjY4OTgsNTA4ODcwNjU0LDE4MzM0OTAzMjAsOTc2NjU3OT
+Q1LC03NDgzMTQyODQsMTA2NzMyNzMzMSwyMDYwMDIxOTk4XX0=
 
 -->
