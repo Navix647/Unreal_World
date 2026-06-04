@@ -335,6 +335,8 @@ A 基于point deform将C给的褶皱形状传递到D
 批量获取得到不同姿态下的D_i
 训练得到最终的ML Deformer E
 
+
+AI Refine 版本
 ### 3A 局部厚度裤子 & ML Deformer 终极流水线
 
 **一、 资产制作与拓扑定型阶段**
@@ -355,7 +357,7 @@ A 基于point deform将C给的褶皱形状传递到D
 **四、 引擎内 ML Deformer 训练阶段** 10. 在 UE5 中，输入 **最终低模 D**（第 5 步的骨骼模型）作为 Base Mesh。 11. 输入 **D_i 序列**（第 9 步的 ABC 缓存）作为 Target (Ground Truth)。 12. 训练并生成最终的 **ML Deformer E**。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NDI5NjczMyw3MDc4MjA2ODYsOTc2Nz
+eyJoaXN0b3J5IjpbMTY2MjI3NjQ1NCw3MDc4MjA2ODYsOTc2Nz
 c4MjEsMTAyMTU4MjI5OSwtODkxOTYzNTUwLDE5MjkxNzYxODgs
 ODMxNDI5OCwtNzAwNDUwMjA3LC0xNzIwNzc1OTM2LC0xMzk0Nj
 gzMTcsMzE3MjM4OTg2LC0zMDM1ODUwNSwtMTY3Nzg3NDMxMCw1
