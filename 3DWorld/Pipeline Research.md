@@ -390,19 +390,21 @@ UE5：
 周末做DAZ3D技术整理
 1、High Heel & Shoes Rigging          还在摸索（主要是DAZ3D的Rigging系统很逆天，难用）
 2、Hair Rigging & Transfer  基本掌握
-3、Morph的使用，Auto Follower、ERC Link、Basic Eyeball、Teeth、Eyelashes Follower and Morph  已掌握
+3、Morph的使用，Auto Follower、ERC Link、Basic Eyeball、Teeth、Eyelashes Follower and Morph  已掌握但是仍有东西遗漏
 4、GeoGraft的构建以及贴图传递以及独立骨骼系统，以及Morph的传递 一个独立大板块
 5、Blender To DAZ3D
 6、GeoShell的构建
 7、Accessory Rigging（glasses、Hat、Ear Ring、Necklace）
+8、Rigging System
 8、Resource Manager
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTA2MDQwNTMsLTE1NzY3ODkzOTAsNT
-UwMTc3OTI4LC0xMzkzMjkyMzQ5LDcwNzgyMDY4Niw5NzY3Nzgy
-MSwxMDIxNTgyMjk5LC04OTE5NjM1NTAsMTkyOTE3NjE4OCw4Mz
-E0Mjk4LC03MDA0NTAyMDcsLTE3MjA3NzU5MzYsLTEzOTQ2ODMx
-NywzMTcyMzg5ODYsLTMwMzU4NTA1LC0xNjc3ODc0MzEwLDUyOD
-Y2Njg5OCw1MDg4NzA2NTQsMTgzMzQ5MDMyMCw5NzY2NTc5NDVd
-fQ==
+eyJoaXN0b3J5IjpbLTIwNDEwNTM4NjIsLTIxMTA2MDQwNTMsLT
+E1NzY3ODkzOTAsNTUwMTc3OTI4LC0xMzkzMjkyMzQ5LDcwNzgy
+MDY4Niw5NzY3NzgyMSwxMDIxNTgyMjk5LC04OTE5NjM1NTAsMT
+kyOTE3NjE4OCw4MzE0Mjk4LC03MDA0NTAyMDcsLTE3MjA3NzU5
+MzYsLTEzOTQ2ODMxNywzMTcyMzg5ODYsLTMwMzU4NTA1LC0xNj
+c3ODc0MzEwLDUyODY2Njg5OCw1MDg4NzA2NTQsMTgzMzQ5MDMy
+MF19
 -->
