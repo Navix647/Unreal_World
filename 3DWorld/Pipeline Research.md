@@ -392,7 +392,7 @@ UE5：
 2、Hair Rigging & Auto-Fit System 基本掌握
 3、Morph的使用，Auto Follower、ERC Link、Basic Eyeball、Teeth、Eyelashes Follower and Morph  已掌握但是仍有东西遗漏
 4、GeoGraft的构建以及贴图传递以及独立骨骼系统，以及Morph的传递 一个独立大板块
-5、Blender To DAZ3D
+5、Blender To DAZ3D & DAZ3D to Blender
 6、GeoShell的构建
 7、Accessory Rigging（glasses、Hat、Ear Ring、Necklace）
 8、Rigging System
@@ -401,11 +401,11 @@ UE5：
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAxNDI0NzgsLTIxMTA2MDQwNTMsLTE1Nz
-Y3ODkzOTAsNTUwMTc3OTI4LC0xMzkzMjkyMzQ5LDcwNzgyMDY4
-Niw5NzY3NzgyMSwxMDIxNTgyMjk5LC04OTE5NjM1NTAsMTkyOT
-E3NjE4OCw4MzE0Mjk4LC03MDA0NTAyMDcsLTE3MjA3NzU5MzYs
-LTEzOTQ2ODMxNywzMTcyMzg5ODYsLTMwMzU4NTA1LC0xNjc3OD
-c0MzEwLDUyODY2Njg5OCw1MDg4NzA2NTQsMTgzMzQ5MDMyMF19
-
+eyJoaXN0b3J5IjpbMjk2OTEyNDg1LC0yMTEwNjA0MDUzLC0xNT
+c2Nzg5MzkwLDU1MDE3NzkyOCwtMTM5MzI5MjM0OSw3MDc4MjA2
+ODYsOTc2Nzc4MjEsMTAyMTU4MjI5OSwtODkxOTYzNTUwLDE5Mj
+kxNzYxODgsODMxNDI5OCwtNzAwNDUwMjA3LC0xNzIwNzc1OTM2
+LC0xMzk0NjgzMTcsMzE3MjM4OTg2LC0zMDM1ODUwNSwtMTY3Nz
+g3NDMxMCw1Mjg2NjY4OTgsNTA4ODcwNjU0LDE4MzM0OTAzMjBd
+fQ==
 -->
