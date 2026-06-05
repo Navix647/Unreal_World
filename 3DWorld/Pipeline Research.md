@@ -390,11 +390,13 @@ UE5：
 周末做DAZ3D技术整理
 1、High Heel Rigging          还在摸索（主要是DAZ3D的Rigging系统很逆天，难用）
 2、Hair Rigging & Transfer  基本掌握
-3、Morph的使用，ERC Link  已掌握
-4、GeoGraft的构建
+3、Morph的使用，Auto Follower ERC Link  已掌握
+4、GeoGraft的构建以及贴图传递以及独立骨骼系统，以及Morph的传递 一个独立大板块
+5、Blender To DAZ3D
+6、GeoShell的构建
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MjU5ODc2OSwtMTU3Njc4OTM5MCw1NT
+eyJoaXN0b3J5IjpbMTMzOTc1NDMwNSwtMTU3Njc4OTM5MCw1NT
 AxNzc5MjgsLTEzOTMyOTIzNDksNzA3ODIwNjg2LDk3Njc3ODIx
 LDEwMjE1ODIyOTksLTg5MTk2MzU1MCwxOTI5MTc2MTg4LDgzMT
 QyOTgsLTcwMDQ1MDIwNywtMTcyMDc3NTkzNiwtMTM5NDY4MzE3
