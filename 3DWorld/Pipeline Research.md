@@ -432,6 +432,8 @@ TDP 6W 的设备才是我最喜欢的，并且还是X86设备
 
 
 Zbrush的工程保存方式
+
+
 ## 一、 找回 Typora 体验与基础体验优化
 
 这些插件能帮你抹平从 Typora 过来的阵痛期，尤其是处理大量软件截图时。
@@ -499,13 +501,106 @@ Zbrush的工程保存方式
 
 
 
+### 第一步：找回 Typora 的操作手感（快捷键与界面）
 
+Obsidian 默认的快捷键确实和 Typora 不同，但它拥有极高的自定义自由度。
+
+**1. 映射 Typora 的标题快捷键**
+
+-   按下 `Ctrl + ,`（或点击左下角齿轮）打开**设置**。
+    
+-   选择左侧的 **快捷键 (Hotkeys)**。
+    
+-   在搜索框输入“标题”或“Heading”。
+    
+-   找到“设置标题 1 (Set heading 1)”等选项，点击右侧的加号，直接按下 `Ctrl + 1` 进行绑定。依次将 `Ctrl + 1` 到 `Ctrl + 6` 全部设置好。
+    
+
+**2. 开启实时预览 (Live Preview)** Typora 的灵魂在于输入 Markdown 语法后自动渲染。Obsidian 现在也原生支持了：
+
+-   在**设置 -> 编辑器 (Editor)** 中，将“默认编辑模式 (Default editing mode)”设置为**实时预览 (Live Preview)**。
+    
+
+**3. 核心插件推荐：Editing Toolbar** 如果你怀念 Typora 顶部或右键弹出的格式化工具栏，可以在“第三方插件 (Community plugins)”中搜索并安装 `Editing Toolbar`。它会在笔记顶部生成一个类似 Word/Typora 的格式栏，极大降低记忆 Markdown 语法的负担。
+
+### 第二步：搞定目录和分类（构建 Virtual World 知识库）
+
+在 Typora 中，你可能习惯用一层层极深的文件夹来分类。但在 Obsidian 中，“少用深层文件夹，多用双向链接 (Wikirinks) 和 MOC (内容地图)”才是核心玩法。
+
+针对你涉及大量 DCC 软件、拓扑、Zbrush、DAZ3D 的“Virtual World”仓库，我建议采用“宽泛文件夹 + MOC 索引”的结构。
+
+#### 1. 推荐的目录结构设计
+
+不要为每一个小知识点建文件夹，而是按“领域”或“工作流”建立顶层目录：
+
+Plaintext
+
+```
+📁 Virtual World Vault
+ ├─ 📂 00_MOC (Map of Content，你的知识大纲/导航页)
+ ├─ 📂 01_DCC_Tools (软件操作与快捷键)
+ │   ├─ 📄 Blender.md
+ │   ├─ 📄 Maya.md
+ │   ├─ 📄 Houdini.md
+ │   └─ 📄 Zbrush.md
+ ├─ 📂 02_Game_Engines (引擎整合与管线)
+ │   └─ 📄 UE5.md
+ ├─ 📂 03_Character_Tech_Art (角色技美：核心概念与理论)
+ │   ├─ 📄 拓扑与布线规范.md
+ │   ├─ 📄 线性蒙皮(LBS)与权重.md
+ │   └─ 📄 隐式表达(SDF)在资产匹配中的应用.md
+ ├─ 📂 04_Physics_Simulation (物理与解剖模拟)
+ │   ├─ 📄 Houdini Vellum 结算器.md
+ │   └─ 📄 Otis 有机组织求解器.md
+ └─ 📂 05_DAZ3D_Ecosystem (由于DAZ子系统庞大，可单独列出)
+
+```
+
+#### 2. DAZ3D 子系统的高效管理法
+
+对于 DAZ3D 这种拥有庞大且值得深挖的子系统（AutoFit, GeoGraft 等），**不要**把所有内容塞进一篇超长的 `DAZ3D.md` 里，也**不要**为它们建一堆文件夹。
+
+**正确做法：使用 MOC (内容地图) 结合双向链接 `[[ ]]`**。
+
+你可以建立一个名为 `📄 DAZ3D_MOC.md` 的总览笔记，里面这样写：
+
+> # DAZ3D 核心子系统研究
+> 
+> -   **资产适配与变形**
+>     
+>     -   `[[AutoFit]]`：核心机制研究，探究其如何通过表面投影将服装贴合到不同体型上。这部分可以与 `[[隐式表达(SDF)在资产匹配中的应用]]` 结合来看。
+>         
+>     -   `[[Morph ERC Link]]`：形变参数驱动原理，主要用于表情系统或肌肉形变联动。
+>         
+> -   **网格与拓扑替换**
+>     
+>     -   `[[GeoGraft]]`：无缝网格替换技术（如替换角色的手臂或添加犄角），需要注意边缘顶点法线和布线的对齐。
+>         
+>     -   `[[GeoShell]]`：几何壳层技术，非常适合做复杂的皮肤材质分层（如纹身、战损、汗水），而无需修改底层 UV 和材质。
+>         
+> -   **动态模拟**
+>     
+>     -   `[[dForce]]`：DAZ 内置的节点物理系统。与其他 DCC 的解算器（如 `[[Houdini Vellum 结算器]]` 或 `[[Otis 有机组织求解器]]`）在碰撞与约束机制上有相似之处，可做对比研究。
+>         
+
+**这种做法的优势：** 你在写 `dForce.md` 的具体参数笔记时，由于使用了双向链接，Obsidian 的关系图谱会自动把它和“物理模拟”、“Vellum”、“Otis”等节点连在一起。你的知识不再是孤立的文档，而是形成了一个互相启发的网络。
+
+#### 3. 标签 (Tags) 的正确用法
+
+文件夹用于区分“它是什么类别”（比如软件手册、理论概念），而标签用于标识“它的状态”或“它的通用属性”。
+
+-   例如，你可以给笔记打上 `#To_Test`（待验证的拓扑方法）、`#UE5_Import`（需要导入引擎测试的资产）、`#Core_Concept`（核心算法理论）。
+    
+
+Obsidian 的迁移就像是从使用现成的游戏引擎转为自己搭建底层管线，前期需要一点基建时间，但后期的拓展性是无限的。
+
+你是打算将以前 Typora 里的 `.md` 格式笔记大批量直接拖入 Obsidian 进行整理，还是准备借此机会从零开始重构这个 Virtual World 知识库？
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjA2MTU2NzQsLTEzNDI0NjE5MDMsLT
-ExMDYyNjg4NjYsLTE5NTMwMTY2NjUsLTE2MzU3NTMyNTQsNTQ3
-ODI5NTAwLDExMDI4NjMyNjksMTg1NzkxMjc1MCwxMjA4MTg2MD
-MyLC0xODA1OTgwNzE0LDE5Mzk2Mjk0NDQsLTIxMTA2MDQwNTMs
-LTE1NzY3ODkzOTAsNTUwMTc3OTI4LC0xMzkzMjkyMzQ5LDcwNz
-gyMDY4Niw5NzY3NzgyMSwxMDIxNTgyMjk5LC04OTE5NjM1NTAs
-MTkyOTE3NjE4OF19
+eyJoaXN0b3J5IjpbOTgzMzc4NzQ4LC0xMzQyNDYxOTAzLC0xMT
+A2MjY4ODY2LC0xOTUzMDE2NjY1LC0xNjM1NzUzMjU0LDU0Nzgy
+OTUwMCwxMTAyODYzMjY5LDE4NTc5MTI3NTAsMTIwODE4NjAzMi
+wtMTgwNTk4MDcxNCwxOTM5NjI5NDQ0LC0yMTEwNjA0MDUzLC0x
+NTc2Nzg5MzkwLDU1MDE3NzkyOCwtMTM5MzI5MjM0OSw3MDc4Mj
+A2ODYsOTc2Nzc4MjEsMTAyMTU4MjI5OSwtODkxOTYzNTUwLDE5
+MjkxNzYxODhdfQ==
 -->
