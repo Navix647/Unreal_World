@@ -432,7 +432,64 @@ TDP 6W 的设备才是我最喜欢的，并且还是X86设备
 
 
 Zbrush的工程保存方式
+## 一、 找回 Typora 体验与基础体验优化
 
+这些插件能帮你抹平从 Typora 过来的阵痛期，尤其是处理大量软件截图时。
+
+-   **Editing Toolbar**
+    
+    -   **作用：** 在笔记顶部或悬浮弹出一个类似 Typora/Word 的富文本格式工具栏。
+        
+    -   **为什么需要：** 刚开始如果不熟练 Markdown 的多级列表或表格语法，点一下图标就能生成，极大降低记忆负担。
+        
+-   **Paste image rename (自动重命名粘贴的图片)**
+    
+    -   **作用：** 粘贴截图时，自动弹出一个框让你给图片命名，而不是生成一堆 `Pasted image 20260608142019.png` 这样的垃圾文件名。
+        
+    -   **为什么需要：** 在记录 DAZ3D 或 Zbrush 教程时，你会大量截图。良好的图片命名（如 `AutoFit-UI-Panel.png`）能让你的附件文件夹保持整洁，未来也更容易全局搜索。
+        
+-   **Image Toolkit (图片查看增强)**
+    
+    -   **作用：** 允许你点击笔记里的图片进行全屏放大、拖拽、缩放甚至旋转。
+        
+    -   **为什么需要：** Obsidian 默认的图片是不支持点击放大的。当你截取了一张复杂的 Houdini 节点图或者角色脸部的拓扑布线图时，放大查看细节是绝对的刚需。
+        
+
+## 二、 专为 MOC (内容地图) 打造的架构神器
+
+既然你确定了“主页 -> 目录 -> 内容”的架构，这两个插件能帮你实现全自动的目录管理。
+
+-   **Folder Note (文件夹笔记)**
+    
+    -   **作用：** 让一个“文件夹”同时也是一篇“笔记”。
+        
+    -   **为什么需要：** 正常情况下，点击文件夹只能展开它的子文件。装了这个插件后，你点击 `DAZ3D_Ecosystem` 文件夹，就会直接打开这篇 MOC 目录笔记。逻辑上更符合你设想的“层层递进”。
+        
+-   **Waypoint (自动生成目录)**
+    
+    -   **作用：** 在你的 MOC 笔记里输入一个特定的标记（如 `%% Waypoint %%`），它会自动把当前文件夹下的所有笔记生成一个带双链的目录树。
+        
+    -   **为什么需要：** 极其省事！你不需要每次新建了一篇比如 `GeoShell.md` 的笔记，还要手动跑回 DAZ3D 主页去加链接。Waypoint 会全自动帮你保持目录的最新状态。
+        
+
+## 三、 技美与复杂逻辑的高阶利器
+
+当你的 Virtual World 仓库逐渐庞大，涉及到算法、物理模拟或者管线开发时，这两个插件会让你如虎添翼。
+
+-   **Excalidraw (白板与流程图)**
+    
+    -   **作用：** 在 Obsidian 里直接无缝嵌入一个极其强大的手绘风格白板。
+        
+    -   **为什么需要：** 梳理知识不能只有文字。当你需要画出 UE5 的动画蓝图逻辑、或者解释 LBS (线性混合蒙皮) 的矩阵运算流、亦或是整理角色资产从基底模型适配到不同服装的管线时，直接在笔记里画流程图比用文字描述直观一百倍。
+        
+-   **Dataview (数据视图 - 必装神仙插件)**
+    
+    -   **作用：** 把你的所有笔记变成一个可以通过代码查询的数据库。
+        
+    -   **为什么需要：** 这是 Obsidian 最强大的插件，没有之一。假设你在每篇笔记的开头写上属性（比如 `Status: 待测试`, `Software: Houdini`），你就可以在主页用简短的代码自动生成一个表格，实时显示所有“正在测试中的 Houdini Vellum 模拟笔记”。对于习惯编程和结构化思维的人来说，这是降维打击。
+        
+
+**建议的安装顺序：** 今天先在第三方插件市场搜索并安装 **Editing Toolbar** 和 **Paste image rename**。把手感找回来，把 DAZ3D 的几个核心概念试着写几篇笔记，体验一下原生的双向链接。
 
 
 
@@ -444,11 +501,11 @@ Zbrush的工程保存方式
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDI0NjE5MDMsLTExMDYyNjg4NjYsLT
-E5NTMwMTY2NjUsLTE2MzU3NTMyNTQsNTQ3ODI5NTAwLDExMDI4
-NjMyNjksMTg1NzkxMjc1MCwxMjA4MTg2MDMyLC0xODA1OTgwNz
-E0LDE5Mzk2Mjk0NDQsLTIxMTA2MDQwNTMsLTE1NzY3ODkzOTAs
-NTUwMTc3OTI4LC0xMzkzMjkyMzQ5LDcwNzgyMDY4Niw5NzY3Nz
-gyMSwxMDIxNTgyMjk5LC04OTE5NjM1NTAsMTkyOTE3NjE4OCw4
-MzE0Mjk4XX0=
+eyJoaXN0b3J5IjpbLTE1MjA2MTU2NzQsLTEzNDI0NjE5MDMsLT
+ExMDYyNjg4NjYsLTE5NTMwMTY2NjUsLTE2MzU3NTMyNTQsNTQ3
+ODI5NTAwLDExMDI4NjMyNjksMTg1NzkxMjc1MCwxMjA4MTg2MD
+MyLC0xODA1OTgwNzE0LDE5Mzk2Mjk0NDQsLTIxMTA2MDQwNTMs
+LTE1NzY3ODkzOTAsNTUwMTc3OTI4LC0xMzkzMjkyMzQ5LDcwNz
+gyMDY4Niw5NzY3NzgyMSwxMDIxNTgyMjk5LC04OTE5NjM1NTAs
+MTkyOTE3NjE4OF19
 -->
