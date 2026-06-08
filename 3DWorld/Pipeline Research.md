@@ -400,26 +400,26 @@ UE5：
 10、Resource Management
 
 归根结底就是
-1.Material System
-2.Rigging System
-3.Auto-Fit System  摸索中，但基本快完全摸清楚
-4.Morph System  
-5.GeoGraft System 已熟悉
+1.Material System 摸索中10%
+2.Rigging System 摸索中40%
+3.Auto-Fit System  摸索中，但基本快完全摸清楚 80-90%
+4.Morph System  90%熟悉 
+5.GeoGraft System 95%熟悉
 6.GeoShell System 未知
-7.DForce System
-8.DFormer
-9.Subdivision Smooth Modifier
-10.Power Pose System & Puppter
-11.Animate 2
-12.Resource Management
+7.DForce System 未知
+8.DFormer 已知
+9.Subdivision Smooth Modifier 已知
+10.Power Pose System & Puppter 
+11.Animate 2 摸索中，还有很多可能性
+12.Resource Management 已知但忘了
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDU5ODA3MTQsMTkzOTYyOTQ0NCwtMj
-ExMDYwNDA1MywtMTU3Njc4OTM5MCw1NTAxNzc5MjgsLTEzOTMy
-OTIzNDksNzA3ODIwNjg2LDk3Njc3ODIxLDEwMjE1ODIyOTksLT
-g5MTk2MzU1MCwxOTI5MTc2MTg4LDgzMTQyOTgsLTcwMDQ1MDIw
-NywtMTcyMDc3NTkzNiwtMTM5NDY4MzE3LDMxNzIzODk4NiwtMz
-AzNTg1MDUsLTE2Nzc4NzQzMTAsNTI4NjY2ODk4LDUwODg3MDY1
-NF19
+eyJoaXN0b3J5IjpbNzU3OTgyNDMwLC0xODA1OTgwNzE0LDE5Mz
+k2Mjk0NDQsLTIxMTA2MDQwNTMsLTE1NzY3ODkzOTAsNTUwMTc3
+OTI4LC0xMzkzMjkyMzQ5LDcwNzgyMDY4Niw5NzY3NzgyMSwxMD
+IxNTgyMjk5LC04OTE5NjM1NTAsMTkyOTE3NjE4OCw4MzE0Mjk4
+LC03MDA0NTAyMDcsLTE3MjA3NzU5MzYsLTEzOTQ2ODMxNywzMT
+cyMzg5ODYsLTMwMzU4NTA1LC0xNjc3ODc0MzEwLDUyODY2Njg5
+OF19
 -->
