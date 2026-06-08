@@ -426,13 +426,16 @@ N355 NAS设备有必要吗？似乎没啥必要，暂时没遇到瓶颈。。。
 
 
 TDP 6W 的设备才是我最喜欢的，并且还是X86设备
+碧桂园直接R5S完全足够
 解决Obsidian Remote问题
 
 
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDc1MDgxMjQsLTE2MzU3NTMyNTQsNT
+eyJoaXN0b3J5IjpbLTE5NTMwMTY2NjUsLTE2MzU3NTMyNTQsNT
 Q3ODI5NTAwLDExMDI4NjMyNjksMTg1NzkxMjc1MCwxMjA4MTg2
 MDMyLC0xODA1OTgwNzE0LDE5Mzk2Mjk0NDQsLTIxMTA2MDQwNT
 MsLTE1NzY3ODkzOTAsNTUwMTc3OTI4LC0xMzkzMjkyMzQ5LDcw
