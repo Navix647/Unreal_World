@@ -402,10 +402,10 @@ UE5：
 归根结底就是
 1.Material System
 2.Rigging System
-3.Auto-Fit System  
-4.Morph System
-5.GeoGraft System
-6.GeoShell System
+3.Auto-Fit System  摸索中，但基本快完全摸清楚
+4.Morph System  
+5.GeoGraft System 已熟悉
+6.GeoShell System 未知
 7.DForce System
 8.DFormer
 9.Subdivision Smooth Modifier
@@ -415,11 +415,11 @@ UE5：
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MzY2ODIyOCwxOTM5NjI5NDQ0LC0yMT
-EwNjA0MDUzLC0xNTc2Nzg5MzkwLDU1MDE3NzkyOCwtMTM5MzI5
-MjM0OSw3MDc4MjA2ODYsOTc2Nzc4MjEsMTAyMTU4MjI5OSwtOD
-kxOTYzNTUwLDE5MjkxNzYxODgsODMxNDI5OCwtNzAwNDUwMjA3
-LC0xNzIwNzc1OTM2LC0xMzk0NjgzMTcsMzE3MjM4OTg2LC0zMD
-M1ODUwNSwtMTY3Nzg3NDMxMCw1Mjg2NjY4OTgsNTA4ODcwNjU0
-XX0=
+eyJoaXN0b3J5IjpbLTE4MDU5ODA3MTQsMTkzOTYyOTQ0NCwtMj
+ExMDYwNDA1MywtMTU3Njc4OTM5MCw1NTAxNzc5MjgsLTEzOTMy
+OTIzNDksNzA3ODIwNjg2LDk3Njc3ODIxLDEwMjE1ODIyOTksLT
+g5MTk2MzU1MCwxOTI5MTc2MTg4LDgzMTQyOTgsLTcwMDQ1MDIw
+NywtMTcyMDc3NTkzNiwtMTM5NDY4MzE3LDMxNzIzODk4NiwtMz
+AzNTg1MDUsLTE2Nzc4NzQzMTAsNTI4NjY2ODk4LDUwODg3MDY1
+NF19
 -->
