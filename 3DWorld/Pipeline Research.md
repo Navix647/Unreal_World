@@ -625,13 +625,10 @@ presentation.PageSetup.SlideWidth = 720;
 presentation.PageSetup.SlideHeight = 405;
 主题颜色是RGB(194,8,8)
 使用矩形形状
-限制在
-
-
-
-要求美观、内容充实，涵盖
+限制在距离相对于左上角水平位置0.7厘米垂直位置4.45厘米，高度为9.51cm的地方开始
+要求美观、内容充实、把你生成的架构图给复原并修复逻辑。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNDk4NTQzNywtMTAwMDM0Mjc5LDE0MD
+eyJoaXN0b3J5IjpbMjA5NDM1NzI3OSwtMTAwMDM0Mjc5LDE0MD
 U0NTM5MDIsNjY2NjUwNzg5LDk4MzM3ODc0OCwtMTM0MjQ2MTkw
 MywtMTEwNjI2ODg2NiwtMTk1MzAxNjY2NSwtMTYzNTc1MzI1NC
 w1NDc4Mjk1MDAsMTEwMjg2MzI2OSwxODU3OTEyNzUwLDEyMDgx
