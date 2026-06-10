@@ -628,17 +628,17 @@ presentation.PageSetup.SlideHeight = 405;
 限制在距离相对于左上角水平位置0.7厘米垂直位置4.45厘米，高度为9.51cm的地方开始
 要求美观、内容充实、把你生成的架构图给复原并修复逻辑。
 
-请JavaScript for WPS Application代码帮我生成ppt，要求wps内能够使用的js代码！！！要求内容和图片上的ppt和布局类似！！！使用矩形形状限制在距离相对于左上角水平位置0.7厘米垂直位置4.45厘米，高度为9.51cm的
+请帮我生成JavaScript for WPS Application代码，要求wps内能够使用的js代码！！！要求内容和图片上的ppt和布局类似！！！使用矩形形状限制在距离相对于左上角水平位置0.7厘米垂直位置4.45厘米，高度为9.51cm的
 要求ppt页面大小为：
 presentation.PageSetup.SlideWidth = 720;
 presentation.PageSetup.SlideHeight = 405;
 主题颜色是RGB(194,8,8)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MjE5Njc3MiwyMDk0MzU3Mjc5LC0xMD
-AwMzQyNzksMTQwNTQ1MzkwMiw2NjY2NTA3ODksOTgzMzc4NzQ4
-LC0xMzQyNDYxOTAzLC0xMTA2MjY4ODY2LC0xOTUzMDE2NjY1LC
-0xNjM1NzUzMjU0LDU0NzgyOTUwMCwxMTAyODYzMjY5LDE4NTc5
-MTI3NTAsMTIwODE4NjAzMiwtMTgwNTk4MDcxNCwxOTM5NjI5ND
-Q0LC0yMTEwNjA0MDUzLC0xNTc2Nzg5MzkwLDU1MDE3NzkyOCwt
-MTM5MzI5MjM0OV19
+eyJoaXN0b3J5IjpbOTA1Mjg0MTUyLDIwOTQzNTcyNzksLTEwMD
+AzNDI3OSwxNDA1NDUzOTAyLDY2NjY1MDc4OSw5ODMzNzg3NDgs
+LTEzNDI0NjE5MDMsLTExMDYyNjg4NjYsLTE5NTMwMTY2NjUsLT
+E2MzU3NTMyNTQsNTQ3ODI5NTAwLDExMDI4NjMyNjksMTg1Nzkx
+Mjc1MCwxMjA4MTg2MDMyLC0xODA1OTgwNzE0LDE5Mzk2Mjk0ND
+QsLTIxMTA2MDQwNTMsLTE1NzY3ODkzOTAsNTUwMTc3OTI4LC0x
+MzkzMjkyMzQ5XX0=
 -->
