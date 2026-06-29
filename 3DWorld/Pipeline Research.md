@@ -641,12 +641,17 @@ presentation.PageSetup.SlideHeight = 405;
 完成Zbrush的参考图笔记
 Zbrush的
 
-
+```c
 {
-
+	uint8_T outValue = 0;
+	{
+		uint
+	
+   }
 }
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjUwMzkyNzksLTQ4MjQ0MTUzMSw2ND
+eyJoaXN0b3J5IjpbLTEwODM0MDUxNjAsLTQ4MjQ0MTUzMSw2ND
 Y0NzY1NzEsLTkwOTQ4OTcxNiw5MDUyODQxNTIsMjA5NDM1NzI3
 OSwtMTAwMDM0Mjc5LDE0MDU0NTM5MDIsNjY2NjUwNzg5LDk4Mz
 M3ODc0OCwtMTM0MjQ2MTkwMywtMTEwNjI2ODg2NiwtMTk1MzAx
