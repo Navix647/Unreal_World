@@ -643,15 +643,22 @@ Zbrush的
 
 ```c
 {
-	uint8_T outValue = 0;
+	real32_T outValue = 0;
 	{
-		
+		real32_T result = ADAS_LeftType_u8;
+		outValue = result;
 	
+   }
+   {
+	   uint8_T packedValue;
+	   if(outValue > (real32_T)(255)){
+		   packedValue= (uint8_T) 255;
+		 
    }
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NzQ0MTU4NiwtMTA4MzQwNTE2MCwtND
+eyJoaXN0b3J5IjpbMTQ1ODQxMjYzNywtMTA4MzQwNTE2MCwtND
 gyNDQxNTMxLDY0NjQ3NjU3MSwtOTA5NDg5NzE2LDkwNTI4NDE1
 MiwyMDk0MzU3Mjc5LC0xMDAwMzQyNzksMTQwNTQ1MzkwMiw2Nj
 Y2NTA3ODksOTgzMzc4NzQ4LC0xMzQyNDYxOTAzLC0xMTA2MjY4
