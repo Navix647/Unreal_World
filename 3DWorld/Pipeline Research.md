@@ -642,6 +642,11 @@ presentation.PageSetup.SlideHeight = 405;
 Zbrush的
 
 ```c
+/*=============== Packing Signal 1 ======================
+ * StartBit = 8
+ * Length = 1
+ * desired
+
 {
 	real32_T outValue = 0;
 	{
@@ -658,15 +663,18 @@ Zbrush的
 		}else {
 			packedValue = (uint8_T)(outValue);
 		}
+			value[0] = (uint8_T)(packedValue);
+		{
+
    }
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE4MzAxOTkxLC0xMDgzNDA1MTYwLC00OD
-I0NDE1MzEsNjQ2NDc2NTcxLC05MDk0ODk3MTYsOTA1Mjg0MTUy
-LDIwOTQzNTcyNzksLTEwMDAzNDI3OSwxNDA1NDUzOTAyLDY2Nj
-Y1MDc4OSw5ODMzNzg3NDgsLTEzNDI0NjE5MDMsLTExMDYyNjg4
-NjYsLTE5NTMwMTY2NjUsLTE2MzU3NTMyNTQsNTQ3ODI5NTAwLD
-ExMDI4NjMyNjksMTg1NzkxMjc1MCwxMjA4MTg2MDMyLC0xODA1
-OTgwNzE0XX0=
+eyJoaXN0b3J5IjpbLTYzOTc4MTUxOSwtMTA4MzQwNTE2MCwtND
+gyNDQxNTMxLDY0NjQ3NjU3MSwtOTA5NDg5NzE2LDkwNTI4NDE1
+MiwyMDk0MzU3Mjc5LC0xMDAwMzQyNzksMTQwNTQ1MzkwMiw2Nj
+Y2NTA3ODksOTgzMzc4NzQ4LC0xMzQyNDYxOTAzLC0xMTA2MjY4
+ODY2LC0xOTUzMDE2NjY1LC0xNjM1NzUzMjU0LDU0NzgyOTUwMC
+wxMTAyODYzMjY5LDE4NTc5MTI3NTAsMTIwODE4NjAzMiwtMTgw
+NTk4MDcxNF19
 -->
