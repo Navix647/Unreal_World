@@ -645,7 +645,13 @@ Zbrush的
 /*=============== Packing Signal 1 ======================
  * StartBit = 8
  * Length = 1
- * desired
+ * desiredSignalByteLayout = LittleEndian
+ * dataType = UNSIGNED
+ * factor = 1.0
+ * offset = 0.0
+ * minimum = 0.0
+ * maximum = 255.0
+ * =======================================================*/
 
 {
 	real32_T outValue = 0;
@@ -670,11 +676,11 @@ Zbrush的
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzOTc4MTUxOSwtMTA4MzQwNTE2MCwtND
-gyNDQxNTMxLDY0NjQ3NjU3MSwtOTA5NDg5NzE2LDkwNTI4NDE1
-MiwyMDk0MzU3Mjc5LC0xMDAwMzQyNzksMTQwNTQ1MzkwMiw2Nj
-Y2NTA3ODksOTgzMzc4NzQ4LC0xMzQyNDYxOTAzLC0xMTA2MjY4
-ODY2LC0xOTUzMDE2NjY1LC0xNjM1NzUzMjU0LDU0NzgyOTUwMC
-wxMTAyODYzMjY5LDE4NTc5MTI3NTAsMTIwODE4NjAzMiwtMTgw
-NTk4MDcxNF19
+eyJoaXN0b3J5IjpbNDcyNTc2MzgsLTEwODM0MDUxNjAsLTQ4Mj
+Q0MTUzMSw2NDY0NzY1NzEsLTkwOTQ4OTcxNiw5MDUyODQxNTIs
+MjA5NDM1NzI3OSwtMTAwMDM0Mjc5LDE0MDU0NTM5MDIsNjY2Nj
+UwNzg5LDk4MzM3ODc0OCwtMTM0MjQ2MTkwMywtMTEwNjI2ODg2
+NiwtMTk1MzAxNjY2NSwtMTYzNTc1MzI1NCw1NDc4Mjk1MDAsMT
+EwMjg2MzI2OSwxODU3OTEyNzUwLDEyMDgxODYwMzIsLTE4MDU5
+ODA3MTRdfQ==
 -->
